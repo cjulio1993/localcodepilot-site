@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <meta http-equiv="Content-Security-Policy" content="base-uri 'none'; object-src 'none'; frame-src 'none'; form-action 'none'; connect-src 'none'">
+  <meta http-equiv="Content-Security-Policy" content="base-uri 'none'; object-src 'none'; frame-src 'none'; form-action 'none'; connect-src 'self' https://www.google-analytics.com https://region1.google-analytics.com https://www.googletagmanager.com">
   <meta name="referrer" content="no-referrer">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#090c11">
@@ -17,6 +17,7 @@
   <link rel="stylesheet" href="../styles.css">
   <script src="../navigation.js" defer></script>
   <script src="../demo.js" defer></script>
+  <script src="../analytics.js" defer></script>
 </head>
 <body>
   <a class="skip" href="#conteudo">Skip to content</a>
@@ -68,6 +69,10 @@
     <section class="roadmap wrap"><p class="section-kicker">03 / PRODUCT ROADMAP</p><div class="roadmap-head"><h2>Built with a clear direction.</h2><p>The product is in development. Explore the focus of the first alpha and what's next.</p></div><div class="roadmap-grid"><div class="roadmap-card now"><span class="badge">IN TESTING FOR ALPHA</span><h3>Local processes</h3><p>Start and stop processes and monitor their execution in one place. An experimental feature being tested for the alpha.</p></div><div class="roadmap-card"><span class="badge muted">PLANNED</span><h3>More control</h3><p>Ports, custom commands, persistent logs, and local services.</p></div><div class="roadmap-card"><span class="badge muted">LOOKING AHEAD</span><h3>Connected context</h3><p>Explore integrations that help you pick up work across projects and tools.</p></div></div></section>
     <section class="cta-section" id="comecar"><div class="wrap cta-inner"><div><p class="section-kicker">FOLLOW LOCALCODEPILOT</p><h2>More clarity.<br><em>For your next build.</em></h2><p>Tools for developers, starting with the local environment. Follow the product and get updates on the first alpha.</p></div><div class="cta-links"><a class="button primary" href="https://github.com/cjulio1993/LocalCodePilot" target="_blank" rel="noopener noreferrer">Explore the repository <span>↗</span></a><a class="button secondary" href="https://github.com/cjulio1993/LocalCodePilot/releases" target="_blank" rel="noopener noreferrer">Follow releases <span>↗</span></a><small>The first alpha is in preparation. Downloads will be announced on the releases page.</small></div></div></section>
   </main>
-  <footer class="site-footer"><div class="wrap footer-inner"><div class="footer-brand"><img src="../logo.svg" alt="LocalCodePilot"><p>Developer tools. Local first.</p></div><p class="footer-mission">Tools for developers.</p><a href="https://github.com/cjulio1993/LocalCodePilot" target="_blank" rel="noopener noreferrer">GitHub ↗</a></div></footer>
+  <footer class="site-footer"><div class="wrap footer-inner"><div class="footer-brand"><img src="../logo.svg" alt="LocalCodePilot"><p>Developer tools. Local first.</p></div><p class="footer-mission">Tools for developers.</p><a href="https://github.com/cjulio1993/LocalCodePilot" target="_blank" rel="noopener noreferrer">GitHub ↗</a><button class="privacy-link" id="privacy-settings" type="button">Privacy</button></div></footer>
+  <aside class="privacy-banner" id="privacy-banner" aria-label="Privacy preferences" hidden>
+    <div class="privacy-copy"><strong>May we measure visits?</strong><p>With your permission, we use Google Analytics to understand visits and engagement time. It uses cookies. You can change your choice via Privacy in the footer. <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google Privacy ↗</a></p></div>
+    <div class="privacy-actions"><button id="privacy-decline" type="button">Decline</button><button id="privacy-accept" type="button">Accept</button></div>
+  </aside>
 </body>
 </html>

@@ -2,7 +2,7 @@
 <html lang="es">
 <head>
   <meta charset="utf-8">
-  <meta http-equiv="Content-Security-Policy" content="base-uri 'none'; object-src 'none'; frame-src 'none'; form-action 'none'; connect-src 'none'">
+  <meta http-equiv="Content-Security-Policy" content="base-uri 'none'; object-src 'none'; frame-src 'none'; form-action 'none'; connect-src 'self' https://www.google-analytics.com https://region1.google-analytics.com https://www.googletagmanager.com">
   <meta name="referrer" content="no-referrer">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#090c11">
@@ -17,6 +17,7 @@
   <link rel="stylesheet" href="../styles.css">
   <script src="../navigation.js" defer></script>
   <script src="../demo.js" defer></script>
+  <script src="../analytics.js" defer></script>
 </head>
 <body>
   <a class="skip" href="#conteudo">Saltar al contenido</a>
@@ -68,6 +69,10 @@
     <section class="roadmap wrap"><p class="section-kicker">03 / EVOLUCIÓN DEL PRODUCTO</p><div class="roadmap-head"><h2>Un producto con una dirección clara.</h2><p>El producto está en desarrollo. Conoce las prioridades de la primera alpha y los próximos pasos.</p></div><div class="roadmap-grid"><div class="roadmap-card now"><span class="badge">EN PRUEBAS PARA LA ALPHA</span><h3>Procesos locales</h3><p>Inicia y detén procesos y sigue su ejecución en un solo lugar. Función experimental, en pruebas para la alpha.</p></div><div class="roadmap-card"><span class="badge muted">EN LOS PLANES</span><h3>Más control</h3><p>Puertos, comandos personalizados, registros persistentes y servicios locales.</p></div><div class="roadmap-card"><span class="badge muted">VISIÓN A FUTURO</span><h3>Contexto conectado</h3><p>Explorar integraciones que te ayuden a retomar el trabajo entre proyectos y herramientas.</p></div></div></section>
     <section class="cta-section" id="comecar"><div class="wrap cta-inner"><div><p class="section-kicker">SIGUE A LOCALCODEPILOT</p><h2>Más claridad.<br><em>Para tu próximo proyecto.</em></h2><p>Herramientas para desarrolladores, empezando por el entorno local. Sigue el producto y las novedades de la primera alpha.</p></div><div class="cta-links"><a class="button primary" href="https://github.com/cjulio1993/LocalCodePilot" target="_blank" rel="noopener noreferrer">Explorar el repositorio <span>↗</span></a><a class="button secondary" href="https://github.com/cjulio1993/LocalCodePilot/releases" target="_blank" rel="noopener noreferrer">Ver versiones <span>↗</span></a><small>La primera alpha está en preparación. Las descargas se anunciarán en la página de versiones.</small></div></div></section>
   </main>
-  <footer class="site-footer"><div class="wrap footer-inner"><div class="footer-brand"><img src="../logo.svg" alt="LocalCodePilot"><p>Developer tools. Local first.</p></div><p class="footer-mission">Herramientas para desarrolladores.</p><a href="https://github.com/cjulio1993/LocalCodePilot" target="_blank" rel="noopener noreferrer">GitHub ↗</a></div></footer>
+  <footer class="site-footer"><div class="wrap footer-inner"><div class="footer-brand"><img src="../logo.svg" alt="LocalCodePilot"><p>Developer tools. Local first.</p></div><p class="footer-mission">Herramientas para desarrolladores.</p><a href="https://github.com/cjulio1993/LocalCodePilot" target="_blank" rel="noopener noreferrer">GitHub ↗</a><button class="privacy-link" id="privacy-settings" type="button">Privacidad</button></div></footer>
+  <aside class="privacy-banner" id="privacy-banner" aria-label="Preferencias de privacidad" hidden>
+    <div class="privacy-copy"><strong>¿Podemos medir las visitas?</strong><p>Con tu permiso, usamos Google Analytics para conocer las visitas y el tiempo de interacción. Utiliza cookies. Puedes cambiar tu elección en Privacidad, en el pie de página. <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Privacidad de Google ↗</a></p></div>
+    <div class="privacy-actions"><button id="privacy-decline" type="button">Rechazar</button><button id="privacy-accept" type="button">Aceptar</button></div>
+  </aside>
 </body>
 </html>

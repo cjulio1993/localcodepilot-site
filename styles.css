@@ -68,3 +68,12 @@ h1 em{color:#9cabc1}
 @media(max-width:1050px){.hero{min-height:0}.product-window{width:100%;max-width:720px}}
 @media(max-width:700px){.hero{gap:38px}.product-window{box-shadow:0 20px 45px #0004}.demo-body{padding:12px}.window-caption{font-size:7px}.window-mark{font-size:10px}.demo-project{font-size:10px}.demo-info strong,.demo-info code{font-size:10px}.signal-inner{font-size:8px;letter-spacing:0}.terminal-footer{font-size:8px}.header-inner{gap:10px}.brand img{width:160px}.header-github{padding:8px;font-size:9px}.steps article{padding:22px}}
 @media(prefers-reduced-motion:reduce){.console-lines .terminal-command.is-typing:after{animation:none}.demo-project{transition:none}}
+
+.privacy-link{border:0;background:none;color:inherit;font:inherit;text-decoration:underline;text-underline-offset:3px;cursor:pointer}
+.privacy-link:hover,.privacy-banner a:hover{color:#d5e8ff}
+.privacy-banner[hidden]{display:none}
+.privacy-banner{position:fixed;z-index:100;bottom:16px;left:16px;right:16px;max-width:900px;margin:auto;display:flex;align-items:center;gap:24px;padding:20px 24px;border:1px solid #53657e;border-radius:10px;background:#101823;color:#e8edf5;box-shadow:0 12px 48px #0009}
+.privacy-copy{flex:1;min-width:0}.privacy-copy strong{font-size:15px}.privacy-copy p{margin:7px 0 0;color:#bac8d9;font-size:13px;line-height:1.55}.privacy-copy a{color:#a6cfff}
+.privacy-actions{display:flex;gap:10px;flex-shrink:0}.privacy-actions button{border:1px solid #768ca9;border-radius:6px;padding:10px 15px;background:transparent;color:#f2f5fa;font:inherit;cursor:pointer}.privacy-actions button:last-child{border-color:#b9d8fa;background:#b9d8fa;color:#101823}
+.privacy-actions button:focus-visible,.privacy-link:focus-visible{outline:2px solid #b9d8fa;outline-offset:3px}
+@media(max-width:700px){.privacy-banner{bottom:8px;left:8px;right:8px;display:block;padding:18px}.privacy-actions{margin-top:14px}.privacy-actions button{flex:1}}

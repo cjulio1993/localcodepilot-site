@@ -11,7 +11,7 @@ files to this repository or its published output.
 - A `no-referrer` policy avoids sending the page address with outgoing requests.
 - A baseline meta Content Security Policy blocks embedded objects, frames,
   form submissions, base URL changes, and scripted network connections.
-- The only JavaScript is the shared local `demo.js`. Google Fonts remains an
+- JavaScript is served locally from `demo.js` and `navigation.js`. Google Fonts remains an
   external stylesheet/font dependency.
 - Preview instructions bind the development server to the loopback interface.
   Python's development server is not a production server and can list directories.

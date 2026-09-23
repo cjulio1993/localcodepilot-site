@@ -1,9 +1,36 @@
 ﻿const examples = {
-  laravel: { manifest: 'composer.json', command: 'php artisan serve', ready: 'Servidor Laravel iniciado · http://localhost:8000' },
-  node: { manifest: 'package.json', command: 'npm run dev', ready: 'Vite pronto · http://localhost:5173' },
-  service: { manifest: 'package.json', command: 'node server.js', ready: 'Serviço local iniciado · http://localhost:3000' }
+  laravel: { manifest: 'composer.json', command: 'php artisan serve' },
+  node: { manifest: 'package.json', command: 'npm run dev' },
+  service: { manifest: 'package.json', command: 'node server.js' }
 };
 
+const demoTranslations = {
+  pt: {
+    ready: 'PRONTO', starting: 'INICIANDO', running: 'EXECUTANDO',
+    run: 'Executar simulação', stop: 'Parar simulação', workspace: 'Workspace local / ',
+    detected: ' detectado. Ambiente identificado.', found: ' encontrado. Projeto pronto.',
+    sample: 'Saída de exemplo · execução simulada.', stopped: 'Processo encerrado na simulação.',
+    laravel: 'Servidor Laravel iniciado · http://localhost:8000',
+    node: 'Vite pronto · http://localhost:5173', service: 'Serviço local iniciado · http://localhost:3000'
+  },
+  en: {
+    ready: 'READY', starting: 'STARTING', running: 'RUNNING',
+    run: 'Run simulation', stop: 'Stop simulation', workspace: 'Local workspace / ',
+    detected: ' detected. Environment identified.', found: ' found. Project ready.',
+    sample: 'Example output · simulated execution.', stopped: 'Process stopped in the simulation.',
+    laravel: 'Laravel server started · http://localhost:8000',
+    node: 'Vite ready · http://localhost:5173', service: 'Local service started · http://localhost:3000'
+  },
+  es: {
+    ready: 'LISTO', starting: 'INICIANDO', running: 'EN EJECUCIÓN',
+    run: 'Ejecutar simulación', stop: 'Detener simulación', workspace: 'Entorno local / ',
+    detected: ' detectado. Entorno identificado.', found: ' encontrado. Proyecto listo.',
+    sample: 'Salida de ejemplo · ejecución simulada.', stopped: 'Proceso detenido en la simulación.',
+    laravel: 'Servidor Laravel iniciado · http://localhost:8000',
+    node: 'Vite listo · http://localhost:5173', service: 'Servicio local iniciado · http://localhost:3000'
+  }
+};
+const demoText = demoTranslations[document.documentElement.lang.split('-')[0]] || demoTranslations.pt;
 const buttons = [...document.querySelectorAll('.demo-project')];
 const manifest = document.querySelector('#demo-manifest');
 const command = document.querySelector('#demo-command');
@@ -29,14 +56,21 @@ function addLine(message, className = 'terminal-result', prefix = '›') {
   return { line, text };
 }
 
+function setRunLabel(label, symbol) {
+  const icon = document.createElement('span');
+  icon.setAttribute('aria-hidden', 'true');
+  icon.textContent = symbol;
+  run.replaceChildren(document.createTextNode(label + ' '), icon);
+}
+
 function stop() {
   clearTimeout(timer);
   running = false;
   log.querySelectorAll('.is-typing').forEach(line => line.classList.remove('is-typing'));
   log.setAttribute('aria-busy', 'false');
-  state.textContent = 'PRONTO';
+  state.textContent = demoText.ready;
   state.classList.remove('is-running', 'is-starting');
-  run.innerHTML = 'Executar simulação <span aria-hidden="true">↗</span>';
+  setRunLabel(demoText.run, '↗');
 }
 
 function start() {
@@ -44,12 +78,12 @@ function start() {
   running = true;
   log.replaceChildren();
   log.setAttribute('aria-busy', 'true');
-  state.textContent = 'INICIANDO';
+  state.textContent = demoText.starting;
   state.classList.add('is-starting');
-  run.innerHTML = 'Parar simulação <span aria-hidden="true">■</span>';
+  setRunLabel(demoText.stop, '■');
   const example = examples[selected];
-  addLine('Workspace local / ' + buttons.find(button => button.dataset.project === selected).querySelector('span:last-child').firstChild.textContent);
-  addLine(example.manifest + ' detectado. Ambiente identificado.');
+  addLine(demoText.workspace + buttons.find(button => button.dataset.project === selected).querySelector('span:last-child').firstChild.textContent);
+  addLine(example.manifest + demoText.detected);
   const { line, text } = addLine('', 'terminal-command is-typing', '$');
   let index = 0;
   function type() {
@@ -61,11 +95,11 @@ function start() {
     }
     line.classList.remove('is-typing');
     timer = setTimeout(() => {
-      state.textContent = 'EXECUTANDO';
+      state.textContent = demoText.running;
       state.classList.remove('is-starting');
       state.classList.add('is-running');
-      addLine(example.ready, 'terminal-result', '✓');
-      addLine('Saída de exemplo · execução simulada.');
+      addLine(demoText[selected], 'terminal-result', '✓');
+      addLine(demoText.sample);
       log.setAttribute('aria-busy', 'false');
     }, reducedMotion.matches ? 0 : 450);
   }
@@ -83,7 +117,7 @@ function selectProject(key, autoplay = true) {
   manifest.textContent = examples[key].manifest;
   command.textContent = examples[key].command;
   log.replaceChildren();
-  addLine(`${examples[key].manifest} encontrado. Projeto pronto.`);
+  addLine(examples[key].manifest + demoText.found);
   if (autoplay) start();
 }
 
@@ -91,7 +125,7 @@ buttons.forEach(button => button.addEventListener('click', () => selectProject(b
 run.addEventListener('click', () => {
   if (running) {
     stop();
-    addLine('Processo encerrado na simulação.');
+    addLine(demoText.stopped);
   } else start();
 });
 reset.addEventListener('click', () => selectProject(selected, false));

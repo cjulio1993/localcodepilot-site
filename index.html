@@ -2,7 +2,7 @@
 <html lang="pt-BR">
 <head>
   <meta charset="utf-8">
-  <meta http-equiv="Content-Security-Policy" content="base-uri 'none'; object-src 'none'; frame-src 'none'; form-action 'none'; connect-src 'none'">
+  <meta http-equiv="Content-Security-Policy" content="base-uri 'none'; object-src 'none'; frame-src 'none'; form-action 'none'; connect-src 'self' https://www.google-analytics.com https://region1.google-analytics.com https://www.googletagmanager.com">
   <meta name="referrer" content="no-referrer">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#090c11">
@@ -17,6 +17,7 @@
   <link rel="stylesheet" href="styles.css">
   <script src="navigation.js" defer></script>
   <script src="demo.js" defer></script>
+  <script src="analytics.js" defer></script>
 </head>
 <body>
   <a class="skip" href="#conteudo">Pular para o conteúdo</a>
@@ -68,6 +69,10 @@
     <section class="roadmap wrap"><p class="section-kicker">03 / EVOLUÇÃO DO PRODUTO</p><div class="roadmap-head"><h2>Construído com uma direção clara.</h2><p>O produto está em desenvolvimento. Conheça o foco da primeira alpha e as próximas etapas.</p></div><div class="roadmap-grid"><div class="roadmap-card now"><span class="badge">EM TESTES PARA A ALPHA</span><h3>Processos locais</h3><p>Iniciar e interromper processos e acompanhar sua execução em um só lugar. Recurso experimental, em testes para a alpha.</p></div><div class="roadmap-card"><span class="badge muted">NO PLANO</span><h3>Mais controle</h3><p>Portas, comandos personalizados, logs persistentes e serviços locais.</p></div><div class="roadmap-card"><span class="badge muted">VISÃO FUTURA</span><h3>Contexto conectado</h3><p>Explorar integrações que ajudem a retomar o trabalho entre projetos e ferramentas.</p></div></div></section>
     <section class="cta-section" id="comecar"><div class="wrap cta-inner"><div><p class="section-kicker">ACOMPANHE O LOCALCODEPILOT</p><h2>Mais clareza.<br><em>Para o seu próximo build.</em></h2><p>Ferramentas para quem desenvolve, começando pelo ambiente local. Acompanhe o produto e as novidades da primeira alpha.</p></div><div class="cta-links"><a class="button primary" href="https://github.com/cjulio1993/LocalCodePilot" target="_blank" rel="noopener noreferrer">Explorar o repositório <span>↗</span></a><a class="button secondary" href="https://github.com/cjulio1993/LocalCodePilot/releases" target="_blank" rel="noopener noreferrer">Acompanhar lançamentos <span>↗</span></a><small>Primeira alpha em preparação. Os downloads serão anunciados na página de versões.</small></div></div></section>
   </main>
-  <footer class="site-footer"><div class="wrap footer-inner"><div class="footer-brand"><img src="logo.svg" alt="LocalCodePilot"><p>Developer tools. Local first.</p></div><p class="footer-mission">Ferramentas para quem desenvolve.</p><a href="https://github.com/cjulio1993/LocalCodePilot" target="_blank" rel="noopener noreferrer">GitHub ↗</a></div></footer>
+  <footer class="site-footer"><div class="wrap footer-inner"><div class="footer-brand"><img src="logo.svg" alt="LocalCodePilot"><p>Developer tools. Local first.</p></div><p class="footer-mission">Ferramentas para quem desenvolve.</p><a href="https://github.com/cjulio1993/LocalCodePilot" target="_blank" rel="noopener noreferrer">GitHub ↗</a><button class="privacy-link" id="privacy-settings" type="button">Privacidade</button></div></footer>
+  <aside class="privacy-banner" id="privacy-banner" aria-label="Preferências de privacidade" hidden>
+    <div class="privacy-copy"><strong>Podemos medir as visitas?</strong><p>Com sua permissão, usamos o Google Analytics para entender visitas e tempo de engajamento. Ele usa cookies. Você pode mudar sua escolha em Privacidade no rodapé. <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Privacidade do Google ↗</a></p></div>
+    <div class="privacy-actions"><button id="privacy-decline" type="button">Recusar</button><button id="privacy-accept" type="button">Aceitar</button></div>
+  </aside>
 </body>
 </html>

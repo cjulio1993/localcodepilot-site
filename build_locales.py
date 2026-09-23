@@ -39,13 +39,13 @@ for language, column in [('en', 1), ('es', 2)]:
     output = output.replace('<html lang="pt-BR">', f'<html lang="{language}">')
     output = output.replace('rel="canonical" href="https://localcodepilot.com.br/"',
                             f'rel="canonical" href="https://localcodepilot.com.br/{language}/"')
-    for asset in ['styles.css', 'demo.js', 'icon.svg', 'logo.svg']:
+    for asset in ['styles.css', 'demo.js', 'navigation.js', 'icon.svg', 'logo.svg']:
         output = output.replace(f'"{asset}"', f'"../{asset}"')
     output = output.replace(' aria-current="page"', '')
-    output = output.replace('href="index.html" lang="pt-BR"', 'href="../index.html" lang="pt-BR"')
+    output = output.replace('href="./" lang="pt-BR"', 'href="../" lang="pt-BR"')
     for locale in ['en', 'es']:
-        destination = 'index.html' if locale == language else f'../{locale}/index.html'
-        output = output.replace(f'href="{locale}/index.html" lang="{locale}"',
+        destination = './' if locale == language else f'../{locale}/'
+        output = output.replace(f'href="{locale}/" lang="{locale}"',
                                 f'href="{destination}" lang="{locale}"')
     label = 'English' if language == 'en' else 'Español'
     output = output.replace(f'aria-label="{label}"', f'aria-label="{label}" aria-current="page"')

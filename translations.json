@@ -30,9 +30,9 @@
     "Funciones"
   ],
   [
-    "Acompanhe",
-    "Stay updated",
-    "Novedades"
+    "Download",
+    "Download",
+    "Descargar"
   ],
   [
     "Ver no GitHub",
@@ -55,9 +55,9 @@
     "Tus proyectos, organizados. Tu contexto, siempre a mano. Una visión clara de tu entorno local para que puedas concentrarte en desarrollar."
   ],
   [
-    "Acompanhar no GitHub",
-    "Follow on GitHub",
-    "Seguir en GitHub"
+    "Baixar alpha para Windows",
+    "Download alpha for Windows",
+    "Descargar alpha para Windows"
   ],
   [
     "Conheça o produto",
@@ -65,9 +65,9 @@
     "Conoce el producto"
   ],
   [
-    "Open source · Em desenvolvimento · Alpha em breve",
-    "Open source · In development · Alpha coming soon",
-    "Código abierto · En desarrollo · Alpha próximamente"
+    "Open source · Alpha 0.3.0 · Windows 10/11 x64",
+    "Open source · Alpha 0.3.0 · Windows 10/11 x64",
+    "Código abierto · Alpha 0.3.0 · Windows 10/11 x64"
   ],
   [
     "Demonstração interativa do fluxo de projetos",
@@ -275,14 +275,14 @@
     "Un producto con una dirección clara."
   ],
   [
-    "O produto está em desenvolvimento. Conheça o foco da primeira alpha e as próximas etapas.",
-    "The product is in development. Explore the focus of the first alpha and what's next.",
-    "El producto está en desarrollo. Conoce las prioridades de la primera alpha y los próximos pasos."
+    "A primeira alpha já está disponível. Conheça o que entrou nesta versão e as próximas etapas.",
+    "The first alpha is now available. See what is included in this release and what comes next.",
+    "La primera alpha ya está disponible. Conoce lo que incluye esta versión y los próximos pasos."
   ],
   [
-    "EM TESTES PARA A ALPHA",
-    "IN TESTING FOR ALPHA",
-    "EN PRUEBAS PARA LA ALPHA"
+    "DISPONÍVEL NA ALPHA",
+    "AVAILABLE IN ALPHA",
+    "DISPONIBLE EN LA ALPHA"
   ],
   [
     "Processos locais",
@@ -290,9 +290,9 @@
     "Procesos locales"
   ],
   [
-    "Iniciar e interromper processos e acompanhar sua execução em um só lugar. Recurso experimental, em testes para a alpha.",
-    "Start and stop processes and monitor their execution in one place. An experimental feature being tested for the alpha.",
-    "Inicia y detén procesos y sigue su ejecución en un solo lugar. Función experimental, en pruebas para la alpha."
+    "Inicie e interrompa ambientes, acompanhe logs e instale dependências pela interface. Recurso experimental disponível na alpha.",
+    "Start and stop environments, follow logs, and install dependencies from the interface. This experimental feature is available in the alpha.",
+    "Inicia y detén entornos, consulta registros e instala dependencias desde la interfaz. Esta función experimental está disponible en la alpha."
   ],
   [
     "NO PLANO",
@@ -325,9 +325,9 @@
     "Explorar integraciones que te ayuden a retomar el trabajo entre proyectos y herramientas."
   ],
   [
-    "ACOMPANHE O LOCALCODEPILOT",
-    "FOLLOW LOCALCODEPILOT",
-    "SIGUE A LOCALCODEPILOT"
+    "BAIXE O LOCALCODEPILOT",
+    "DOWNLOAD LOCALCODEPILOT",
+    "DESCARGA LOCALCODEPILOT"
   ],
   [
     "Mais clareza.",
@@ -340,24 +340,24 @@
     "Para tu próximo proyecto."
   ],
   [
-    "Ferramentas para quem desenvolve, começando pelo ambiente local. Acompanhe o produto e as novidades da primeira alpha.",
-    "Tools for developers, starting with the local environment. Follow the product and get updates on the first alpha.",
-    "Herramientas para desarrolladores, empezando por el entorno local. Sigue el producto y las novedades de la primera alpha."
+    "Experimente a primeira alpha pública no Windows e conte o que precisa melhorar.",
+    "Try the first public alpha on Windows and tell us what needs improvement.",
+    "Prueba la primera alpha pública en Windows y cuéntanos qué debemos mejorar."
   ],
   [
-    "Explorar o repositório",
-    "Explore the repository",
-    "Explorar el repositorio"
+    "Baixar para Windows",
+    "Download for Windows",
+    "Descargar para Windows"
   ],
   [
-    "Acompanhar lançamentos",
-    "Follow releases",
-    "Ver versiones"
+    "Notas da versão",
+    "Release notes",
+    "Notas de la versión"
   ],
   [
-    "Primeira alpha em preparação. Os downloads serão anunciados na página de versões.",
-    "The first alpha is in preparation. Downloads will be announced on the releases page.",
-    "La primera alpha está en preparación. Las descargas se anunciarán en la página de versiones."
+    "Windows 10/11 x64 · ZIP portátil · Alpha experimental · Binário ainda sem assinatura digital.",
+    "Windows 10/11 x64 · Portable ZIP · Experimental alpha · Binary is not digitally signed yet.",
+    "Windows 10/11 x64 · ZIP portátil · Alpha experimental · El binario aún no tiene firma digital."
   ],
   [
     "Ferramentas para quem desenvolve.",

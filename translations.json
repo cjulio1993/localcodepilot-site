@@ -1,8 +1,8 @@
 [
   [
-    "Ferramentas para quem desenvolve. Descubra e organize seus projetos locais com o LocalCodePilot, no desktop e no terminal.",
-    "Tools for developers. Discover and organize your local projects with LocalCodePilot, on your desktop and in your terminal.",
-    "Herramientas para desarrolladores. Descubre y organiza tus proyectos locales con LocalCodePilot, desde el escritorio y la terminal."
+    "Descubra, execute e retome seus projetos locais com processos, portas e logs organizados pelo LocalCodePilot.",
+    "Discover, run, and resume your local projects with processes, ports, and logs organized by LocalCodePilot.",
+    "Descubre, ejecuta y retoma tus proyectos locales con procesos, puertos y registros organizados por LocalCodePilot."
   ],
   [
     "Pular para o conteúdo",
@@ -30,7 +30,7 @@
     "Funciones"
   ],
   [
-    "Download",
+    "Baixar",
     "Download",
     "Descargar"
   ],
@@ -55,9 +55,9 @@
     "Tus proyectos, organizados. Tu contexto, siempre a mano. Una visión clara de tu entorno local para que puedas concentrarte en desarrollar."
   ],
   [
-    "Baixar alpha para Windows",
-    "Download alpha for Windows",
-    "Descargar alpha para Windows"
+    "Baixar para Windows",
+    "Download for Windows",
+    "Descargar para Windows"
   ],
   [
     "Conheça o produto",
@@ -65,9 +65,9 @@
     "Conoce el producto"
   ],
   [
-    "Open source · Alpha 0.3.0 · Windows 10/11 x64",
-    "Open source · Alpha 0.3.0 · Windows 10/11 x64",
-    "Código abierto · Alpha 0.3.0 · Windows 10/11 x64"
+    "Open source · Alpha pública · Windows 10/11 x64",
+    "Open source · Public alpha · Windows 10/11 x64",
+    "Código abierto · Alpha pública · Windows 10/11 x64"
   ],
   [
     "Demonstração interativa do fluxo de projetos",
@@ -245,24 +245,24 @@
     "Encuentra proyectos en segundo plano con una búsqueda que excluye dependencias y archivos de compilación."
   ],
   [
-    "Projetos no contexto",
-    "Projects in context",
-    "Proyectos en contexto"
+    "Ambientes com um clique",
+    "One-click environments",
+    "Entornos con un clic"
   ],
   [
-    "Pesquise no catálogo e navegue entre repositórios, monorepos e pastas locais, com ou sem Git.",
-    "Search your catalog and browse repositories, monorepos, and local folders, with or without Git.",
-    "Busca en tu catálogo y navega entre repositorios, monorepos y carpetas locales, con o sin Git."
+    "Instale dependências, inicie e interrompa serviços e acompanhe os logs sem sair do aplicativo.",
+    "Install dependencies, start and stop services, and follow logs without leaving the app.",
+    "Instala dependencias, inicia y detén servicios, y consulta los registros sin salir de la aplicación."
   ],
   [
-    "Desktop e CLI",
-    "Desktop and CLI",
-    "Escritorio y CLI"
+    "Portas e contexto persistente",
+    "Ports and persistent context",
+    "Puertos y contexto persistente"
   ],
   [
-    "Escolha como trabalhar: uma interface desktop ou a agilidade da linha de comando para consultar e explorar seus projetos.",
-    "Work your way: use the desktop interface or the speed of the command line to browse and explore your projects.",
-    "Trabaja a tu manera: usa la interfaz de escritorio o la agilidad de la línea de comandos para consultar y explorar tus proyectos."
+    "Use portas alternativas automaticamente, acompanhe a saúde dos serviços e retome favoritos, processos e logs recentes.",
+    "Use alternative ports automatically, monitor service health, and return to favorites, processes, and recent logs.",
+    "Usa puertos alternativos automáticamente, supervisa el estado de los servicios y retoma favoritos, procesos y registros recientes."
   ],
   [
     "03 / EVOLUÇÃO DO PRODUTO",
@@ -275,9 +275,9 @@
     "Un producto con una dirección clara."
   ],
   [
-    "A primeira alpha já está disponível. Conheça o que entrou nesta versão e as próximas etapas.",
-    "The first alpha is now available. See what is included in this release and what comes next.",
-    "La primera alpha ya está disponible. Conoce lo que incluye esta versión y los próximos pasos."
+    "A alpha pública já está disponível para Windows. Veja o que ela entrega e para onde o produto segue.",
+    "The public alpha is now available for Windows. See what it includes and where the product is heading.",
+    "La alpha pública ya está disponible para Windows. Descubre qué incluye y hacia dónde avanza el producto."
   ],
   [
     "DISPONÍVEL NA ALPHA",
@@ -285,29 +285,29 @@
     "DISPONIBLE EN LA ALPHA"
   ],
   [
-    "Processos locais",
-    "Local processes",
-    "Procesos locales"
+    "Execução local",
+    "Local execution",
+    "Ejecución local"
   ],
   [
-    "Inicie e interrompa ambientes, acompanhe logs e instale dependências pela interface. Recurso experimental disponível na alpha.",
-    "Start and stop environments, follow logs, and install dependencies from the interface. This experimental feature is available in the alpha.",
-    "Inicia y detén entornos, consulta registros e instala dependencias desde la interfaz. Esta función experimental está disponible en la alpha."
+    "Inicie e interrompa serviços, acompanhe logs e abra URLs em portas escolhidas automaticamente.",
+    "Start and stop services, follow logs, and open URLs on automatically selected ports.",
+    "Inicia y detén servicios, consulta los registros y abre URLs en puertos seleccionados automáticamente."
   ],
   [
-    "NO PLANO",
-    "PLANNED",
-    "EN LOS PLANES"
+    "EM DESENVOLVIMENTO",
+    "IN DEVELOPMENT",
+    "EN DESARROLLO"
   ],
   [
-    "Mais controle",
-    "More control",
-    "Más control"
+    "Docker e serviços",
+    "Docker and services",
+    "Docker y servicios"
   ],
   [
-    "Portas, comandos personalizados, logs persistentes e serviços locais.",
-    "Ports, custom commands, persistent logs, and local services.",
-    "Puertos, comandos personalizados, registros persistentes y servicios locales."
+    "Ambientes isolados com Docker Compose e suporte mais direto a bancos de dados e caches locais.",
+    "Isolated environments with Docker Compose and more direct support for local databases and caches.",
+    "Entornos aislados con Docker Compose y soporte más directo para bases de datos y cachés locales."
   ],
   [
     "VISÃO FUTURA",
@@ -340,9 +340,9 @@
     "Para tu próximo proyecto."
   ],
   [
-    "Experimente a primeira alpha pública no Windows e conte o que precisa melhorar.",
-    "Try the first public alpha on Windows and tell us what needs improvement.",
-    "Prueba la primera alpha pública en Windows y cuéntanos qué debemos mejorar."
+    "A alpha pública para Windows reúne descoberta de projetos, instalação de dependências, processos, portas e logs em um único aplicativo.",
+    "The public Windows alpha brings project discovery, dependency installation, processes, ports, and logs into one app.",
+    "La alpha pública para Windows reúne detección de proyectos, instalación de dependencias, procesos, puertos y registros en una sola aplicación."
   ],
   [
     "Baixar para Windows",
@@ -355,9 +355,9 @@
     "Notas de la versión"
   ],
   [
-    "Windows 10/11 x64 · ZIP portátil · Alpha experimental · Binário ainda sem assinatura digital.",
-    "Windows 10/11 x64 · Portable ZIP · Experimental alpha · Binary is not digitally signed yet.",
-    "Windows 10/11 x64 · ZIP portátil · Alpha experimental · El binario aún no tiene firma digital."
+    "Versão 0.4.0-alpha.1 · ZIP portátil para Windows 10/11 x64 · SHA-256 disponível na release.",
+    "Version 0.4.0-alpha.1 · Portable ZIP for Windows 10/11 x64 · SHA-256 available on the release page.",
+    "Versión 0.4.0-alpha.1 · ZIP portátil para Windows 10/11 x64 · SHA-256 disponible en la página de la versión."
   ],
   [
     "Ferramentas para quem desenvolve.",

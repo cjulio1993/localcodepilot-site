@@ -295,14 +295,14 @@
     "Inicia y detén servicios, consulta los registros y abre URLs en puertos seleccionados automáticamente."
   ],
   [
-    "Containers em prévia",
-    "Container preview",
-    "Containers en vista previa"
+    "Containers: apenas diagnóstico",
+    "Containers: diagnostics only",
+    "Containers: solo diagnóstico"
   ],
   [
-    "Detecte Dockerfile e Compose, verifique Docker ou Podman e confira serviços, portas e comandos sem iniciar o ambiente.",
-    "Discover Dockerfiles and Compose, check Docker or Podman, and review services, ports, and commands without starting the environment.",
-    "Detecta Dockerfile y Compose, comprueba Docker o Podman y revisa servicios, puertos y comandos sin iniciar el entorno."
+    "Identifique Dockerfile e Compose e verifique Docker ou Podman. O aplicativo não instala motores, baixa imagens ou executa containers.",
+    "Identify Dockerfiles and Compose and check Docker or Podman. The app does not install engines, download images, or run containers.",
+    "Identifica Dockerfile y Compose y comprueba Docker o Podman. La aplicación no instala motores, descarga imágenes ni ejecuta containers."
   ],
   [
     "VISÃO FUTURA",
@@ -335,9 +335,9 @@
     "Para tu próximo proyecto."
   ],
   [
-    "A alpha pública para Windows reúne descoberta de projetos, preparação assistida de ambientes, processos, portas, logs e diagnóstico de containers em um único aplicativo.",
-    "The public Windows alpha brings project discovery, assisted environment setup, processes, ports, logs, and container diagnostics into one app.",
-    "La alpha pública para Windows reúne detección de proyectos, preparación asistida de entornos, procesos, puertos, registros y diagnóstico de containers en una sola aplicación."
+    "A alpha pública para Windows reúne descoberta de projetos, preparação assistida de ambientes, processos, portas, logs e identificação de projetos com containers, ainda sem executá-los.",
+    "The public Windows alpha brings project discovery, assisted environment setup, processes, ports, logs, and container project identification into one app, without running containers yet.",
+    "La alpha pública para Windows reúne detección de proyectos, preparación asistida de entornos, procesos, puertos, registros e identificación de proyectos con containers, todavía sin ejecutarlos."
   ],
   [
     "Baixar para Windows",

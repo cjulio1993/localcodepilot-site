@@ -17,6 +17,10 @@ The download links point to `0.4.0-alpha.5`. This release introduces in-app upda
 with SHA-256 verification and rollback; users on alpha 4 or older still need to
 install alpha 5 manually before later releases can use that flow.
 
+Container support in this release is limited to project identification, diagnostics,
+and command previews. The app does not install container engines, download images,
+or run containers yet; public copy must keep this limitation explicit.
+
 ## Analytics
 
 `analytics.js` uses the GA4 measurement ID for this site (`G-G4VCYYMVYL`). The

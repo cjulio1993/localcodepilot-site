@@ -11,6 +11,12 @@ and Spanish text. Run `python build_locales.py` and commit the generated
 Preview with `python -m http.server 4173 --bind 127.0.0.1`, then open `http://localhost:4173/`.
 No build step is needed for hosting; translated pages also work without JavaScript.
 
+## Current release
+
+The download links point to `0.4.0-alpha.5`. This release introduces in-app updates
+with SHA-256 verification and rollback; users on alpha 4 or older still need to
+install alpha 5 manually before later releases can use that flow.
+
 ## Analytics
 
 `analytics.js` uses the GA4 measurement ID for this site (`G-G4VCYYMVYL`). The

@@ -350,9 +350,9 @@
     "Notas de la versión"
   ],
   [
-    "Versão 0.4.0-alpha.4 · ZIP portátil para Windows 10/11 x64 · SHA-256 disponível na release.",
-    "Version 0.4.0-alpha.4 · Portable ZIP for Windows 10/11 x64 · SHA-256 available on the release page.",
-    "Versión 0.4.0-alpha.4 · ZIP portátil para Windows 10/11 x64 · SHA-256 disponible en la página de la versión."
+    "Versão 0.4.0-alpha.5 · ZIP portátil para Windows 10/11 x64 · SHA-256 disponível na release.",
+    "Version 0.4.0-alpha.5 · Portable ZIP for Windows 10/11 x64 · SHA-256 available on the release page.",
+    "Versión 0.4.0-alpha.5 · ZIP portátil para Windows 10/11 x64 · SHA-256 disponible en la página de la versión."
   ],
   [
     "Ferramentas para quem desenvolve.",
@@ -400,8 +400,8 @@
     "Actualizaciones bajo control"
   ],
   [
-    "Verifique novas versões em Configurações e abra o download oficial quando houver uma atualização.",
-    "Check for new versions in Settings and open the official download when an update is available.",
-    "Busca nuevas versiones en Configuración y abre la descarga oficial cuando haya una actualización."
+    "Verifique novas versões e instale a atualização pelo próprio aplicativo, com validação SHA-256 e restauração de segurança.",
+    "Check for new versions and install updates from the app, with SHA-256 verification and a safety rollback.",
+    "Busca nuevas versiones e instala las actualizaciones desde la aplicación, con verificación SHA-256 y restauración de seguridad."
   ]
 ]

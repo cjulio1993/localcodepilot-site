@@ -340,9 +340,9 @@
     "Para tu próximo proyecto."
   ],
   [
-    "A alpha pública para Windows reúne descoberta de projetos, instalação de dependências, processos, portas e logs em um único aplicativo.",
-    "The public Windows alpha brings project discovery, dependency installation, processes, ports, and logs into one app.",
-    "La alpha pública para Windows reúne detección de proyectos, instalación de dependencias, procesos, puertos y registros en una sola aplicación."
+    "A alpha pública para Windows reúne descoberta de projetos, preparação assistida de ambientes, processos, portas e logs em um único aplicativo.",
+    "The public Windows alpha brings project discovery, assisted environment setup, processes, ports, and logs into one app.",
+    "La alpha pública para Windows reúne detección de proyectos, preparación asistida de entornos, procesos, puertos y registros en una sola aplicación."
   ],
   [
     "Baixar para Windows",
@@ -355,9 +355,9 @@
     "Notas de la versión"
   ],
   [
-    "Versão 0.4.0-alpha.1 · ZIP portátil para Windows 10/11 x64 · SHA-256 disponível na release.",
-    "Version 0.4.0-alpha.1 · Portable ZIP for Windows 10/11 x64 · SHA-256 available on the release page.",
-    "Versión 0.4.0-alpha.1 · ZIP portátil para Windows 10/11 x64 · SHA-256 disponible en la página de la versión."
+    "Versão 0.4.0-alpha.3 · ZIP portátil para Windows 10/11 x64 · SHA-256 disponível na release.",
+    "Version 0.4.0-alpha.3 · Portable ZIP for Windows 10/11 x64 · SHA-256 available on the release page.",
+    "Versión 0.4.0-alpha.3 · ZIP portátil para Windows 10/11 x64 · SHA-256 disponible en la página de la versión."
   ],
   [
     "Ferramentas para quem desenvolve.",
@@ -398,5 +398,15 @@
     "Aceitar",
     "Accept",
     "Aceptar"
+  ],
+  [
+    "Atualizações sob controle",
+    "Updates under control",
+    "Actualizaciones bajo control"
+  ],
+  [
+    "Verifique novas versões em Configurações e abra o download oficial quando houver uma atualização.",
+    "Check for new versions in Settings and open the official download when an update is available.",
+    "Busca nuevas versiones en Configuración y abre la descarga oficial cuando haya una actualización."
   ]
 ]

@@ -295,19 +295,14 @@
     "Inicia y detén servicios, consulta los registros y abre URLs en puertos seleccionados automáticamente."
   ],
   [
-    "EM DESENVOLVIMENTO",
-    "IN DEVELOPMENT",
-    "EN DESARROLLO"
+    "Containers em prévia",
+    "Container preview",
+    "Containers en vista previa"
   ],
   [
-    "Docker e serviços",
-    "Docker and services",
-    "Docker y servicios"
-  ],
-  [
-    "Ambientes isolados com Docker Compose e suporte mais direto a bancos de dados e caches locais.",
-    "Isolated environments with Docker Compose and more direct support for local databases and caches.",
-    "Entornos aislados con Docker Compose y soporte más directo para bases de datos y cachés locales."
+    "Detecte Dockerfile e Compose, verifique Docker ou Podman e confira serviços, portas e comandos sem iniciar o ambiente.",
+    "Discover Dockerfiles and Compose, check Docker or Podman, and review services, ports, and commands without starting the environment.",
+    "Detecta Dockerfile y Compose, comprueba Docker o Podman y revisa servicios, puertos y comandos sin iniciar el entorno."
   ],
   [
     "VISÃO FUTURA",
@@ -340,9 +335,9 @@
     "Para tu próximo proyecto."
   ],
   [
-    "A alpha pública para Windows reúne descoberta de projetos, preparação assistida de ambientes, processos, portas e logs em um único aplicativo.",
-    "The public Windows alpha brings project discovery, assisted environment setup, processes, ports, and logs into one app.",
-    "La alpha pública para Windows reúne detección de proyectos, preparación asistida de entornos, procesos, puertos y registros en una sola aplicación."
+    "A alpha pública para Windows reúne descoberta de projetos, preparação assistida de ambientes, processos, portas, logs e diagnóstico de containers em um único aplicativo.",
+    "The public Windows alpha brings project discovery, assisted environment setup, processes, ports, logs, and container diagnostics into one app.",
+    "La alpha pública para Windows reúne detección de proyectos, preparación asistida de entornos, procesos, puertos, registros y diagnóstico de containers en una sola aplicación."
   ],
   [
     "Baixar para Windows",
@@ -355,9 +350,9 @@
     "Notas de la versión"
   ],
   [
-    "Versão 0.4.0-alpha.3 · ZIP portátil para Windows 10/11 x64 · SHA-256 disponível na release.",
-    "Version 0.4.0-alpha.3 · Portable ZIP for Windows 10/11 x64 · SHA-256 available on the release page.",
-    "Versión 0.4.0-alpha.3 · ZIP portátil para Windows 10/11 x64 · SHA-256 disponible en la página de la versión."
+    "Versão 0.4.0-alpha.4 · ZIP portátil para Windows 10/11 x64 · SHA-256 disponível na release.",
+    "Version 0.4.0-alpha.4 · Portable ZIP for Windows 10/11 x64 · SHA-256 available on the release page.",
+    "Versión 0.4.0-alpha.4 · ZIP portátil para Windows 10/11 x64 · SHA-256 disponible en la página de la versión."
   ],
   [
     "Ferramentas para quem desenvolve.",

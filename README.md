@@ -35,7 +35,7 @@ editing the website does not publish messages or create external backlinks.
 
 ## Current release
 
-The download links point to `0.4.0-alpha.5`. This release introduces in-app updates
+The download links point to `0.4.0-alpha.5.1`. This release fixes platform filtering in the updater and retains in-app updates
 with SHA-256 verification and rollback; users on alpha 4 or older still need to
 install alpha 5 manually before later releases can use that flow.
 
@@ -66,3 +66,11 @@ You can open `index.html` directly: with JavaScript enabled, language links are
 adapted to explicit HTML files only for `file://` previews.
 
 Security: see `SECURITY.md` for protections and hosting limitations.
+
+## Platform downloads
+
+Windows cards link to the official 0.4.0-alpha.5.1 portable ZIP. The standalone
+EXE is an update asset, not advertised as an installer. macOS and Linux cards
+are informational and have no download links until public packages are ready.
+The macOS validation release is intentionally not promoted. Platform icons are
+local SVG assets, shared across the three languages.

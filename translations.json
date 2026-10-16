@@ -350,11 +350,6 @@
     "Notas de la versión"
   ],
   [
-    "Versão 0.4.0-alpha.5 · ZIP portátil para Windows 10/11 x64 · SHA-256 disponível na release.",
-    "Version 0.4.0-alpha.5 · Portable ZIP for Windows 10/11 x64 · SHA-256 available on the release page.",
-    "Versión 0.4.0-alpha.5 · ZIP portátil para Windows 10/11 x64 · SHA-256 disponible en la página de la versión."
-  ],
-  [
     "Ferramentas para quem desenvolve.",
     "Tools for developers.",
     "Herramientas para desarrolladores."
@@ -460,9 +455,9 @@
     "¿Qué versiones de Windows son compatibles?"
   ],
   [
-    "A alpha pública é distribuída como ZIP portátil para Windows 10 e 11, em arquitetura x64. Consulte os requisitos e as notas da release antes de instalar.",
-    "The public alpha is distributed as a portable ZIP for Windows 10 and 11 on x64. Read the requirements and release notes before installing.",
-    "La alpha pública se distribuye como ZIP portátil para Windows 10 y 11 en x64. Consulta los requisitos y las notas de la versión antes de instalar."
+    "A alpha pública está disponível como ZIP portátil para Windows 10 e 11, em arquitetura x64. As versões para macOS e Linux estarão disponíveis em breve.",
+    "The public alpha is available as a portable ZIP for Windows 10 and 11 on x64. macOS and Linux versions are coming soon.",
+    "La alpha pública está disponible como ZIP portátil para Windows 10 y 11 en x64. Las versiones para macOS y Linux estarán disponibles próximamente."
   ],
   [
     "O aplicativo executa containers Docker ou Podman?",
@@ -518,5 +513,25 @@
     "Menos tentativa e erro. Mais sinais para entender o que acontece no seu ambiente.",
     "Less trial and error. More signals to understand your environment.",
     "Menos prueba y error. Más señales para entender tu entorno."
+  ],
+  [
+    "Baixar ZIP portátil · Windows 10/11 x64",
+    "Download portable ZIP · Windows 10/11 x64",
+    "Descargar ZIP portátil · Windows 10/11 x64"
+  ],
+  [
+    "Disponível em breve",
+    "Coming soon",
+    "Disponible próximamente"
+  ],
+  [
+    "EM BREVE",
+    "COMING SOON",
+    "PRÓXIMAMENTE"
+  ],
+  [
+    "Versão 0.4.0-alpha.5.1 · Windows x64 · SHA-256 disponível na release.",
+    "Version 0.4.0-alpha.5.1 · Windows x64 · SHA-256 available in the release.",
+    "Versión 0.4.0-alpha.5.1 · Windows x64 · SHA-256 disponible en la versión."
   ]
 ]

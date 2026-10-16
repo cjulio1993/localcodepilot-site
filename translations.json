@@ -1,8 +1,8 @@
 [
   [
-    "Descubra, execute e retome seus projetos locais com processos, portas e logs organizados pelo LocalCodePilot.",
-    "Discover, run, and resume your local projects with processes, ports, and logs organized by LocalCodePilot.",
-    "Descubre, ejecuta y retoma tus proyectos locales con procesos, puertos y registros organizados por LocalCodePilot."
+    "Organize projetos, processos, portas e logs no Windows com o LocalCodePilot. Open-source e local-first. Baixe a alpha e contribua no GitHub.",
+    "Manage projects, processes, ports and logs on Windows with LocalCodePilot. Open-source and local-first. Download the alpha and contribute on GitHub.",
+    "Organiza proyectos, procesos, puertos y registros en Windows con LocalCodePilot. Open-source y local-first. Descarga la alpha y contribuye en GitHub."
   ],
   [
     "Pular para o conteúdo",
@@ -40,19 +40,19 @@
     "Ver en GitHub"
   ],
   [
-    "Seu workspace.",
-    "Your workspace.",
-    "Tu espacio de trabajo."
+    "Ambiente local no Windows.",
+    "Local development on Windows.",
+    "Desarrollo local en Windows."
   ],
   [
-    "Sob controle.",
-    "Under control.",
-    "Bajo control."
+    "Problemas sob controle.",
+    "Problems under control.",
+    "Problemas bajo control."
   ],
   [
-    "Seus projetos, organizados. Seu contexto, sempre à mão. Uma visão clara do ambiente local para você se concentrar em desenvolver.",
-    "Your projects, organized. Your context, always at hand. A clear view of your local environment so you can focus on building.",
-    "Tus proyectos, organizados. Tu contexto, siempre a mano. Una visión clara de tu entorno local para que puedas concentrarte en desarrollar."
+    "Projeto perdido entre pastas? Serviço que não inicia? Porta ocupada? Gerencie seu ambiente de desenvolvimento local no Windows com projetos, processos, portas e logs em um só lugar.",
+    "Project lost between folders? Service failing to start? Port already in use? Manage your local development environment on Windows with projects, processes, ports and logs in one place.",
+    "¿Proyectos perdidos entre carpetas? ¿Servicios que no inician? ¿Puertos ocupados? Gestiona tu entorno de desarrollo local en Windows con proyectos, procesos, puertos y registros en un solo lugar."
   ],
   [
     "Baixar para Windows",
@@ -60,9 +60,9 @@
     "Descargar para Windows"
   ],
   [
-    "Conheça o produto",
-    "Explore the product",
-    "Conoce el producto"
+    "Veja como funciona",
+    "See how it works",
+    "Mira cómo funciona"
   ],
   [
     "Open source · Alpha pública · Windows 10/11 x64",
@@ -165,14 +165,14 @@
     "01 / EL PRODUCTO"
   ],
   [
-    "Clareza para trabalhar.",
-    "Clarity to work.",
-    "Claridad para trabajar."
+    "Organize seus projetos locais.",
+    "Organize your local projects.",
+    "Organiza tus proyectos locales."
   ],
   [
-    "Espaço para criar.",
-    "Room to create.",
-    "Espacio para crear."
+    "Retome o desenvolvimento.",
+    "Get back to development.",
+    "Retoma el desarrollo."
   ],
   [
     "O LocalCodePilot reúne seus projetos locais em um só lugar. Encontre o que precisa, entenda cada ambiente e retome o trabalho com mais contexto.",
@@ -215,14 +215,14 @@
     "02 / FUNCIONES"
   ],
   [
-    "Menos tempo procurando.",
-    "Less time searching.",
-    "Menos tiempo buscando."
+    "Processos, portas e logs.",
+    "Processes, ports and logs.",
+    "Procesos, puertos y registros."
   ],
   [
-    "Mais contexto para construir.",
-    "More context to build.",
-    "Más contexto para crear."
+    "Seu desenvolvimento sob controle.",
+    "Your development under control.",
+    "Tu desarrollo bajo control."
   ],
   [
     "Uma experiência pensada para o dia a dia de quem desenvolve. Da descoberta à consulta, seus projetos continuam no seu ambiente local.",
@@ -403,5 +403,120 @@
     "Verifique novas versões e instale a atualização pelo próprio aplicativo, com validação SHA-256 e restauração de segurança.",
     "Check for new versions and install updates from the app, with SHA-256 verification and a safety rollback.",
     "Busca nuevas versiones e instala las actualizaciones desde la aplicación, con verificación SHA-256 y restauración de seguridad."
+  ],
+  [
+    "LocalCodePilot: gerencie seu ambiente local no Windows",
+    "LocalCodePilot: local development environment for Windows",
+    "LocalCodePilot: entorno de desarrollo local en Windows"
+  ],
+  [
+    "GUIAS PRÁTICOS",
+    "PRACTICAL GUIDES",
+    "GUÍAS PRÁCTICAS"
+  ],
+  [
+    "Resolva problemas do seu ambiente local",
+    "Solve local development problems",
+    "Resuelve problemas de tu entorno local"
+  ],
+  [
+    "Primeiros passos no Windows",
+    "Getting started on Windows",
+    "Primeros pasos en Windows"
+  ],
+  [
+    "Baixe a alpha, confira o SHA-256 e prepare seu primeiro projeto local.",
+    "Download the alpha, verify its SHA-256 and prepare your first local project.",
+    "Descarga la alpha, verifica su SHA-256 y prepara tu primer proyecto local."
+  ],
+  [
+    "Porta 3000 em uso no Windows?",
+    "Port 3000 already in use on Windows?",
+    "¿El puerto 3000 está en uso en Windows?"
+  ],
+  [
+    "Identifique o processo responsável e escolha entre liberar a porta ou usar outra.",
+    "Identify the process and choose whether to free the port or use another one.",
+    "Identifica el proceso y elige entre liberar el puerto o usar otro."
+  ],
+  [
+    "Perguntas frequentes",
+    "Frequently asked questions",
+    "Preguntas frecuentes"
+  ],
+  [
+    "O LocalCodePilot é open-source?",
+    "Is LocalCodePilot open source?",
+    "¿LocalCodePilot es open-source?"
+  ],
+  [
+    "Sim. O código está disponível no GitHub para consulta e contribuição. Consulte a licença do repositório para os termos de uso.",
+    "Yes. The code is available on GitHub for review and contribution. See the repository license for terms of use.",
+    "Sí. El código está disponible en GitHub para consulta y contribución. Consulta la licencia del repositorio para los términos de uso."
+  ],
+  [
+    "Quais versões do Windows são compatíveis?",
+    "Which Windows versions are supported?",
+    "¿Qué versiones de Windows son compatibles?"
+  ],
+  [
+    "A alpha pública é distribuída como ZIP portátil para Windows 10 e 11, em arquitetura x64. Consulte os requisitos e as notas da release antes de instalar.",
+    "The public alpha is distributed as a portable ZIP for Windows 10 and 11 on x64. Read the requirements and release notes before installing.",
+    "La alpha pública se distribuye como ZIP portátil para Windows 10 y 11 en x64. Consulta los requisitos y las notas de la versión antes de instalar."
+  ],
+  [
+    "O aplicativo executa containers Docker ou Podman?",
+    "Does the app run Docker or Podman containers?",
+    "¿La aplicación ejecuta containers Docker o Podman?"
+  ],
+  [
+    "Ainda não. A alpha identifica projetos com Dockerfile e Compose e oferece diagnóstico. Ela não instala motores, baixa imagens ou executa containers.",
+    "Not yet. The alpha identifies Dockerfile and Compose projects and provides diagnostics. It does not install engines, download images or run containers.",
+    "Todavía no. La alpha identifica proyectos con Dockerfile y Compose y ofrece diagnóstico. No instala motores, descarga imágenes ni ejecuta containers."
+  ],
+  [
+    "Posso acompanhar logs e processos locais?",
+    "Can I follow local logs and processes?",
+    "¿Puedo consultar registros y procesos locales?"
+  ],
+  [
+    "Sim. A alpha permite iniciar e interromper serviços compatíveis, acompanhar logs e trabalhar com portas alternativas. A compatibilidade depende da tecnologia e dos requisitos do projeto.",
+    "Yes. The alpha can start and stop supported services, follow logs and work with alternative ports. Compatibility depends on the project technology and requirements.",
+    "Sí. La alpha permite iniciar y detener servicios compatibles, consultar registros y trabajar con puertos alternativos. La compatibilidad depende de la tecnología y los requisitos del proyecto."
+  ],
+  [
+    "Construa o LocalCodePilot com a comunidade",
+    "Build LocalCodePilot with the community",
+    "Construye LocalCodePilot con la comunidad"
+  ],
+  [
+    "Encontrou um problema ou tem uma ideia? Consulte as issues e participe do desenvolvimento no GitHub.",
+    "Found a problem or have an idea? Browse the issues and join development on GitHub.",
+    "¿Encontraste un problema o tienes una idea? Consulta las issues y participa en el desarrollo en GitHub."
+  ],
+  [
+    "Dê uma estrela no GitHub",
+    "Star on GitHub",
+    "Dale una estrella en GitHub"
+  ],
+  [
+    "Veja as issues e contribua",
+    "Browse issues and contribute",
+    "Consulta las issues y contribuye"
+  ],
+  [
+    "DEVTOOLS / DIAGNÓSTICO LOCAL",
+    "DEVTOOLS / LOCAL DIAGNOSTICS",
+    "DEVTOOLS / DIAGNÓSTICO LOCAL"
+  ],
+  [
+    "Diagnóstico, contexto e ação.",
+    "Diagnostics, context and action.",
+    "Diagnóstico, contexto y acción."
+  ],
+  [
+    "Menos tentativa e erro. Mais sinais para entender o que acontece no seu ambiente.",
+    "Less trial and error. More signals to understand your environment.",
+    "Menos prueba y error. Más señales para entender tu entorno."
   ]
 ]

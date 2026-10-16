@@ -77,6 +77,13 @@ h1 em{color:#9cabc1}
 .privacy-actions{display:flex;gap:10px;flex-shrink:0}.privacy-actions button{border:1px solid #768ca9;border-radius:6px;padding:10px 15px;background:transparent;color:#f2f5fa;font:inherit;cursor:pointer}.privacy-actions button:last-child{border-color:#b9d8fa;background:#b9d8fa;color:#101823}
 .privacy-actions button:focus-visible,.privacy-link:focus-visible{outline:2px solid #b9d8fa;outline-offset:3px}
 /* Local diagnostic console: restrained cyan accents and practical content. */
+.section.community{position:relative;padding-block:56px;border-top:1px solid #263a42}
+.community-copy{max-width:820px}.community-copy h2{font-size:clamp(28px,3.2vw,42px);line-height:1.18;letter-spacing:-.035em;margin-bottom:18px;text-wrap:balance}
+.community-copy p{max-width:710px;color:#a8b7ca;line-height:1.8;margin:0}
+.community-actions{display:flex;align-items:stretch;flex-wrap:wrap;gap:14px;margin-top:28px}
+.community-action{display:inline-flex;align-items:center;justify-content:center;gap:12px;min-height:52px;padding:14px 20px;border:1px solid #31464b;border-radius:8px;font:500 13px/1.5 'IBM Plex Mono',monospace;text-decoration:none;text-align:center}
+.community-action svg{flex:none}.community-star{background:#a1eddc;color:#091b17;border-color:#a1eddc}.community-star:hover{background:#c2f8ec;border-color:#c2f8ec}.community-contribute{background:#101b22;color:#c8d8e7}.community-contribute:hover{background:#172b30;border-color:#659e96;color:#b5f2e6}.community-action:focus-visible{outline:2px solid #a1eddc;outline-offset:4px}
+@media(max-width:600px){.community-actions{flex-direction:column;align-items:stretch}.community-action{width:100%}.community-copy h2{font-size:30px}}
 .hero h1{font-size:clamp(40px,4.3vw,64px);letter-spacing:-.045em;line-height:1.12;overflow-wrap:break-word}
 .hero h1 em{color:#7de2d1}.eyebrow{color:#7de2d1}.eyebrow-line{background:#7de2d1;box-shadow:0 0 15px #7de2d155}
 .hero:before{background-image:linear-gradient(#5bcebe0b 1px,transparent 1px),linear-gradient(90deg,#5bcebe0b 1px,transparent 1px);background-size:40px 40px}

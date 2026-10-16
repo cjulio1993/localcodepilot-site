@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://localcodepilot.com.br/</loc>
+  </url>
+  <url>
+    <loc>https://localcodepilot.com.br/en/</loc>
+  </url>
+  <url>
+    <loc>https://localcodepilot.com.br/es/</loc>
+  </url>
+  <url>
+    <loc>https://localcodepilot.com.br/docs/primeiros-passos/</loc>
+  </url>
+  <url>
+    <loc>https://localcodepilot.com.br/en/docs/getting-started/</loc>
+  </url>
+  <url>
+    <loc>https://localcodepilot.com.br/blog/porta-em-uso-windows/</loc>
+  </url>
+  <url>
+    <loc>https://localcodepilot.com.br/en/blog/port-already-in-use-windows/</loc>
+  </url>
+</urlset>

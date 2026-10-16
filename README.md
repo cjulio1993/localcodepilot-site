@@ -11,6 +11,28 @@ and Spanish text. Run `python build_locales.py` and commit the generated
 Preview with `python -m http.server 4173 --bind 127.0.0.1`, then open `http://localhost:4173/`.
 No build step is needed for hosting; translated pages also work without JavaScript.
 
+## SEO and practical guides
+
+The landing pages include localized titles, descriptions, social metadata, FAQ,
+practical guide links and community contribution calls to action. The visual
+direction presents the product as a local development diagnostic console.
+
+Run `python build_locales.py` after changing the Portuguese landing page or its
+translation table. Run `python build_content.py` after editing the bilingual
+guide content in that script. Commit the generated HTML files and `sitemap.xml`.
+The sitemap includes all seven published page paths. `robots.txt` declares it.
+Each translated page has its own canonical and reciprocal language alternates.
+Spanish guide links explicitly lead to English until Spanish guides exist.
+
+Analytics emits `download_click`, `github_click` and `guide_click` only after
+analytics consent, with language, placement and destination (without query
+parameters). Download clicks indicate intent, not completed downloads or installs.
+Register these event names in GA4 as needed. Verify the production domain in
+Search Console and submit `https://localcodepilot.com.br/sitemap.xml` after deploy.
+
+External community posts and backlink outreach must be performed separately;
+editing the website does not publish messages or create external backlinks.
+
 ## Current release
 
 The download links point to `0.4.0-alpha.5`. This release introduces in-app updates

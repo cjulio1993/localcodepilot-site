@@ -14,6 +14,23 @@
   const savePreference = (value) => {
     try { localStorage.setItem(preferenceKey, value); } catch { /* private browsing */ }
   };
+  // Click intent only: this does not claim an installation or completed download.
+  document.addEventListener('click', (event) => {
+    const link = event.target.closest?.('a[href]');
+    if (!link || readPreference() !== 'accepted' || typeof window.gtag !== 'function') return;
+    const url = new URL(link.href, location.href);
+    let eventName;
+    if (url.hostname === 'github.com' && url.pathname.includes('/releases/download/')) eventName = 'download_click';
+    else if (url.hostname === 'github.com') eventName = 'github_click';
+    else if (url.origin === location.origin && /\/(docs|blog)\//.test(url.pathname)) eventName = 'guide_click';
+    if (!eventName) return;
+    window.gtag('event', eventName, {
+      language: document.documentElement.lang,
+      placement: link.closest('section')?.id || (link.closest('header') ? 'header' : 'footer'),
+      link_url: url.origin + url.pathname,
+      transport_type: 'beacon'
+    });
+  });
   const clearAnalyticsCookies = () => {
     for (const cookie of document.cookie.split(';')) {
       const name = cookie.trim().split('=')[0];

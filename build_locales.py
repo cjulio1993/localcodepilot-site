@@ -49,6 +49,18 @@ for language, column in [('en', 1), ('es', 2)]:
                                 f'href="{destination}" lang="{locale}"')
     label = 'English' if language == 'en' else 'Español'
     output = output.replace(f'aria-label="{label}"', f'aria-label="{label}" aria-current="page"')
+    output = output.replace('property="og:url" content="https://localcodepilot.com.br/"',
+                            f'property="og:url" content="https://localcodepilot.com.br/{language}/"')
+    output = output.replace('property="og:locale" content="pt_BR"',
+                            'property="og:locale" content="en_US"' if language == 'en' else 'property="og:locale" content="es_ES"')
+    if language == 'en':
+        output = output.replace('href="docs/primeiros-passos/"', 'href="docs/getting-started/"')
+        output = output.replace('href="blog/porta-em-uso-windows/"', 'href="blog/port-already-in-use-windows/"')
+    else:
+        output = output.replace('href="docs/primeiros-passos/"', 'href="../en/docs/getting-started/"')
+        output = output.replace('href="blog/porta-em-uso-windows/"', 'href="../en/blog/port-already-in-use-windows/"')
+        output = output.replace('Primeros pasos en Windows</a>', 'Primeros pasos en Windows (en inglés)</a>')
+        output = output.replace('¿El puerto 3000 está en uso en Windows?</a>', '¿El puerto 3000 está en uso en Windows? (en inglés)</a>')
     destination = ROOT / language
     destination.mkdir(exist_ok=True)
     (destination / 'index.html').write_text(output, encoding='utf-8')

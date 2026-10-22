@@ -65,9 +65,9 @@
     "Mira cómo funciona"
   ],
   [
-    "Open source · Alpha pública · Windows 10/11 x64",
-    "Open source · Public alpha · Windows 10/11 x64",
-    "Código abierto · Alpha pública · Windows 10/11 x64"
+    "Open source · Alpha pública · Windows 10/11 e macOS experimental",
+    "Open source · Public alpha · Windows 10/11 and experimental macOS",
+    "Open source · Alpha pública · Windows 10/11 y macOS experimental"
   ],
   [
     "Demonstração interativa do fluxo de projetos",
@@ -295,14 +295,14 @@
     "Inicia y detén servicios, consulta los registros y abre URLs en puertos seleccionados automáticamente."
   ],
   [
-    "Containers: apenas diagnóstico",
-    "Containers: diagnostics only",
-    "Containers: solo diagnóstico"
+    "Containers com execução controlada",
+    "Containers with controlled execution",
+    "Containers con ejecución controlada"
   ],
   [
-    "Identifique Dockerfile e Compose e verifique Docker ou Podman. O aplicativo não instala motores, baixa imagens ou executa containers.",
-    "Identify Dockerfiles and Compose and check Docker or Podman. The app does not install engines, download images, or run containers.",
-    "Identifica Dockerfile y Compose y comprueba Docker o Podman. La aplicación no instala motores, descarga imágenes ni ejecuta containers."
+    "Valide, inicie, consulte logs, interrompa e construa ambientes com Docker ou Podman. Cada comando é exibido para confirmação.",
+    "Validate, start, inspect logs, stop, and build environments with Docker or Podman. Every command is shown for confirmation.",
+    "Valida, inicia, consulta logs, detén y construye entornos con Docker o Podman. Cada comando se muestra para confirmación."
   ],
   [
     "VISÃO FUTURA",
@@ -335,9 +335,9 @@
     "Para tu próximo proyecto."
   ],
   [
-    "A alpha pública para Windows reúne descoberta de projetos, preparação assistida de ambientes, processos, portas, logs e identificação de projetos com containers, ainda sem executá-los.",
-    "The public Windows alpha brings project discovery, assisted environment setup, processes, ports, logs, and container project identification into one app, without running containers yet.",
-    "La alpha pública para Windows reúne detección de proyectos, preparación asistida de entornos, procesos, puertos, registros e identificación de proyectos con containers, todavía sin ejecutarlos."
+    "A Alpha 6 reúne descoberta de projetos, preparação assistida, bancos de dados, health checks HTTP, containers com confirmação e uma página de ajuda integrada.",
+    "Alpha 6 brings together project discovery, assisted setup, databases, HTTP health checks, confirmed container operations, and a built-in help page.",
+    "Alpha 6 reúne descubrimiento de proyectos, preparación asistida, bases de datos, health checks HTTP, operaciones confirmadas de containers y una página de ayuda integrada."
   ],
   [
     "Baixar para Windows",
@@ -455,9 +455,9 @@
     "¿Qué versiones de Windows son compatibles?"
   ],
   [
-    "A alpha pública está disponível como ZIP portátil para Windows 10 e 11, em arquitetura x64. As versões para macOS e Linux estarão disponíveis em breve.",
-    "The public alpha is available as a portable ZIP for Windows 10 and 11 on x64. macOS and Linux versions are coming soon.",
-    "La alpha pública está disponible como ZIP portátil para Windows 10 y 11 en x64. Las versiones para macOS y Linux estarán disponibles próximamente."
+    "A alpha pública está disponível para Windows 10 e 11 x64. Um DMG universal experimental também está disponível para Macs Intel e Apple Silicon; Linux permanece fora desta publicação.",
+    "The public alpha is available for Windows 10 and 11 x64. An experimental universal DMG is also available for Intel and Apple Silicon Macs; Linux is not included in this release.",
+    "La alpha pública está disponible para Windows 10 y 11 x64. También hay un DMG universal experimental para Mac Intel y Apple Silicon; Linux no forma parte de esta versión."
   ],
   [
     "O aplicativo executa containers Docker ou Podman?",
@@ -465,9 +465,9 @@
     "¿La aplicación ejecuta containers Docker o Podman?"
   ],
   [
-    "Ainda não. A alpha identifica projetos com Dockerfile e Compose e oferece diagnóstico. Ela não instala motores, baixa imagens ou executa containers.",
-    "Not yet. The alpha identifies Dockerfile and Compose projects and provides diagnostics. It does not install engines, download images or run containers.",
-    "Todavía no. La alpha identifica proyectos con Dockerfile y Compose y ofrece diagnóstico. No instala motores, descarga imágenes ni ejecuta containers."
+    "Sim. A Alpha 6 executa operações de Compose com Docker ou Podman depois de mostrar o comando e pedir confirmação. O motor precisa estar instalado e em execução.",
+    "Yes. Alpha 6 runs Compose operations with Docker or Podman after showing the command and requesting confirmation. The engine must be installed and running.",
+    "Sí. Alpha 6 ejecuta operaciones de Compose con Docker o Podman después de mostrar el comando y solicitar confirmación. El motor debe estar instalado y en ejecución."
   ],
   [
     "Posso acompanhar logs e processos locais?",
@@ -530,8 +530,28 @@
     "PRÓXIMAMENTE"
   ],
   [
-    "Versão 0.4.0-alpha.5.1 · Windows x64 · SHA-256 disponível na release.",
-    "Version 0.4.0-alpha.5.1 · Windows x64 · SHA-256 available in the release.",
-    "Versión 0.4.0-alpha.5.1 · Windows x64 · SHA-256 disponible en la versión."
+    "Versão 0.4.0-alpha.6 · Windows x64 e macOS universal experimental · SHA-256 na release.",
+    "Version 0.4.0-alpha.6 · Windows x64 and experimental universal macOS · SHA-256 in the release.",
+    "Versión 0.4.0-alpha.6 · Windows x64 y macOS universal experimental · SHA-256 en la versión."
+  ],
+  [
+    "Diagnóstico e ajuda integrados",
+    "Diagnostics and built-in help",
+    "Diagnóstico y ayuda integrados"
+  ],
+  [
+    "Confira bancos de dados, saúde HTTP e orientações de primeiros passos sem perder o contexto do projeto.",
+    "Check databases, HTTP health, and getting-started guidance without losing project context.",
+    "Consulta bases de datos, salud HTTP y orientación inicial sin perder el contexto del proyecto."
+  ],
+  [
+    "Baixar DMG experimental · Intel e Apple Silicon",
+    "Download experimental DMG · Intel and Apple Silicon",
+    "Descargar DMG experimental · Intel y Apple Silicon"
+  ],
+  [
+    "EXPERIMENTAL",
+    "EXPERIMENTAL",
+    "EXPERIMENTAL"
   ]
 ]

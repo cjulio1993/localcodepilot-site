@@ -35,13 +35,11 @@ editing the website does not publish messages or create external backlinks.
 
 ## Current release
 
-The download links point to `0.4.0-alpha.5.1`. This release fixes platform filtering in the updater and retains in-app updates
-with SHA-256 verification and rollback; users on alpha 4 or older still need to
-install alpha 5 manually before later releases can use that flow.
+The download links point to `0.4.0-alpha.6`. This release adds database diagnostics, HTTP health checks, controlled Docker and
+Podman operations, faster startup, consistent project cards, and built-in help.
 
-Container support in this release is limited to project identification, diagnostics,
-and command previews. The app does not install container engines, download images,
-or run containers yet; public copy must keep this limitation explicit.
+Container commands are shown before confirmation. Docker or Podman must already be
+installed and running; the app does not install or start a container engine.
 
 ## Analytics
 
@@ -69,8 +67,7 @@ Security: see `SECURITY.md` for protections and hosting limitations.
 
 ## Platform downloads
 
-Windows cards link to the official 0.4.0-alpha.5.1 portable ZIP. The standalone
-EXE is an update asset, not advertised as an installer. macOS and Linux cards
-are informational and have no download links until public packages are ready.
-The macOS validation release is intentionally not promoted. Platform icons are
-local SVG assets, shared across the three languages.
+Windows cards link to the official 0.4.0-alpha.6 portable ZIP. The standalone
+EXE is an update asset, not advertised as an installer. The macOS card links to
+the experimental universal DMG for Intel and Apple Silicon. Linux remains
+informational. Platform icons are local SVG assets shared across all languages.

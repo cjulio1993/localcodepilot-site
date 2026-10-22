@@ -335,9 +335,9 @@
     "Para tu próximo proyecto."
   ],
   [
-    "A Alpha 6 reúne descoberta de projetos, preparação assistida, bancos de dados, health checks HTTP, containers com confirmação e uma página de ajuda integrada.",
-    "Alpha 6 brings together project discovery, assisted setup, databases, HTTP health checks, confirmed container operations, and a built-in help page.",
-    "Alpha 6 reúne descubrimiento de proyectos, preparación asistida, bases de datos, health checks HTTP, operaciones confirmadas de containers y una página de ayuda integrada."
+    "A Alpha 7 reconhece projetos WordPress, mostra containers em Processos e facilita a abertura de serviços publicados. Projetos e containers exibem estado, logs e próximos passos em um só lugar.",
+    "Alpha 7 recognizes WordPress projects, shows containers in Processes, and makes published services easier to open. Projects and containers show status, logs, and next steps in one place.",
+    "Alpha 7 reconoce proyectos WordPress, muestra contenedores en Procesos y facilita abrir servicios publicados. Proyectos y contenedores muestran estado, registros y próximos pasos en un solo lugar."
   ],
   [
     "Baixar para Windows",
@@ -465,9 +465,9 @@
     "¿La aplicación ejecuta containers Docker o Podman?"
   ],
   [
-    "Sim. A Alpha 6 executa operações de Compose com Docker ou Podman depois de mostrar o comando e pedir confirmação. O motor precisa estar instalado e em execução.",
-    "Yes. Alpha 6 runs Compose operations with Docker or Podman after showing the command and requesting confirmation. The engine must be installed and running.",
-    "Sí. Alpha 6 ejecuta operaciones de Compose con Docker o Podman después de mostrar el comando y solicitar confirmación. El motor debe estar instalado y en ejecución."
+    "Sim. A Alpha 7 executa operações de Compose com Docker ou Podman depois de mostrar o comando e pedir confirmação. O motor precisa estar instalado e em execução.",
+    "Yes. Alpha 7 runs Compose operations with Docker or Podman after showing the command and requesting confirmation. The engine must be installed and running.",
+    "Sí. Alpha 7 ejecuta operaciones de Compose con Docker o Podman después de mostrar el comando y solicitar confirmación. El motor debe estar instalado y en ejecución."
   ],
   [
     "Posso acompanhar logs e processos locais?",
@@ -530,9 +530,9 @@
     "PRÓXIMAMENTE"
   ],
   [
-    "Versão 0.4.0-alpha.6 · Windows x64 e macOS universal experimental · SHA-256 na release.",
-    "Version 0.4.0-alpha.6 · Windows x64 and experimental universal macOS · SHA-256 in the release.",
-    "Versión 0.4.0-alpha.6 · Windows x64 y macOS universal experimental · SHA-256 en la versión."
+    "Versão 0.4.0-alpha.7 · Windows x64 e macOS universal experimental · SHA-256 na release.",
+    "Version 0.4.0-alpha.7 · Windows x64 and experimental universal macOS · SHA-256 in the release.",
+    "Versión 0.4.0-alpha.7 · Windows x64 y macOS universal experimental · SHA-256 en la versión."
   ],
   [
     "Diagnóstico e ajuda integrados",

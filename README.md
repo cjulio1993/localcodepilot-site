@@ -35,8 +35,8 @@ editing the website does not publish messages or create external backlinks.
 
 ## Current release
 
-The download links point to `0.4.0-alpha.6`. This release adds database diagnostics, HTTP health checks, controlled Docker and
-Podman operations, faster startup, consistent project cards, and built-in help.
+The download links point to `0.4.0-alpha.7`. This release adds WordPress detection, container status and controls in Processes,
+published service URLs, clearer project actions, and project filters in Processes and Containers.
 
 Container commands are shown before confirmation. Docker or Podman must already be
 installed and running; the app does not install or start a container engine.
@@ -67,7 +67,7 @@ Security: see `SECURITY.md` for protections and hosting limitations.
 
 ## Platform downloads
 
-Windows cards link to the official 0.4.0-alpha.6 portable ZIP. The standalone
+Windows cards link to the official 0.4.0-alpha.7 portable ZIP. The standalone
 EXE is an update asset, not advertised as an installer. The macOS card links to
 the experimental universal DMG for Intel and Apple Silicon. Linux remains
 informational. Platform icons are local SVG assets shared across all languages.

@@ -39,7 +39,7 @@ for language, column in [('en', 1), ('es', 2)]:
     output = output.replace('<html lang="pt-BR">', f'<html lang="{language}">')
     output = output.replace('rel="canonical" href="https://localcodepilot.com.br/"',
                             f'rel="canonical" href="https://localcodepilot.com.br/{language}/"')
-    for asset in ['styles.css', 'demo.js', 'navigation.js', 'analytics.js', 'icon.svg', 'logo.svg', 'windows.svg', 'macos.svg', 'linux.svg']:
+    for asset in ['styles.css', 'experience.css', 'theme.js', 'demo.js', 'navigation.js', 'analytics.js', 'icon.svg', 'logo.svg', 'windows.svg', 'macos.svg', 'linux.svg']:
         output = output.replace(f'"{asset}"', f'"../{asset}"')
     output = output.replace(' aria-current="page"', '')
     output = output.replace('href="./" lang="pt-BR"', 'href="../" lang="pt-BR"')
@@ -56,11 +56,14 @@ for language, column in [('en', 1), ('es', 2)]:
     if language == 'en':
         output = output.replace('href="docs/primeiros-passos/"', 'href="docs/getting-started/"')
         output = output.replace('href="blog/porta-em-uso-windows/"', 'href="blog/port-already-in-use-windows/"')
+        output = output.replace('href="blog/organizar-projetos-locais/"', 'href="blog/organize-local-projects/"')
     else:
         output = output.replace('href="docs/primeiros-passos/"', 'href="../en/docs/getting-started/"')
         output = output.replace('href="blog/porta-em-uso-windows/"', 'href="../en/blog/port-already-in-use-windows/"')
+        output = output.replace('href="blog/organizar-projetos-locais/"', 'href="../en/blog/organize-local-projects/"')
         output = output.replace('Primeros pasos en Windows</a>', 'Primeros pasos en Windows (en inglés)</a>')
         output = output.replace('¿El puerto 3000 está en uso en Windows?</a>', '¿El puerto 3000 está en uso en Windows? (en inglés)</a>')
+        output = output.replace('Cómo organizar proyectos locales sin perder contexto</a>', 'Cómo organizar proyectos locales sin perder contexto (en inglés)</a>')
     destination = ROOT / language
     destination.mkdir(exist_ok=True)
     (destination / 'index.html').write_text(output, encoding='utf-8')

@@ -6,7 +6,10 @@ Languages: Portuguese at `/`, English at `/en/`, Spanish at `/es/`.
 Edit `index.html` for the Portuguese source and `translations.json` for English
 and Spanish text. Run `python build_locales.py` and commit the generated
 `en/index.html` and `es/index.html` pages. All versions share `styles.css` and
-`demo.js`; terminal messages are localized in `demo.js`.
+`demo.js`; terminal messages are localized in `demo.js`. The landing pages also
+load `experience.css` for their visual design; documentation keeps `styles.css`.
+The landing-page theme toggle follows the system on first visit and stores a
+manual light/dark choice in browser local storage through `theme.js`.
 
 Preview with `python -m http.server 4173 --bind 127.0.0.1`, then open `http://localhost:4173/`.
 No build step is needed for hosting; translated pages also work without JavaScript.
@@ -15,12 +18,12 @@ No build step is needed for hosting; translated pages also work without JavaScri
 
 The landing pages include localized titles, descriptions, social metadata, FAQ,
 practical guide links and community contribution calls to action. The visual
-direction presents the product as a local development diagnostic console.
+direction presents the product as a local development workspace.
 
 Run `python build_locales.py` after changing the Portuguese landing page or its
 translation table. Run `python build_content.py` after editing the bilingual
 guide content in that script. Commit the generated HTML files and `sitemap.xml`.
-The sitemap includes all seven published page paths. `robots.txt` declares it.
+The sitemap includes all nine published page paths. `robots.txt` declares it.
 Each translated page has its own canonical and reciprocal language alternates.
 Spanish guide links explicitly lead to English until Spanish guides exist.
 

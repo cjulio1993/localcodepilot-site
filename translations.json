@@ -1,8 +1,8 @@
 [
   [
-    "Organize projetos, processos, portas e logs no Windows com o LocalCodePilot. Open-source e local-first. Baixe a alpha e contribua no GitHub.",
-    "Manage projects, processes, ports and logs on Windows with LocalCodePilot. Open-source and local-first. Download the alpha and contribute on GitHub.",
-    "Organiza proyectos, procesos, puertos y registros en Windows con LocalCodePilot. Open-source y local-first. Descarga la alpha y contribuye en GitHub."
+    "LocalCodePilot organiza projetos, processos, portas e logs do seu ambiente de desenvolvimento local. Conheça a ferramenta open source e baixe para Windows.",
+    "LocalCodePilot organizes projects, processes, ports and logs in your local development environment. Explore the open source tool and download it for Windows.",
+    "LocalCodePilot organiza proyectos, procesos, puertos y registros de tu entorno de desarrollo local. Descubre la herramienta de código abierto y descárgala para Windows."
   ],
   [
     "Pular para o conteúdo",
@@ -40,21 +40,6 @@
     "Ver en GitHub"
   ],
   [
-    "Ambiente local no Windows.",
-    "Local development on Windows.",
-    "Desarrollo local en Windows."
-  ],
-  [
-    "Problemas sob controle.",
-    "Problems under control.",
-    "Problemas bajo control."
-  ],
-  [
-    "Projeto perdido entre pastas? Serviço que não inicia? Porta ocupada? Gerencie seu ambiente de desenvolvimento local no Windows com projetos, processos, portas e logs em um só lugar.",
-    "Project lost between folders? Service failing to start? Port already in use? Manage your local development environment on Windows with projects, processes, ports and logs in one place.",
-    "¿Proyectos perdidos entre carpetas? ¿Servicios que no inician? ¿Puertos ocupados? Gestiona tu entorno de desarrollo local en Windows con proyectos, procesos, puertos y registros en un solo lugar."
-  ],
-  [
     "Baixar para Windows",
     "Download for Windows",
     "Descargar para Windows"
@@ -65,24 +50,9 @@
     "Mira cómo funciona"
   ],
   [
-    "Open source · Alpha pública · Windows 10/11 e macOS experimental",
-    "Open source · Public alpha · Windows 10/11 and experimental macOS",
-    "Open source · Alpha pública · Windows 10/11 y macOS experimental"
-  ],
-  [
     "Demonstração interativa do fluxo de projetos",
     "Interactive project workflow demo",
     "Demostración interactiva del flujo de proyectos"
-  ],
-  [
-    "TERMINAL INTERATIVO · DEMO",
-    "INTERACTIVE TERMINAL · DEMO",
-    "TERMINAL INTERACTIVA · DEMO"
-  ],
-  [
-    "01 / ESCOLHA UM PROJETO",
-    "01 / CHOOSE A PROJECT",
-    "01 / ELIGE UN PROYECTO"
   ],
   [
     "Projetos de exemplo",
@@ -155,29 +125,9 @@
     "03 / EJECUTA"
   ],
   [
-    "04 / ORGANIZE",
-    "04 / ORGANIZE",
-    "04 / ORGANIZA"
-  ],
-  [
     "01 / O PRODUTO",
     "01 / THE PRODUCT",
     "01 / EL PRODUCTO"
-  ],
-  [
-    "Organize seus projetos locais.",
-    "Organize your local projects.",
-    "Organiza tus proyectos locales."
-  ],
-  [
-    "Retome o desenvolvimento.",
-    "Get back to development.",
-    "Retoma el desarrollo."
-  ],
-  [
-    "O LocalCodePilot reúne seus projetos locais em um só lugar. Encontre o que precisa, entenda cada ambiente e retome o trabalho com mais contexto.",
-    "LocalCodePilot brings your local projects together in one place. Find what you need, understand each environment, and get back to work with more context.",
-    "LocalCodePilot reúne tus proyectos locales en un solo lugar. Encuentra lo que necesitas, comprende cada entorno y retoma el trabajo con más contexto."
   ],
   [
     "Descubra",
@@ -215,54 +165,9 @@
     "02 / FUNCIONES"
   ],
   [
-    "Processos, portas e logs.",
-    "Processes, ports and logs.",
-    "Procesos, puertos y registros."
-  ],
-  [
-    "Seu desenvolvimento sob controle.",
-    "Your development under control.",
-    "Tu desarrollo bajo control."
-  ],
-  [
-    "Uma experiência pensada para o dia a dia de quem desenvolve. Da descoberta à consulta, seus projetos continuam no seu ambiente local.",
-    "Designed for your everyday development workflow. From discovery to inspection, your projects stay in your local environment.",
-    "Una experiencia pensada para tu día a día como desarrollador. Desde la búsqueda hasta la consulta, tus proyectos permanecen en tu entorno local."
-  ],
-  [
     "Explore os recursos no GitHub",
     "Explore features on GitHub",
     "Explora las funciones en GitHub"
-  ],
-  [
-    "Descoberta automática",
-    "Automatic discovery",
-    "Detección automática"
-  ],
-  [
-    "Encontre projetos em segundo plano, com uma busca que deixa de fora dependências e arquivos de build.",
-    "Find projects in the background with a scan that skips dependencies and build artifacts.",
-    "Encuentra proyectos en segundo plano con una búsqueda que excluye dependencias y archivos de compilación."
-  ],
-  [
-    "Ambientes com um clique",
-    "One-click environments",
-    "Entornos con un clic"
-  ],
-  [
-    "Instale dependências, inicie e interrompa serviços e acompanhe os logs sem sair do aplicativo.",
-    "Install dependencies, start and stop services, and follow logs without leaving the app.",
-    "Instala dependencias, inicia y detén servicios, y consulta los registros sin salir de la aplicación."
-  ],
-  [
-    "Portas e contexto persistente",
-    "Ports and persistent context",
-    "Puertos y contexto persistente"
-  ],
-  [
-    "Use portas alternativas automaticamente, acompanhe a saúde dos serviços e retome favoritos, processos e logs recentes.",
-    "Use alternative ports automatically, monitor service health, and return to favorites, processes, and recent logs.",
-    "Usa puertos alternativos automáticamente, supervisa el estado de los servicios y retoma favoritos, procesos y registros recientes."
   ],
   [
     "03 / EVOLUÇÃO DO PRODUTO",
@@ -325,26 +230,6 @@
     "DESCARGA LOCALCODEPILOT"
   ],
   [
-    "Mais clareza.",
-    "More clarity.",
-    "Más claridad."
-  ],
-  [
-    "Para o seu próximo build.",
-    "For your next build.",
-    "Para tu próximo proyecto."
-  ],
-  [
-    "A Alpha 7 reconhece projetos WordPress, mostra containers em Processos e facilita a abertura de serviços publicados. Projetos e containers exibem estado, logs e próximos passos em um só lugar.",
-    "Alpha 7 recognizes WordPress projects, shows containers in Processes, and makes published services easier to open. Projects and containers show status, logs, and next steps in one place.",
-    "Alpha 7 reconoce proyectos WordPress, muestra contenedores en Procesos y facilita abrir servicios publicados. Proyectos y contenedores muestran estado, registros y próximos pasos en un solo lugar."
-  ],
-  [
-    "Baixar para Windows",
-    "Download for Windows",
-    "Descargar para Windows"
-  ],
-  [
     "Notas da versão",
     "Release notes",
     "Notas de la versión"
@@ -365,44 +250,14 @@
     "Preferencias de privacidad"
   ],
   [
-    "Uso de cookies",
-    "Use of cookies",
-    "Uso de cookies"
-  ],
-  [
-    "Este site utiliza cookies opcionais de análise. Você pode aceitar ou recusar e alterar sua escolha em Privacidade no rodapé.",
-    "This site uses optional analytics cookies. You can accept or decline and change your choice via Privacy in the footer.",
-    "Este sitio utiliza cookies opcionales de análisis. Puedes aceptarlas o rechazarlas y cambiar tu elección en Privacidad, en el pie de página."
-  ],
-  [
-    "Privacidade do Google ↗",
-    "Google Privacy ↗",
-    "Privacidad de Google ↗"
-  ],
-  [
-    "Recusar",
-    "Decline",
-    "Rechazar"
-  ],
-  [
-    "Aceitar",
-    "Accept",
-    "Aceptar"
-  ],
-  [
     "Atualizações sob controle",
     "Updates under control",
     "Actualizaciones bajo control"
   ],
   [
-    "Verifique novas versões e instale a atualização pelo próprio aplicativo, com validação SHA-256 e restauração de segurança.",
-    "Check for new versions and install updates from the app, with SHA-256 verification and a safety rollback.",
-    "Busca nuevas versiones e instala las actualizaciones desde la aplicación, con verificación SHA-256 y restauración de seguridad."
-  ],
-  [
-    "LocalCodePilot: gerencie seu ambiente local no Windows",
-    "LocalCodePilot: local development environment for Windows",
-    "LocalCodePilot: entorno de desarrollo local en Windows"
+    "LocalCodePilot | Projetos, processos e portas no Windows",
+    "LocalCodePilot | Projects, processes and ports on Windows",
+    "LocalCodePilot | Proyectos, procesos y puertos en Windows"
   ],
   [
     "GUIAS PRÁTICOS",
@@ -500,21 +355,6 @@
     "Consulta las issues y contribuye"
   ],
   [
-    "DEVTOOLS / DIAGNÓSTICO LOCAL",
-    "DEVTOOLS / LOCAL DIAGNOSTICS",
-    "DEVTOOLS / DIAGNÓSTICO LOCAL"
-  ],
-  [
-    "Diagnóstico, contexto e ação.",
-    "Diagnostics, context and action.",
-    "Diagnóstico, contexto y acción."
-  ],
-  [
-    "Menos tentativa e erro. Mais sinais para entender o que acontece no seu ambiente.",
-    "Less trial and error. More signals to understand your environment.",
-    "Menos prueba y error. Más señales para entender tu entorno."
-  ],
-  [
     "Baixar ZIP portátil · Windows 10/11 x64",
     "Download portable ZIP · Windows 10/11 x64",
     "Descargar ZIP portátil · Windows 10/11 x64"
@@ -535,16 +375,6 @@
     "Versión 0.4.0-alpha.7 · Windows x64 y macOS universal experimental · SHA-256 en la versión."
   ],
   [
-    "Diagnóstico e ajuda integrados",
-    "Diagnostics and built-in help",
-    "Diagnóstico y ayuda integrados"
-  ],
-  [
-    "Confira bancos de dados, saúde HTTP e orientações de primeiros passos sem perder o contexto do projeto.",
-    "Check databases, HTTP health, and getting-started guidance without losing project context.",
-    "Consulta bases de datos, salud HTTP y orientación inicial sin perder el contexto del proyecto."
-  ],
-  [
     "Baixar DMG experimental · Intel e Apple Silicon",
     "Download experimental DMG · Intel and Apple Silicon",
     "Descargar DMG experimental · Intel y Apple Silicon"
@@ -553,5 +383,190 @@
     "EXPERIMENTAL",
     "EXPERIMENTAL",
     "EXPERIMENTAL"
+  ],
+  [
+    "O COCKPIT DO SEU DESENVOLVIMENTO LOCAL",
+    "THE COCKPIT FOR LOCAL DEVELOPMENT",
+    "EL CENTRO DE TU DESARROLLO LOCAL"
+  ],
+  [
+    "Seu ambiente local.",
+    "Your local environment.",
+    "Tu entorno local."
+  ],
+  [
+    "Finalmente em foco.",
+    "Finally in focus.",
+    "Por fin bajo control."
+  ],
+  [
+    "Projetos, processos, portas e logs no mesmo lugar. O LocalCodePilot ajuda você a entender o que está rodando, resolver o próximo passo e voltar ao que importa: criar.",
+    "Projects, processes, ports and logs in one place. LocalCodePilot helps you see what is running, find your next step and get back to what matters: creating.",
+    "Proyectos, procesos, puertos y registros en un solo lugar. LocalCodePilot te ayuda a ver qué está activo, encontrar el siguiente paso y volver a lo que importa: crear."
+  ],
+  [
+    "Open source · Alpha pública · Seu fluxo continua local",
+    "Open source · Public alpha · Your workflow stays local",
+    "Código abierto · Alpha pública · Tu flujo sigue siendo local"
+  ],
+  [
+    "04 / CONTINUE",
+    "04 / KEEP GOING",
+    "04 / CONTINÚA"
+  ],
+  [
+    "Seu fluxo merece um copiloto.",
+    "Your workflow deserves a copilot.",
+    "Tu flujo merece un copiloto."
+  ],
+  [
+    "Abra o projeto. Entenda o que está rodando. Resolva o próximo passo sem perder o contexto.",
+    "Open the project. See what is running. Find the next step without losing context.",
+    "Abre el proyecto. Entiende qué está activo. Encuentra el siguiente paso sin perder el contexto."
+  ],
+  [
+    "De uma pasta esquecida",
+    "From a forgotten folder",
+    "De una carpeta olvidada"
+  ],
+  [
+    "ao próximo grande build.",
+    "to your next great build.",
+    "a tu próximo gran build."
+  ],
+  [
+    "O LocalCodePilot dá um ponto de partida claro para cada sessão de trabalho. Seus projetos ficam à vista, com o contexto que ajuda você a avançar.",
+    "LocalCodePilot gives each work session a clear starting point. Your projects stay in view, with the context to move forward.",
+    "LocalCodePilot da a cada sesión de trabajo un punto de partida claro. Tus proyectos están a la vista, con el contexto para avanzar."
+  ],
+  [
+    "Um lugar para ver",
+    "One place to see",
+    "Un lugar para ver"
+  ],
+  [
+    "o que está acontecendo.",
+    "what is happening.",
+    "qué está pasando."
+  ],
+  [
+    "Projetos, processos, portas e logs contam a mesma história. Com tudo ao alcance, fica mais fácil decidir o próximo comando.",
+    "Projects, processes, ports and logs tell the same story. With everything within reach, choosing the next command is easier.",
+    "Proyectos, procesos, puertos y registros cuentan la misma historia. Con todo a mano, es más fácil decidir el siguiente comando."
+  ],
+  [
+    "Projetos à vista",
+    "Projects in sight",
+    "Proyectos a la vista"
+  ],
+  [
+    "Encontre projetos nos diretórios que você escolhe e volte ao ponto em que parou.",
+    "Find projects in the directories you choose and pick up where you left off.",
+    "Encuentra proyectos en los directorios que elijas y retoma donde lo dejaste."
+  ],
+  [
+    "Execução com contexto",
+    "Run with context",
+    "Ejecuta con contexto"
+  ],
+  [
+    "Prepare o ambiente, inicie e interrompa serviços e acompanhe os logs no aplicativo.",
+    "Prepare your environment, start and stop services, and follow logs in the app.",
+    "Prepara tu entorno, inicia y detén servicios y consulta registros en la aplicación."
+  ],
+  [
+    "Portas sem adivinhação",
+    "Ports without guesswork",
+    "Puertos sin adivinar"
+  ],
+  [
+    "Veja o estado dos serviços, use portas alternativas e entenda o que precisa de atenção.",
+    "See service status, use alternative ports and understand what needs attention.",
+    "Consulta el estado de los servicios, usa puertos alternativos y descubre qué necesita atención."
+  ],
+  [
+    "Verifique novas versões e instale a atualização pelo aplicativo, com validação SHA-256.",
+    "Check for new versions and update from the app, with SHA-256 verification.",
+    "Busca nuevas versiones y actualiza desde la aplicación, con verificación SHA-256."
+  ],
+  [
+    "Ajuda no momento certo",
+    "Help at the right moment",
+    "Ayuda en el momento justo"
+  ],
+  [
+    "Consulte diagnósticos e orientações sem perder o contexto do projeto.",
+    "Consult diagnostics and guidance without losing your project's context.",
+    "Consulta diagnósticos y orientación sin perder el contexto del proyecto."
+  ],
+  [
+    "Seu próximo projeto",
+    "Your next project",
+    "Tu próximo proyecto"
+  ],
+  [
+    "começa com clareza.",
+    "starts with clarity.",
+    "empieza con claridad."
+  ],
+  [
+    "Escolha sua plataforma e experimente o copiloto do seu ambiente local. A alpha é aberta: use, explore e ajude a construir o que vem depois.",
+    "Choose your platform and try a copilot for your local environment. The alpha is open: use it, explore it and help shape what comes next.",
+    "Elige tu plataforma y prueba un copiloto para tu entorno local. La alpha es abierta: úsala, explórala y ayuda a construir lo que viene."
+  ],
+  [
+    "Um site melhor, com a sua escolha.",
+    "A better site, your choice.",
+    "Un sitio mejor, tú decides."
+  ],
+  [
+    "Usamos análise opcional para entender quais páginas ajudam mais a comunidade. Só ativamos após seu aceite. Você pode mudar de ideia em Privacidade, no rodapé.",
+    "We use optional analytics to learn which pages help the community most. They activate only with your consent. You can change your mind under Privacy in the footer.",
+    "Usamos análisis opcional para saber qué páginas ayudan más a la comunidad. Solo se activa con tu consentimiento. Puedes cambiar tu decisión en Privacidad, en el pie de página."
+  ],
+  [
+    "Como o Google trata os dados ↗",
+    "How Google handles data ↗",
+    "Cómo trata Google los datos ↗"
+  ],
+  [
+    "Agora não",
+    "Not now",
+    "Ahora no"
+  ],
+  [
+    "Aceitar análise",
+    "Accept analytics",
+    "Aceptar análisis"
+  ],
+  [
+    "Seus projetos",
+    "Your projects",
+    "Tus proyectos"
+  ],
+  [
+    "AMBIENTE LOCAL · DEMO INTERATIVA",
+    "LOCAL ENVIRONMENT · INTERACTIVE DEMO",
+    "ENTORNO LOCAL · DEMO INTERACTIVA"
+  ],
+  [
+    "Como organizar projetos locais sem perder contexto",
+    "How to organize local projects without losing context",
+    "Cómo organizar proyectos locales sin perder contexto"
+  ],
+  [
+    "Monte um fluxo simples para encontrar projetos, conferir processos e retomar o trabalho com clareza.",
+    "Build a simple workflow to find projects, check processes and return to work with clarity.",
+    "Crea un flujo simple para encontrar proyectos, revisar procesos y retomar el trabajo con claridad."
+  ],
+  [
+    "Tema",
+    "Theme",
+    "Tema"
+  ],
+  [
+    "Ativar tema escuro",
+    "Switch to dark theme",
+    "Activar tema oscuro"
   ]
 ]

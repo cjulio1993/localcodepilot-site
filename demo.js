@@ -82,7 +82,7 @@ function start() {
   state.classList.add('is-starting');
   setRunLabel(demoText.stop, '■');
   const example = examples[selected];
-  addLine(demoText.workspace + buttons.find(button => button.dataset.project === selected).querySelector('span:last-child').firstChild.textContent);
+  addLine(demoText.workspace + buttons.find(button => button.dataset.project === selected).querySelector('.project-icon + span').firstChild.textContent);
   addLine(example.manifest + demoText.detected);
   const { line, text } = addLine('', 'terminal-command is-typing', '$');
   let index = 0;

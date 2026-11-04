@@ -583,5 +583,15 @@
     "Nem sempre. Quando falta a linguagem, o cartão do projeto mostra Preparar ambiente, que instala pelo winget depois da sua confirmação. A instalação foi validada com Clojure, Haskell e Zig; para as demais linguagens, ela ainda está em validação.",
     "Not always. When the language is missing, the project card shows Prepare environment, which installs it with winget after you confirm. Installation was validated with Clojure, Haskell, and Zig; for the other languages it is still being validated.",
     "No siempre. Cuando falta el lenguaje, la tarjeta del proyecto muestra Preparar entorno, que lo instala con winget después de tu confirmación. La instalación se validó con Clojure, Haskell y Zig; para los demás lenguajes aún está en validación."
+  ],
+  [
+    "Leia sobre a Alpha 8",
+    "Read about Alpha 8",
+    "Lee sobre la Alpha 8"
+  ],
+  [
+    "Conheça o que mudou na versão 0.4.0-alpha.8, do início automático ao instalador para Windows.",
+    "See what changed in version 0.4.0-alpha.8, from automatic startup to the Windows installer.",
+    "Conoce los cambios de la versión 0.4.0-alpha.8, desde el inicio automático hasta el instalador para Windows."
   ]
 ]

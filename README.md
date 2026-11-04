@@ -38,8 +38,14 @@ editing the website does not publish messages or create external backlinks.
 
 ## Current release
 
-The download links point to `0.4.0-alpha.7`. This release adds WordPress detection, container status and controls in Processes,
-published service URLs, clearer project actions, and project filters in Processes and Containers.
+The download links point to `0.4.0-alpha.8`. The main Windows button downloads the
+installer (`LocalCodePilot-0.4.0-alpha.8-windows-x64-setup.exe`); the portable ZIP is
+linked under the download cards. The files are not digitally signed in this release, so
+the download section explains Windows' "More info > Run anyway" step.
+
+This release's message is "click Start and the project is up": more than 15 languages
+start without a command, and **Prepare environment** can install a missing language with
+winget (validated with Clojure, Haskell, and Zig).
 
 Container commands are shown before confirmation. Docker or Podman must already be
 installed and running; the app does not install or start a container engine.

@@ -195,9 +195,9 @@
     "Ejecución local"
   ],
   [
-    "Inicie e interrompa serviços, acompanhe logs e abra URLs em portas escolhidas automaticamente.",
-    "Start and stop services, follow logs, and open URLs on automatically selected ports.",
-    "Inicia y detén servicios, consulta los registros y abre URLs en puertos seleccionados automáticamente."
+    "Clique em Iniciar em projetos de mais de 15 linguagens. O app instala as dependências, avisa quando a porta está ocupada e oferece Tentar de novo.",
+    "Click Start on projects in more than 15 languages. The app installs the dependencies, warns you when the port is taken, and offers Try again.",
+    "Haz clic en Iniciar en proyectos de más de 15 lenguajes. La app instala las dependencias, avisa cuando el puerto está ocupado y ofrece Intentar de nuevo."
   ],
   [
     "Containers com execução controlada",
@@ -320,9 +320,9 @@
     "¿La aplicación ejecuta containers Docker o Podman?"
   ],
   [
-    "Sim. A Alpha 7 executa operações de Compose com Docker ou Podman depois de mostrar o comando e pedir confirmação. O motor precisa estar instalado e em execução.",
-    "Yes. Alpha 7 runs Compose operations with Docker or Podman after showing the command and requesting confirmation. The engine must be installed and running.",
-    "Sí. Alpha 7 ejecuta operaciones de Compose con Docker o Podman después de mostrar el comando y solicitar confirmación. El motor debe estar instalado y en ejecución."
+    "Sim. A Alpha 8 executa operações de Compose com Docker ou Podman depois de mostrar o comando e pedir confirmação, e protege um projeto de mexer nos containers de outro. O motor precisa estar instalado e em execução.",
+    "Yes. Alpha 8 runs Compose operations with Docker or Podman after showing the command and asking for confirmation, and keeps one project from touching another project's containers. The engine must be installed and running.",
+    "Sí. La Alpha 8 ejecuta operaciones de Compose con Docker o Podman después de mostrar el comando y pedir confirmación, y evita que un proyecto toque los contenedores de otro. El motor debe estar instalado y en ejecución."
   ],
   [
     "Posso acompanhar logs e processos locais?",
@@ -355,9 +355,9 @@
     "Consulta las issues y contribuye"
   ],
   [
-    "Baixar ZIP portátil · Windows 10/11 x64",
-    "Download portable ZIP · Windows 10/11 x64",
-    "Descargar ZIP portátil · Windows 10/11 x64"
+    "Baixar instalador · Windows 10/11 x64",
+    "Download installer · Windows 10/11 x64",
+    "Descargar instalador · Windows 10/11 x64"
   ],
   [
     "Disponível em breve",
@@ -370,9 +370,9 @@
     "PRÓXIMAMENTE"
   ],
   [
-    "Versão 0.4.0-alpha.7 · Windows x64 e macOS universal experimental · SHA-256 na release.",
-    "Version 0.4.0-alpha.7 · Windows x64 and experimental universal macOS · SHA-256 in the release.",
-    "Versión 0.4.0-alpha.7 · Windows x64 y macOS universal experimental · SHA-256 en la versión."
+    "Versão 0.4.0-alpha.8 · Windows x64 e macOS universal experimental · SHA-256 na release. Os arquivos ainda não têm assinatura digital: se o Windows avisar, clique em Mais informações e depois em Executar assim mesmo.",
+    "Version 0.4.0-alpha.8 · Windows x64 and experimental universal macOS · SHA-256 on the release. The files are not digitally signed yet: if Windows warns you, click More info and then Run anyway.",
+    "Versión 0.4.0-alpha.8 · Windows x64 y macOS universal experimental · SHA-256 en la release. Los archivos aún no tienen firma digital: si Windows te avisa, haz clic en Más información y luego en Ejecutar de todas formas."
   ],
   [
     "Baixar DMG experimental · Intel e Apple Silicon",
@@ -400,9 +400,9 @@
     "Por fin bajo control."
   ],
   [
-    "Projetos, processos, portas e logs no mesmo lugar. O LocalCodePilot ajuda você a entender o que está rodando, resolver o próximo passo e voltar ao que importa: criar.",
-    "Projects, processes, ports and logs in one place. LocalCodePilot helps you see what is running, find your next step and get back to what matters: creating.",
-    "Proyectos, procesos, puertos y registros en un solo lugar. LocalCodePilot te ayuda a ver qué está activo, encontrar el siguiente paso y volver a lo que importa: crear."
+    "Clique em Iniciar e o projeto sobe. O LocalCodePilot reconhece seu projeto, de Node, PHP e Python a .NET, Ruby, Elixir e Zig, prepara o que falta (até a própria linguagem) e mostra endereço, portas e logs no mesmo lugar.",
+    "Click Start and your project is up. LocalCodePilot recognizes your project, from Node, PHP, and Python to .NET, Ruby, Elixir, and Zig, prepares what is missing (even the language itself), and shows the address, ports, and logs in one place.",
+    "Haz clic en Iniciar y el proyecto arranca. LocalCodePilot reconoce tu proyecto, de Node, PHP y Python a .NET, Ruby, Elixir y Zig, prepara lo que falta (incluso el propio lenguaje) y muestra dirección, puertos y registros en un solo lugar."
   ],
   [
     "Open source · Alpha pública · Seu fluxo continua local",
@@ -568,5 +568,20 @@
     "Ativar tema escuro",
     "Switch to dark theme",
     "Activar tema oscuro"
+  ],
+  [
+    "ZIP portátil",
+    "Portable ZIP",
+    "ZIP portátil"
+  ],
+  [
+    "Preciso ter a linguagem instalada?",
+    "Do I need the language installed?",
+    "¿Necesito tener el lenguaje instalado?"
+  ],
+  [
+    "Nem sempre. Quando falta a linguagem, o cartão do projeto mostra Preparar ambiente, que instala pelo winget depois da sua confirmação. A instalação foi validada com Clojure, Haskell e Zig; para as demais linguagens, ela ainda está em validação.",
+    "Not always. When the language is missing, the project card shows Prepare environment, which installs it with winget after you confirm. Installation was validated with Clojure, Haskell, and Zig; for the other languages it is still being validated.",
+    "No siempre. Cuando falta el lenguaje, la tarjeta del proyecto muestra Preparar entorno, que lo instala con winget después de tu confirmación. La instalación se validó con Clojure, Haskell y Zig; para los demás lenguajes aún está en validación."
   ]
 ]

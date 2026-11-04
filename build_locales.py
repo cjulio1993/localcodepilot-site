@@ -64,6 +64,7 @@ for language, column in [('en', 1), ('es', 2)]:
         output = output.replace('Primeros pasos en Windows</a>', 'Primeros pasos en Windows (en inglés)</a>')
         output = output.replace('¿El puerto 3000 está en uso en Windows?</a>', '¿El puerto 3000 está en uso en Windows? (en inglés)</a>')
         output = output.replace('Cómo organizar proyectos locales sin perder contexto</a>', 'Cómo organizar proyectos locales sin perder contexto (en inglés)</a>')
+    output = output.replace('https://jcesar.dev.br/pt-br/blog/localcodepilot-alpha-8/', ('https://jcesar.dev.br/blog/localcodepilot-alpha-8/' if language == 'en' else 'https://jcesar.dev.br/es/blog/localcodepilot-alpha-8/'))
     destination = ROOT / language
     destination.mkdir(exist_ok=True)
     (destination / 'index.html').write_text(output, encoding='utf-8')

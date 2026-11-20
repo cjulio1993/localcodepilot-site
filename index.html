@@ -97,6 +97,38 @@
         <p class="stage-note">Simulação no navegador: nenhum comando real é executado.</p>
       </div>
     </section>
+    <section class="real-captures wrap" id="capturas" aria-labelledby="captures-title">
+      <div class="real-captures-intro"><p class="section-kicker">CAPTURAS REAIS</p><h2 id="captures-title">Veja o app de verdade</h2><p>A demonstração acima é uma simulação. Aqui estão telas reais da Alpha 9, com projetos de exemplo: do projeto parado ao site respondendo.</p></div>
+      <div class="real-captures-stage">
+        <div class="product-window real-demo" id="demo-real" role="region" aria-label="Capturas reais do LocalCodePilot">
+          <div class="window-top"><span class="window-mark"><span>◈</span> localcodepilot <small>/ alpha 9</small></span><span class="window-caption">CAPTURAS REAIS · DADOS DE EXEMPLO</span><span class="window-controls" aria-hidden="true">● ● ●</span></div>
+          <figure class="real-demo-figure">
+            <picture>
+              <source id="real-demo-mobile" media="(max-width: 640px)" srcset="demo/demo-3-rodando-m.jpg" width="494" height="86">
+              <img id="real-demo-image" src="demo/demo-3-rodando.jpg" width="1264" height="792" fetchpriority="high" decoding="async" alt="Projeto de exemplo loja-exemplo Rodando, com Site respondendo em localhost:4321 e as ações Abrir site, Ver logs e Parar.">
+            </picture>
+            <figcaption aria-live="polite" aria-atomic="true">
+              <span class="real-demo-counter" id="real-demo-counter" hidden></span>
+              <strong id="real-demo-title" tabindex="-1">Veja o LocalCodePilot em ação</strong>
+              <span id="real-demo-caption">Capturas reais da Alpha 9, com projetos de exemplo.</span>
+              <span class="real-demo-lang">A interface do aplicativo está em português.</span>
+            </figcaption>
+          </figure>
+          <div class="real-demo-controls">
+            <button type="button" id="real-demo-start" class="demo-run" hidden>Ver o passo a passo <span aria-hidden="true">→</span></button>
+            <button type="button" id="real-demo-prev" class="demo-reset" hidden>Anterior</button>
+            <button type="button" id="real-demo-next" class="demo-run" hidden>Próximo</button>
+          </div>
+          <ol class="real-demo-steps" aria-label="Passo a passo">
+            <li><button type="button" data-step="0" disabled>Projeto parado</button><p>Instale as dependências para poder iniciar este projeto.</p></li>
+            <li><button type="button" data-step="1" disabled>Confirme antes de iniciar</button><p>Confira o comando antes da primeira execução.</p></li>
+            <li><button type="button" data-step="2" disabled>Site respondendo</button><p>O projeto está rodando e o site está respondendo.</p></li>
+            <li><button type="button" data-step="3" disabled>Abra o site ou veja os logs</button><p>Na lista de Projetos, abra o site, veja os logs ou acesse Detalhes técnicos.</p></li>
+          </ol>
+          <div class="terminal-footer"><span>Interface real da Alpha 9</span><span>PROJETOS DE EXEMPLO</span></div>
+        </div>
+      </div>
+    </section>
     <section class="diagnostic-band wrap" aria-labelledby="diagnostic-title"><div><p class="section-kicker">LOCAL / DEV / CONTROL</p><h2 id="diagnostic-title">Seu fluxo merece um copiloto.</h2><p>Abra o projeto. Entenda o que está rodando. Resolva o próximo passo sem perder o contexto.</p></div><div class="diagnostic-chips" aria-hidden="true"><span><i></i> PROJECTS</span><span><i></i> PROCESSES</span><span><i></i> PORTS</span><span><i></i> LOGS</span></div></section>
     <section class="section wrap" id="como-funciona"><div class="section-intro"><p class="section-kicker">01 / O PRODUTO</p><h2>De uma pasta esquecida<br><span>ao próximo grande build.</span></h2><p>O LocalCodePilot dá um ponto de partida claro para cada sessão de trabalho. Seus projetos ficam à vista, com o contexto que ajuda você a avançar.</p></div>
       <div class="steps"><article><span class="step-no">01</span><div class="step-icon">⌕</div><h3>Descubra</h3><p>Seus projetos aparecem a partir dos diretórios que você escolhe, sem cadastrar cada pasta manualmente.</p></article><article><span class="step-no">02</span><div class="step-icon">◇</div><h3>Reconheça</h3><p>Identifique as tecnologias e a estrutura de cada projeto, inclusive quando vários projetos compartilham um repositório.</p></article><article><span class="step-no">03</span><div class="step-icon">⌘</div><h3>Explore</h3><p>Consulte seus projetos no desktop ou no terminal e encontre as informações de que precisa para seguir trabalhando.</p></article></div>
@@ -116,7 +148,7 @@
       <details><summary>O LocalCodePilot é open-source?</summary><p>Sim. O código está disponível no GitHub para consulta e contribuição. Consulte a licença do repositório para os termos de uso.</p></details>
       <details><summary>Quais versões do Windows são compatíveis?</summary><p>A alpha pública está disponível para Windows 10 e 11 x64. Um DMG universal experimental também está disponível para Macs Intel e Apple Silicon; Linux permanece fora desta publicação.</p></details>
       <details><summary>Preciso ter a linguagem instalada?</summary><p>Nem sempre. Quando falta a linguagem, o cartão do projeto mostra Preparar ambiente, que instala pelo winget depois da sua confirmação. A instalação foi validada com Clojure, Haskell e Zig; para as demais linguagens, ela ainda está em validação.</p></details>
-      <details><summary>O aplicativo executa containers Docker ou Podman?</summary><p>Sim. A alpha executa operações de Compose com Docker ou Podman depois de mostrar o comando e pedir confirmação, e protege um projeto de mexer nos containers de outro. O motor precisa estar instalado e em execução.</p></details>
+      <details><summary>O aplicativo executa containers Docker ou Podman?</summary><p>Sim. A Alpha 9 executa operações de Compose com Docker ou Podman depois de mostrar o comando e pedir confirmação, e protege um projeto de mexer nos containers de outro. O motor precisa estar instalado e em execução.</p></details>
       <details><summary>Posso acompanhar logs e processos locais?</summary><p>Sim. A alpha permite iniciar e interromper serviços compatíveis, acompanhar logs e trabalhar com portas alternativas. A compatibilidade depende da tecnologia e dos requisitos do projeto.</p></details>
     </section>
     <section class="section wrap community" id="comunidade">

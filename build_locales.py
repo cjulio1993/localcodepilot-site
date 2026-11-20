@@ -29,7 +29,7 @@ for language, column in [('en', 1), ('es', 2)]:
     parts = re.split(r'(<[^>]+>)', SOURCE)
     for index, part in enumerate(parts):
         if part.startswith('<'):
-            parts[index] = re.sub(r'((?:aria-label|content)=")([^"]*)"', translate_tag, part)
+            parts[index] = re.sub(r'((?:aria-label|content|alt)=")([^"]*)"', translate_tag, part)
         else:
             parts[index] = translate(part)
     output = ''.join(parts)
@@ -41,6 +41,8 @@ for language, column in [('en', 1), ('es', 2)]:
                             f'rel="canonical" href="https://localcodepilot.com.br/{language}/"')
     for asset in ['styles.css', 'experience.css', 'theme.js', 'demo.js', 'navigation.js', 'analytics.js', 'icon.svg', 'logo.svg', 'windows.svg', 'macos.svg', 'linux.svg']:
         output = output.replace(f'"{asset}"', f'"../{asset}"')
+    # Hero screenshots live in /demo/, shared by the three languages.
+    output = output.replace('"demo/', '"../demo/')
     output = output.replace(' aria-current="page"', '')
     output = output.replace('href="./" lang="pt-BR"', 'href="../" lang="pt-BR"')
     for locale in ['en', 'es']:

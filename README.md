@@ -39,18 +39,15 @@ editing the website does not publish messages or create external backlinks.
 ## Current release
 
 The download links point to `0.4.0-alpha.9`. The main Windows button downloads the
-installer (`LocalCodePilotSetup-0.4.0-alpha.9-windows-x64.exe`; note the file name changed
-from Alpha 8's `...-windows-x64-setup.exe`); the portable ZIP is
-linked under the download cards. The files are not digitally signed in this release, so
-the download section explains Windows' "More info > Run anyway" step.
+installer (`LocalCodePilotSetup-0.4.0-alpha.9-windows-x64.exe`; up to alpha 8 it was
+named `LocalCodePilot-<version>-windows-x64-setup.exe`); the portable ZIP is linked
+under the download cards. The files are not digitally signed in this release, so the
+download section explains Windows' "More info > Run anyway" step.
 
-This release's message is "click Start and the project is up": more than 15 languages
-start without a command, and **Prepare environment** can install a missing language with
-winget (validated with Clojure, Haskell, and Zig).
-
-A short "New · Alpha 9" callout above the practical guides links to the GitHub release
-notes (safer first run, secrets masked in saved logs, more reliable updates). Update it,
-or remove it, with each release.
+This release's message is "safer to open third-party projects and to update": the app
+confirms a project's command before its first run, masks secrets in saved logs, and
+only accepts signed updates. The "Read about Alpha 8" card still links to the Alpha 8
+blog post until an Alpha 9 post exists.
 
 Container commands are shown before confirmation. Docker or Podman must already be
 installed and running; the app does not install or start a container engine.
@@ -81,7 +78,7 @@ Security: see `SECURITY.md` for protections and hosting limitations.
 
 ## Platform downloads
 
-The Windows card links to the official installer; the portable ZIP is linked below the
-cards. The standalone EXE is an update asset, not advertised as an installer. The macOS card links to
+Windows cards link to the official 0.4.0-alpha.7 portable ZIP. The standalone
+EXE is an update asset, not advertised as an installer. The macOS card links to
 the experimental universal DMG for Intel and Apple Silicon. Linux remains
 informational. Platform icons are local SVG assets shared across all languages.

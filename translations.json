@@ -245,11 +245,6 @@
     "¿La aplicación ejecuta containers Docker o Podman?"
   ],
   [
-    "Sim. A alpha executa operações de Compose com Docker ou Podman depois de mostrar o comando e pedir confirmação, e protege um projeto de mexer nos containers de outro. O motor precisa estar instalado e em execução.",
-    "Yes. The alpha runs Compose operations with Docker or Podman after showing the command and asking for confirmation, and keeps one project from touching another project's containers. The engine must be installed and running.",
-    "Sí. La alpha ejecuta operaciones de Compose con Docker o Podman después de mostrar el comando y pedir confirmación, y evita que un proyecto toque los contenedores de otro. El motor debe estar instalado y en ejecución."
-  ],
-  [
     "Posso acompanhar logs e processos locais?",
     "Can I follow local logs and processes?",
     "¿Puedo consultar registros y procesos locales?"
@@ -633,5 +628,120 @@
     "Simulação no navegador: nenhum comando real é executado.",
     "Simulated in your browser: no real command is run.",
     "Simulación en el navegador: no se ejecuta ningún comando real."
+  ],
+  [
+    "Sim. A Alpha 9 executa operações de Compose com Docker ou Podman depois de mostrar o comando e pedir confirmação, e protege um projeto de mexer nos containers de outro. O motor precisa estar instalado e em execução.",
+    "Yes. Alpha 9 runs Compose operations with Docker or Podman after showing the command and asking for confirmation, and keeps one project from touching another project's containers. The engine must be installed and running.",
+    "Sí. La Alpha 9 ejecuta operaciones de Compose con Docker o Podman después de mostrar el comando y pedir confirmación, y evita que un proyecto toque los contenedores de otro. El motor debe estar instalado y en ejecución."
+  ],
+  [
+    "Capturas reais do LocalCodePilot",
+    "Real LocalCodePilot screenshots",
+    "Capturas reales de LocalCodePilot"
+  ],
+  [
+    "CAPTURAS REAIS · DADOS DE EXEMPLO",
+    "REAL SCREENSHOTS · SAMPLE DATA",
+    "CAPTURAS REALES · DATOS DE EJEMPLO"
+  ],
+  [
+    "Projeto de exemplo loja-exemplo Rodando, com Site respondendo em localhost:4321 e as ações Abrir site, Ver logs e Parar.",
+    "Sample project loja-exemplo Running (Rodando), with Site responding on localhost:4321 and the Open site, View logs and Stop actions.",
+    "Proyecto de ejemplo loja-exemplo en ejecución (Rodando), con Sitio respondiendo en localhost:4321 y las acciones Abrir sitio, Ver logs y Detener."
+  ],
+  [
+    "Veja o LocalCodePilot em ação",
+    "See LocalCodePilot in action",
+    "Mira LocalCodePilot en acción"
+  ],
+  [
+    "Capturas reais da Alpha 9, com projetos de exemplo.",
+    "Real Alpha 9 screenshots, with sample projects.",
+    "Capturas reales de la Alpha 9, con proyectos de ejemplo."
+  ],
+  [
+    "A interface do aplicativo está em português.",
+    "The app interface is currently in Portuguese.",
+    "La interfaz de la aplicación está actualmente en portugués."
+  ],
+  [
+    "Ver o passo a passo",
+    "See it step by step",
+    "Ver el paso a paso"
+  ],
+  [
+    "Anterior",
+    "Previous",
+    "Anterior"
+  ],
+  [
+    "Próximo",
+    "Next",
+    "Siguiente"
+  ],
+  [
+    "Passo a passo",
+    "Step by step",
+    "Paso a paso"
+  ],
+  [
+    "Projeto parado",
+    "Stopped project",
+    "Proyecto detenido"
+  ],
+  [
+    "Instale as dependências para poder iniciar este projeto.",
+    "Install the dependencies so you can start this project.",
+    "Instala las dependencias para poder iniciar este proyecto."
+  ],
+  [
+    "Confirme antes de iniciar",
+    "Confirm before starting",
+    "Confirma antes de iniciar"
+  ],
+  [
+    "Confira o comando antes da primeira execução.",
+    "Check the command before the first run.",
+    "Revisa el comando antes de la primera ejecución."
+  ],
+  [
+    "O projeto está rodando e o site está respondendo.",
+    "The project is running and the site is responding.",
+    "El proyecto está en ejecución y el sitio está respondiendo."
+  ],
+  [
+    "Abra o site ou veja os logs",
+    "Open the site or view logs",
+    "Abre el sitio o mira los logs"
+  ],
+  [
+    "Na lista de Projetos, abra o site, veja os logs ou acesse Detalhes técnicos.",
+    "In the Projects list, open the site, view the logs or open the technical details.",
+    "En la lista de Proyectos, abre el sitio, mira los logs o accede a los detalles técnicos."
+  ],
+  [
+    "Interface real da Alpha 9",
+    "Real Alpha 9 interface",
+    "Interfaz real de la Alpha 9"
+  ],
+  [
+    "PROJETOS DE EXEMPLO",
+    "SAMPLE PROJECTS",
+    "PROYECTOS DE EJEMPLO"
+  ],
+  [
+    "CAPTURAS REAIS",
+    "REAL SCREENSHOTS",
+    "CAPTURAS REALES"
+  ],
+  [
+    "Veja o app de verdade",
+    "See the real app",
+    "Mira la app de verdad"
+  ],
+  [
+    "A demonstração acima é uma simulação. Aqui estão telas reais da Alpha 9, com projetos de exemplo: do projeto parado ao site respondendo.",
+    "The demo above is a simulation. Here are real Alpha 9 screens with sample projects: from a stopped project to a responding site.",
+    "La demostración de arriba es una simulación. Aquí están pantallas reales de la Alpha 9, con proyectos de ejemplo: del proyecto detenido al sitio respondiendo."
   ]
 ]

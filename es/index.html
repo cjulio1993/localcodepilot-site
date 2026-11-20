@@ -58,27 +58,33 @@
         <p class="hero-note"><span aria-hidden="true">●</span> Código abierto · Alpha pública · Tu flujo sigue siendo local</p>
       </div>
       <div class="product-stage">
-        <div class="stage-label" aria-hidden="true"><span>LIVE PREVIEW / 001</span><span>LOCAL SYSTEM ONLINE</span></div>
-        <div class="product-window" aria-label="Demostración interactiva del flujo de proyectos">
-          <div class="window-top"><span class="window-mark"><span>◈</span> localcodepilot <small>/ workspace</small></span><span class="window-caption">ENTORNO LOCAL · DEMO INTERACTIVA</span><span class="window-controls" aria-hidden="true">● ● ●</span></div>
-          <div class="demo-body">
-            <div class="demo-sidebar">
-              <div class="demo-sidebar-title"><span class="demo-label">WORKSPACE / 03</span><strong>Tus proyectos</strong></div>
-              <div class="demo-projects" role="group" aria-label="Proyectos de ejemplo">
-                <button class="demo-project active" type="button" data-project="laravel" aria-pressed="true"><span class="project-icon">{ }</span><span>backend-api<small>PHP · Laravel</small></span><span class="project-chevron" aria-hidden="true">↗</span></button>
-                <button class="demo-project" type="button" data-project="node" aria-pressed="false"><span class="project-icon">JS</span><span>frontend-app<small>Node.js · Vite</small></span><span class="project-chevron" aria-hidden="true">↗</span></button>
-                <button class="demo-project" type="button" data-project="service" aria-pressed="false"><span class="project-icon">&gt;_</span><span>local-service<small>Servicio local</small></span><span class="project-chevron" aria-hidden="true">↗</span></button>
-              </div>
-              <div class="demo-sidebar-footer"><span class="pulse"></span> AMBIENTE LOCAL</div>
-            </div>
-            <div class="demo-main">
-              <div class="demo-main-head"><span>PROJECT / OVERVIEW</span><span class="demo-live"><i></i> LOCAL FIRST</span></div>
-              <div class="demo-info"><div><span class="demo-label">ARCHIVO DETECTADO</span><strong id="demo-manifest">composer.json</strong></div><div><span class="demo-label">COMANDO SUGERIDO</span><code id="demo-command">php artisan serve</code></div></div>
-              <div class="demo-console"><div class="console-head"><span>bash — ~/workspace</span><span id="demo-state" class="state" role="status">LISTO</span></div><div class="console-lines" id="demo-log" aria-live="polite"><p><span>&gt;</span> Proyecto detectado. Listo para iniciar.</p></div></div>
-              <div class="demo-controls"><button type="button" id="demo-run" class="demo-run">Iniciar simulación <span aria-hidden="true">↗</span></button><button type="button" id="demo-reset" class="demo-reset">Restablecer</button></div>
-            </div>
+        <div class="stage-label" aria-hidden="true"><span>REAL CAPTURE / 001</span><span>SAMPLE DATA</span></div>
+        <div class="product-window real-demo" id="demo-real" role="region" aria-label="Capturas reales de LocalCodePilot">
+          <div class="window-top"><span class="window-mark"><span>◈</span> localcodepilot <small>/ alpha 9</small></span><span class="window-caption">CAPTURAS REALES · DATOS DE EJEMPLO</span><span class="window-controls" aria-hidden="true">● ● ●</span></div>
+          <figure class="real-demo-figure">
+            <picture>
+              <source id="real-demo-mobile" media="(max-width: 640px)" srcset="../demo/demo-3-rodando-m.jpg" width="494" height="86">
+              <img id="real-demo-image" src="../demo/demo-3-rodando.jpg" width="1264" height="792" fetchpriority="high" decoding="async" alt="Vista general de LocalCodePilot con el proyecto de ejemplo loja-exemplo en ejecución (Rodando), el sitio respondiendo en localhost:4321 y las acciones Abrir sitio, Ver logs y Detener.">
+            </picture>
+            <figcaption>
+              <span class="real-demo-counter" id="real-demo-counter" hidden></span>
+              <strong id="real-demo-title" tabindex="-1">Mira LocalCodePilot en acción</strong>
+              <span id="real-demo-caption">Capturas reales de la Alpha 9, con proyectos de ejemplo.</span>
+              <span class="real-demo-lang">La interfaz de la aplicación está actualmente en portugués.</span>
+            </figcaption>
+          </figure>
+          <div class="real-demo-controls">
+            <button type="button" id="real-demo-start" class="demo-run" hidden>Ver el paso a paso <span aria-hidden="true">→</span></button>
+            <button type="button" id="real-demo-prev" class="demo-reset" hidden>Anterior</button>
+            <button type="button" id="real-demo-next" class="demo-run" hidden>Siguiente</button>
           </div>
-          <div class="terminal-footer"><span>Entorno local</span><span>DEMO / SIN COMANDOS REALES</span></div>
+          <ol class="real-demo-steps" aria-label="Paso a paso">
+            <li><button type="button" data-step="0" disabled>Proyecto detenido</button><p>Instala las dependencias para poder iniciar este proyecto.</p></li>
+            <li><button type="button" data-step="1" disabled>Confirma antes de iniciar</button><p>Revisa el comando antes de la primera ejecución.</p></li>
+            <li><button type="button" data-step="2" disabled>Sitio respondiendo</button><p>El proyecto está en ejecución y el sitio está respondiendo.</p></li>
+            <li><button type="button" data-step="3" disabled>Abre el sitio o mira los logs</button><p>En la lista de Proyectos, abre el sitio, mira los logs o accede a los detalles técnicos.</p></li>
+          </ol>
+          <div class="terminal-footer"><span>Interfaz real de la Alpha 9</span><span>PROYECTOS DE EJEMPLO</span></div>
         </div>
         <div class="stage-corner" aria-hidden="true">LCP<span>///</span>001</div>
       </div>

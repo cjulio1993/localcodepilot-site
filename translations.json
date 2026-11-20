@@ -50,61 +50,6 @@
     "Mira cómo funciona"
   ],
   [
-    "Demonstração interativa do fluxo de projetos",
-    "Interactive project workflow demo",
-    "Demostración interactiva del flujo de proyectos"
-  ],
-  [
-    "Projetos de exemplo",
-    "Example projects",
-    "Proyectos de ejemplo"
-  ],
-  [
-    "Serviço local",
-    "Local service",
-    "Servicio local"
-  ],
-  [
-    "ARQUIVO DETECTADO",
-    "DETECTED FILE",
-    "ARCHIVO DETECTADO"
-  ],
-  [
-    "COMANDO SUGERIDO",
-    "SUGGESTED COMMAND",
-    "COMANDO SUGERIDO"
-  ],
-  [
-    "PRONTO",
-    "READY",
-    "LISTO"
-  ],
-  [
-    "Projeto detectado. Pronto para iniciar.",
-    "Project detected. Ready to start.",
-    "Proyecto detectado. Listo para iniciar."
-  ],
-  [
-    "Iniciar simulação",
-    "Start simulation",
-    "Iniciar simulación"
-  ],
-  [
-    "Reiniciar",
-    "Reset",
-    "Restablecer"
-  ],
-  [
-    "Ambiente local",
-    "Local environment",
-    "Entorno local"
-  ],
-  [
-    "DEMO / NENHUM COMANDO REAL",
-    "DEMO / NO REAL COMMANDS",
-    "DEMO / SIN COMANDOS REALES"
-  ],
-  [
     "Características principais",
     "Key capabilities",
     "Características principales"
@@ -540,16 +485,6 @@
     "Aceptar análisis"
   ],
   [
-    "Seus projetos",
-    "Your projects",
-    "Tus proyectos"
-  ],
-  [
-    "AMBIENTE LOCAL · DEMO INTERATIVA",
-    "LOCAL ENVIRONMENT · INTERACTIVE DEMO",
-    "ENTORNO LOCAL · DEMO INTERACTIVA"
-  ],
-  [
     "Como organizar projetos locais sem perder contexto",
     "How to organize local projects without losing context",
     "Cómo organizar proyectos locales sin perder contexto"
@@ -593,5 +528,105 @@
     "Conheça o que mudou na versão 0.4.0-alpha.8, do início automático ao instalador para Windows.",
     "See what changed in version 0.4.0-alpha.8, from automatic startup to the Windows installer.",
     "Conoce los cambios de la versión 0.4.0-alpha.8, desde el inicio automático hasta el instalador para Windows."
+  ],
+  [
+    "Capturas reais do LocalCodePilot",
+    "Real LocalCodePilot screenshots",
+    "Capturas reales de LocalCodePilot"
+  ],
+  [
+    "CAPTURAS REAIS · DADOS DE EXEMPLO",
+    "REAL SCREENSHOTS · SAMPLE DATA",
+    "CAPTURAS REALES · DATOS DE EJEMPLO"
+  ],
+  [
+    "Visão geral do LocalCodePilot com o projeto de exemplo loja-exemplo Rodando, o site respondendo em localhost:4321 e as ações Abrir site, Ver logs e Parar.",
+    "LocalCodePilot overview with the sample project loja-exemplo Running (Rodando), the site responding on localhost:4321, and the Open site, View logs and Stop actions.",
+    "Vista general de LocalCodePilot con el proyecto de ejemplo loja-exemplo en ejecución (Rodando), el sitio respondiendo en localhost:4321 y las acciones Abrir sitio, Ver logs y Detener."
+  ],
+  [
+    "Veja o LocalCodePilot em ação",
+    "See LocalCodePilot in action",
+    "Mira LocalCodePilot en acción"
+  ],
+  [
+    "Capturas reais da Alpha 9, com projetos de exemplo.",
+    "Real Alpha 9 screenshots, with sample projects.",
+    "Capturas reales de la Alpha 9, con proyectos de ejemplo."
+  ],
+  [
+    "A interface do aplicativo está em português.",
+    "The app interface is currently in Portuguese.",
+    "La interfaz de la aplicación está actualmente en portugués."
+  ],
+  [
+    "Ver o passo a passo",
+    "See it step by step",
+    "Ver el paso a paso"
+  ],
+  [
+    "Anterior",
+    "Previous",
+    "Anterior"
+  ],
+  [
+    "Próximo",
+    "Next",
+    "Siguiente"
+  ],
+  [
+    "Passo a passo",
+    "Step by step",
+    "Paso a paso"
+  ],
+  [
+    "Projeto parado",
+    "Stopped project",
+    "Proyecto detenido"
+  ],
+  [
+    "Instale as dependências para poder iniciar este projeto.",
+    "Install the dependencies so you can start this project.",
+    "Instala las dependencias para poder iniciar este proyecto."
+  ],
+  [
+    "Confirme antes de iniciar",
+    "Confirm before starting",
+    "Confirma antes de iniciar"
+  ],
+  [
+    "Confira o comando antes da primeira execução.",
+    "Check the command before the first run.",
+    "Revisa el comando antes de la primera ejecución."
+  ],
+  [
+    "Site respondendo",
+    "Site responding",
+    "Sitio respondiendo"
+  ],
+  [
+    "O projeto está rodando e o site está respondendo.",
+    "The project is running and the site is responding.",
+    "El proyecto está en ejecución y el sitio está respondiendo."
+  ],
+  [
+    "Abra o site ou veja os logs",
+    "Open the site or view logs",
+    "Abre el sitio o mira los logs"
+  ],
+  [
+    "Na lista de Projetos, abra o site, veja os logs ou acesse Detalhes técnicos.",
+    "In the Projects list, open the site, view the logs or open the technical details.",
+    "En la lista de Proyectos, abre el sitio, mira los logs o accede a los detalles técnicos."
+  ],
+  [
+    "Interface real da Alpha 9",
+    "Real Alpha 9 interface",
+    "Interfaz real de la Alpha 9"
+  ],
+  [
+    "PROJETOS DE EXEMPLO",
+    "SAMPLE PROJECTS",
+    "PROYECTOS DE EJEMPLO"
   ]
 ]

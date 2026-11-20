@@ -1,133 +1,112 @@
-﻿const examples = {
-  laravel: { manifest: 'composer.json', command: 'php artisan serve' },
-  node: { manifest: 'package.json', command: 'npm run dev' },
-  service: { manifest: 'package.json', command: 'node server.js' }
-};
+﻿// Real Alpha 9 screenshots with sample projects: a cover (project running)
+// and four steps the visitor moves through at their own pace. No autoplay.
+const realDemo = document.getElementById('demo-real');
 
-const demoTranslations = {
-  pt: {
-    ready: 'PRONTO', starting: 'INICIANDO', running: 'EXECUTANDO',
-    run: 'Executar simulação', stop: 'Parar simulação', workspace: 'Workspace local / ',
-    detected: ' detectado. Ambiente identificado.', found: ' encontrado. Projeto pronto.',
-    sample: 'Saída de exemplo · execução simulada.', stopped: 'Processo encerrado na simulação.',
-    laravel: 'Servidor Laravel iniciado · http://localhost:8000',
-    node: 'Vite pronto · http://localhost:5173', service: 'Serviço local iniciado · http://localhost:3000'
-  },
-  en: {
-    ready: 'READY', starting: 'STARTING', running: 'RUNNING',
-    run: 'Run simulation', stop: 'Stop simulation', workspace: 'Local workspace / ',
-    detected: ' detected. Environment identified.', found: ' found. Project ready.',
-    sample: 'Example output · simulated execution.', stopped: 'Process stopped in the simulation.',
-    laravel: 'Laravel server started · http://localhost:8000',
-    node: 'Vite ready · http://localhost:5173', service: 'Local service started · http://localhost:3000'
-  },
-  es: {
-    ready: 'LISTO', starting: 'INICIANDO', running: 'EN EJECUCIÓN',
-    run: 'Ejecutar simulación', stop: 'Detener simulación', workspace: 'Entorno local / ',
-    detected: ' detectado. Entorno identificado.', found: ' encontrado. Proyecto listo.',
-    sample: 'Salida de ejemplo · ejecución simulada.', stopped: 'Proceso detenido en la simulación.',
-    laravel: 'Servidor Laravel iniciado · http://localhost:8000',
-    node: 'Vite listo · http://localhost:5173', service: 'Servicio local iniciado · http://localhost:3000'
-  }
-};
-const demoText = demoTranslations[document.documentElement.lang.split('-')[0]] || demoTranslations.pt;
-const buttons = [...document.querySelectorAll('.demo-project')];
-const manifest = document.querySelector('#demo-manifest');
-const command = document.querySelector('#demo-command');
-const log = document.querySelector('#demo-log');
-const state = document.querySelector('#demo-state');
-const run = document.querySelector('#demo-run');
-const reset = document.querySelector('#demo-reset');
-const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
-let selected = 'laravel';
-let running = false;
-let timer;
+if (realDemo) {
+  const steps = [
+    { file: 'demo-1-parado', mobile: [604, 85] },
+    { file: 'demo-2-confirmacao', mobile: [560, 308] },
+    { file: 'demo-3-rodando', mobile: [494, 86] },
+    { file: 'demo-4-projetos', mobile: [308, 303] }
+  ];
 
-function addLine(message, className = 'terminal-result', prefix = '›') {
-  const line = document.createElement('p');
-  line.className = className;
-  const prompt = document.createElement('span');
-  prompt.className = 'console-prompt';
-  prompt.textContent = prefix;
-  const text = document.createTextNode(message);
-  line.append(prompt, text);
-  log.append(line);
-  log.scrollTop = log.scrollHeight;
-  return { line, text };
-}
-
-function setRunLabel(label, symbol) {
-  const icon = document.createElement('span');
-  icon.setAttribute('aria-hidden', 'true');
-  icon.textContent = symbol;
-  run.replaceChildren(document.createTextNode(label + ' '), icon);
-}
-
-function stop() {
-  clearTimeout(timer);
-  running = false;
-  log.querySelectorAll('.is-typing').forEach(line => line.classList.remove('is-typing'));
-  log.setAttribute('aria-busy', 'false');
-  state.textContent = demoText.ready;
-  state.classList.remove('is-running', 'is-starting');
-  setRunLabel(demoText.run, '↗');
-}
-
-function start() {
-  stop();
-  running = true;
-  log.replaceChildren();
-  log.setAttribute('aria-busy', 'true');
-  state.textContent = demoText.starting;
-  state.classList.add('is-starting');
-  setRunLabel(demoText.stop, '■');
-  const example = examples[selected];
-  addLine(demoText.workspace + buttons.find(button => button.dataset.project === selected).querySelector('.project-icon + span').firstChild.textContent);
-  addLine(example.manifest + demoText.detected);
-  const { line, text } = addLine('', 'terminal-command is-typing', '$');
-  let index = 0;
-  function type() {
-    index = reducedMotion.matches ? example.command.length : index + 1;
-    text.textContent = example.command.slice(0, index);
-    if (index < example.command.length) {
-      timer = setTimeout(type, 65);
-      return;
+  const copy = {
+    pt: {
+      counter: (current, total) => `${current} de ${total}`,
+      names: ['Projeto parado', 'Confirme antes de iniciar', 'Site respondendo', 'Abra o site ou veja os logs'],
+      captions: [
+        'Instale as dependências para poder iniciar este projeto.',
+        'Confira o comando antes da primeira execução.',
+        'O projeto está rodando e o site está respondendo.',
+        'Na lista de Projetos, abra o site, veja os logs ou acesse Detalhes técnicos.'
+      ],
+      alts: [
+        'Visão geral com o projeto de exemplo loja-exemplo Parado, a mensagem "Faltam dependências de Node.js para preparar este projeto." e o botão Instalar dependências.',
+        'Janela Iniciar este projeto? com a pasta C:\\projetos-exemplo\\loja-exemplo, o comando npm run dev, o que ele executa (node server.js) e os botões Cancelar e Iniciar.',
+        'Visão geral com loja-exemplo Rodando, o site respondendo em localhost:4321 e as ações Abrir site, Ver logs e Parar.',
+        'Tela Projetos com o cartão de loja-exemplo Rodando, com Abrir site, Ver logs, Parar e Detalhes técnicos.'
+      ]
+    },
+    en: {
+      counter: (current, total) => `${current} of ${total}`,
+      names: ['Stopped project', 'Confirm before starting', 'Site responding', 'Open the site or view logs'],
+      captions: [
+        'Install the dependencies so you can start this project.',
+        'Check the command before the first run.',
+        'The project is running and the site is responding.',
+        'In the Projects list, open the site, view the logs or open the technical details.'
+      ],
+      alts: [
+        'Overview with the sample project loja-exemplo Stopped (Parado), the message that Node.js dependencies are missing, and the Install dependencies button (Instalar dependências).',
+        'Start this project? window (Iniciar este projeto?) with the folder C:\\projetos-exemplo\\loja-exemplo, the npm run dev command, what it runs (node server.js), and the Cancel and Start buttons.',
+        'Overview with loja-exemplo Running (Rodando), the site responding on localhost:4321, and the Open site, View logs and Stop actions.',
+        'Projects screen with the loja-exemplo card Running, with Open site, View logs, Stop and Technical details (Detalhes técnicos).'
+      ]
+    },
+    es: {
+      counter: (current, total) => `${current} de ${total}`,
+      names: ['Proyecto detenido', 'Confirma antes de iniciar', 'Sitio respondiendo', 'Abre el sitio o mira los logs'],
+      captions: [
+        'Instala las dependencias para poder iniciar este proyecto.',
+        'Revisa el comando antes de la primera ejecución.',
+        'El proyecto está en ejecución y el sitio está respondiendo.',
+        'En la lista de Proyectos, abre el sitio, mira los logs o accede a los detalles técnicos.'
+      ],
+      alts: [
+        'Vista general con el proyecto de ejemplo loja-exemplo Detenido (Parado), el aviso de que faltan dependencias de Node.js y el botón Instalar dependencias (Instalar dependências).',
+        'Ventana ¿Iniciar este proyecto? (Iniciar este projeto?) con la carpeta C:\\projetos-exemplo\\loja-exemplo, el comando npm run dev, lo que ejecuta (node server.js) y los botones Cancelar e Iniciar.',
+        'Vista general con loja-exemplo en ejecución (Rodando), el sitio respondiendo en localhost:4321 y las acciones Abrir sitio, Ver logs y Detener.',
+        'Pantalla Proyectos con la tarjeta de loja-exemplo en ejecución, con Abrir sitio, Ver logs, Detener y Detalles técnicos (Detalhes técnicos).'
+      ]
     }
-    line.classList.remove('is-typing');
-    timer = setTimeout(() => {
-      state.textContent = demoText.running;
-      state.classList.remove('is-starting');
-      state.classList.add('is-running');
-      addLine(demoText[selected], 'terminal-result', '✓');
-      addLine(demoText.sample);
-      log.setAttribute('aria-busy', 'false');
-    }, reducedMotion.matches ? 0 : 450);
+  };
+
+  const language = document.documentElement.lang.toLowerCase();
+  const text = language.startsWith('en') ? copy.en : language.startsWith('es') ? copy.es : copy.pt;
+
+  const image = document.getElementById('real-demo-image');
+  const mobile = document.getElementById('real-demo-mobile');
+  const counter = document.getElementById('real-demo-counter');
+  const title = document.getElementById('real-demo-title');
+  const caption = document.getElementById('real-demo-caption');
+  const start = document.getElementById('real-demo-start');
+  const previous = document.getElementById('real-demo-prev');
+  const next = document.getElementById('real-demo-next');
+  const stepButtons = [...realDemo.querySelectorAll('.real-demo-steps button')];
+  // "demo/" on the Portuguese page, "../demo/" on /en/ and /es/.
+  const base = image.getAttribute('src').replace(/[^/]*$/, '');
+  let current = -1;
+
+  function show(index, moveFocus) {
+    current = index;
+    const step = steps[index];
+    image.src = `${base}${step.file}.jpg`;
+    image.alt = text.alts[index];
+    mobile.srcset = `${base}${step.file}-m.jpg`;
+    mobile.width = step.mobile[0];
+    mobile.height = step.mobile[1];
+    counter.hidden = false;
+    counter.textContent = text.counter(index + 1, steps.length);
+    title.textContent = `${index + 1}. ${text.names[index]}`;
+    caption.textContent = text.captions[index];
+    start.hidden = true;
+    previous.hidden = false;
+    next.hidden = false;
+    previous.disabled = index === 0;
+    next.disabled = index === steps.length - 1;
+    stepButtons.forEach((button, buttonIndex) => {
+      if (buttonIndex === index) button.setAttribute('aria-current', 'step');
+      else button.removeAttribute('aria-current');
+    });
+    if (moveFocus) title.focus();
   }
-  type();
-}
 
-function selectProject(key, autoplay = true) {
-  stop();
-  selected = key;
-  buttons.forEach(button => {
-    const active = button.dataset.project === key;
-    button.classList.toggle('active', active);
-    button.setAttribute('aria-pressed', String(active));
+  start.hidden = false;
+  stepButtons.forEach(button => {
+    button.disabled = false;
+    button.addEventListener('click', () => show(Number(button.dataset.step), true));
   });
-  manifest.textContent = examples[key].manifest;
-  command.textContent = examples[key].command;
-  log.replaceChildren();
-  addLine(examples[key].manifest + demoText.found);
-  if (autoplay) start();
+  start.addEventListener('click', () => show(0, true));
+  previous.addEventListener('click', () => { if (current > 0) show(current - 1, false); });
+  next.addEventListener('click', () => { if (current < steps.length - 1) show(current + 1, false); });
 }
-
-buttons.forEach(button => button.addEventListener('click', () => selectProject(button.dataset.project)));
-run.addEventListener('click', () => {
-  if (running) {
-    stop();
-    addLine(demoText.stopped);
-  } else start();
-});
-reset.addEventListener('click', () => selectProject(selected, false));
-// A single introductory sequence; never loops or executes real commands.
-if (!reducedMotion.matches) timer = setTimeout(start, 800);

@@ -21,10 +21,10 @@ if (realDemo) {
         'Na lista de Projetos, abra o site, veja os logs ou acesse Detalhes técnicos.'
       ],
       alts: [
-        'Visão geral com o projeto de exemplo loja-exemplo Parado, a mensagem "Faltam dependências de Node.js para preparar este projeto." e o botão Instalar dependências.',
+        'loja-exemplo Parado, com aviso de dependências de Node.js ausentes e botão Instalar dependências.',
         'Janela Iniciar este projeto? com a pasta C:\\projetos-exemplo\\loja-exemplo, o comando npm run dev, o que ele executa (node server.js) e os botões Cancelar e Iniciar.',
-        'Visão geral com loja-exemplo Rodando, o site respondendo em localhost:4321 e as ações Abrir site, Ver logs e Parar.',
-        'Tela Projetos com o cartão de loja-exemplo Rodando, com Abrir site, Ver logs, Parar e Detalhes técnicos.'
+        'loja-exemplo Rodando, Site respondendo em localhost:4321, com Abrir site, Ver logs e Parar.',
+        'Cartão de loja-exemplo Rodando, com Abrir site, Ver logs, Parar e Detalhes técnicos.'
       ]
     },
     en: {
@@ -37,10 +37,10 @@ if (realDemo) {
         'In the Projects list, open the site, view the logs or open the technical details.'
       ],
       alts: [
-        'Overview with the sample project loja-exemplo Stopped (Parado), the message that Node.js dependencies are missing, and the Install dependencies button (Instalar dependências).',
+        'loja-exemplo Stopped (Parado), with a notice that Node.js dependencies are missing and the Install dependencies button (Instalar dependências).',
         'Start this project? window (Iniciar este projeto?) with the folder C:\\projetos-exemplo\\loja-exemplo, the npm run dev command, what it runs (node server.js), and the Cancel and Start buttons.',
-        'Overview with loja-exemplo Running (Rodando), the site responding on localhost:4321, and the Open site, View logs and Stop actions.',
-        'Projects screen with the loja-exemplo card Running, with Open site, View logs, Stop and Technical details (Detalhes técnicos).'
+        'loja-exemplo Running (Rodando), Site responding on localhost:4321, with Open site, View logs and Stop.',
+        'loja-exemplo card Running, with Open site, View logs, Stop and Technical details (Detalhes técnicos).'
       ]
     },
     es: {
@@ -53,10 +53,10 @@ if (realDemo) {
         'En la lista de Proyectos, abre el sitio, mira los logs o accede a los detalles técnicos.'
       ],
       alts: [
-        'Vista general con el proyecto de ejemplo loja-exemplo Detenido (Parado), el aviso de que faltan dependencias de Node.js y el botón Instalar dependencias (Instalar dependências).',
+        'loja-exemplo Detenido (Parado), con el aviso de que faltan dependencias de Node.js y el botón Instalar dependencias (Instalar dependências).',
         'Ventana ¿Iniciar este proyecto? (Iniciar este projeto?) con la carpeta C:\\projetos-exemplo\\loja-exemplo, el comando npm run dev, lo que ejecuta (node server.js) y los botones Cancelar e Iniciar.',
-        'Vista general con loja-exemplo en ejecución (Rodando), el sitio respondiendo en localhost:4321 y las acciones Abrir sitio, Ver logs y Detener.',
-        'Pantalla Proyectos con la tarjeta de loja-exemplo en ejecución, con Abrir sitio, Ver logs, Detener y Detalles técnicos (Detalhes técnicos).'
+        'loja-exemplo en ejecución (Rodando), Sitio respondiendo en localhost:4321, con Abrir sitio, Ver logs y Detener.',
+        'Tarjeta de loja-exemplo en ejecución, con Abrir sitio, Ver logs, Detener y Detalles técnicos (Detalhes técnicos).'
       ]
     }
   };

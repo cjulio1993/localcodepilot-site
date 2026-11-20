@@ -320,9 +320,9 @@
     "¿La aplicación ejecuta containers Docker o Podman?"
   ],
   [
-    "Sim. A Alpha 8 executa operações de Compose com Docker ou Podman depois de mostrar o comando e pedir confirmação, e protege um projeto de mexer nos containers de outro. O motor precisa estar instalado e em execução.",
-    "Yes. Alpha 8 runs Compose operations with Docker or Podman after showing the command and asking for confirmation, and keeps one project from touching another project's containers. The engine must be installed and running.",
-    "Sí. La Alpha 8 ejecuta operaciones de Compose con Docker o Podman después de mostrar el comando y pedir confirmación, y evita que un proyecto toque los contenedores de otro. El motor debe estar instalado y en ejecución."
+    "Sim. A Alpha 9 executa operações de Compose com Docker ou Podman depois de mostrar o comando e pedir confirmação, e protege um projeto de mexer nos containers de outro. O motor precisa estar instalado e em execução.",
+    "Yes. Alpha 9 runs Compose operations with Docker or Podman after showing the command and asking for confirmation, and keeps one project from touching another project's containers. The engine must be installed and running.",
+    "Sí. La Alpha 9 ejecuta operaciones de Compose con Docker o Podman después de mostrar el comando y pedir confirmación, y evita que un proyecto toque los contenedores de otro. El motor debe estar instalado y en ejecución."
   ],
   [
     "Posso acompanhar logs e processos locais?",
@@ -370,9 +370,9 @@
     "PRÓXIMAMENTE"
   ],
   [
-    "Versão 0.4.0-alpha.8 · Windows x64 e macOS universal experimental · SHA-256 na release. Os arquivos ainda não têm assinatura digital: se o Windows avisar, clique em Mais informações e depois em Executar assim mesmo.",
-    "Version 0.4.0-alpha.8 · Windows x64 and experimental universal macOS · SHA-256 on the release. The files are not digitally signed yet: if Windows warns you, click More info and then Run anyway.",
-    "Versión 0.4.0-alpha.8 · Windows x64 y macOS universal experimental · SHA-256 en la release. Los archivos aún no tienen firma digital: si Windows te avisa, haz clic en Más información y luego en Ejecutar de todas formas."
+    "Versão 0.4.0-alpha.9 · Windows x64 e macOS universal experimental · SHA-256 na release. Os arquivos ainda não têm assinatura digital: se o Windows avisar, clique em Mais informações e depois em Executar assim mesmo.",
+    "Version 0.4.0-alpha.9 · Windows x64 and experimental universal macOS · SHA-256 on the release. The files are not digitally signed yet: if Windows warns you, click More info and then Run anyway.",
+    "Versión 0.4.0-alpha.9 · Windows x64 y macOS universal experimental · SHA-256 en la release. Los archivos aún no tienen firma digital: si Windows te avisa, haz clic en Más información y luego en Ejecutar de todas formas."
   ],
   [
     "Baixar DMG experimental · Intel e Apple Silicon",

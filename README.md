@@ -38,14 +38,16 @@ editing the website does not publish messages or create external backlinks.
 
 ## Current release
 
-The download links point to `0.4.0-alpha.8`. The main Windows button downloads the
-installer (`LocalCodePilot-0.4.0-alpha.8-windows-x64-setup.exe`); the portable ZIP is
-linked under the download cards. The files are not digitally signed in this release, so
-the download section explains Windows' "More info > Run anyway" step.
+The download links point to `0.4.0-alpha.9`. The main Windows button downloads the
+installer (`LocalCodePilotSetup-0.4.0-alpha.9-windows-x64.exe`; up to alpha 8 it was
+named `LocalCodePilot-<version>-windows-x64-setup.exe`); the portable ZIP is linked
+under the download cards. The files are not digitally signed in this release, so the
+download section explains Windows' "More info > Run anyway" step.
 
-This release's message is "click Start and the project is up": more than 15 languages
-start without a command, and **Prepare environment** can install a missing language with
-winget (validated with Clojure, Haskell, and Zig).
+This release's message is "safer to open third-party projects and to update": the app
+confirms a project's command before its first run, masks secrets in saved logs, and
+only accepts signed updates. The "Read about Alpha 8" card still links to the Alpha 8
+blog post until an Alpha 9 post exists.
 
 Container commands are shown before confirmation. Docker or Podman must already be
 installed and running; the app does not install or start a container engine.

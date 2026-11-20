@@ -50,81 +50,6 @@
     "Mira cómo funciona"
   ],
   [
-    "Demonstração interativa do fluxo de projetos",
-    "Interactive project workflow demo",
-    "Demostración interactiva del flujo de proyectos"
-  ],
-  [
-    "Projetos de exemplo",
-    "Example projects",
-    "Proyectos de ejemplo"
-  ],
-  [
-    "Serviço local",
-    "Local service",
-    "Servicio local"
-  ],
-  [
-    "ARQUIVO DETECTADO",
-    "DETECTED FILE",
-    "ARCHIVO DETECTADO"
-  ],
-  [
-    "COMANDO SUGERIDO",
-    "SUGGESTED COMMAND",
-    "COMANDO SUGERIDO"
-  ],
-  [
-    "PRONTO",
-    "READY",
-    "LISTO"
-  ],
-  [
-    "Projeto detectado. Pronto para iniciar.",
-    "Project detected. Ready to start.",
-    "Proyecto detectado. Listo para iniciar."
-  ],
-  [
-    "Iniciar simulação",
-    "Start simulation",
-    "Iniciar simulación"
-  ],
-  [
-    "Reiniciar",
-    "Reset",
-    "Restablecer"
-  ],
-  [
-    "Ambiente local",
-    "Local environment",
-    "Entorno local"
-  ],
-  [
-    "DEMO / NENHUM COMANDO REAL",
-    "DEMO / NO REAL COMMANDS",
-    "DEMO / SIN COMANDOS REALES"
-  ],
-  [
-    "Características principais",
-    "Key capabilities",
-    "Características principales"
-  ],
-  [
-    "01 / ENCONTRE",
-    "01 / DISCOVER",
-    "01 / DESCUBRE"
-  ],
-  [
-    "02 / ENTENDA",
-    "02 / UNDERSTAND",
-    "02 / COMPRENDE"
-  ],
-  [
-    "03 / EXECUTE",
-    "03 / RUN",
-    "03 / EJECUTA"
-  ],
-  [
     "01 / O PRODUTO",
     "01 / THE PRODUCT",
     "01 / EL PRODUCTO"
@@ -320,9 +245,9 @@
     "¿La aplicación ejecuta containers Docker o Podman?"
   ],
   [
-    "Sim. A Alpha 8 executa operações de Compose com Docker ou Podman depois de mostrar o comando e pedir confirmação, e protege um projeto de mexer nos containers de outro. O motor precisa estar instalado e em execução.",
-    "Yes. Alpha 8 runs Compose operations with Docker or Podman after showing the command and asking for confirmation, and keeps one project from touching another project's containers. The engine must be installed and running.",
-    "Sí. La Alpha 8 ejecuta operaciones de Compose con Docker o Podman después de mostrar el comando y pedir confirmación, y evita que un proyecto toque los contenedores de otro. El motor debe estar instalado y en ejecución."
+    "Sim. A alpha executa operações de Compose com Docker ou Podman depois de mostrar o comando e pedir confirmação, e protege um projeto de mexer nos containers de outro. O motor precisa estar instalado e em execução.",
+    "Yes. The alpha runs Compose operations with Docker or Podman after showing the command and asking for confirmation, and keeps one project from touching another project's containers. The engine must be installed and running.",
+    "Sí. La alpha ejecuta operaciones de Compose con Docker o Podman después de mostrar el comando y pedir confirmación, y evita que un proyecto toque los contenedores de otro. El motor debe estar instalado y en ejecución."
   ],
   [
     "Posso acompanhar logs e processos locais?",
@@ -370,9 +295,9 @@
     "PRÓXIMAMENTE"
   ],
   [
-    "Versão 0.4.0-alpha.8 · Windows x64 e macOS universal experimental · SHA-256 na release. Os arquivos ainda não têm assinatura digital: se o Windows avisar, clique em Mais informações e depois em Executar assim mesmo.",
-    "Version 0.4.0-alpha.8 · Windows x64 and experimental universal macOS · SHA-256 on the release. The files are not digitally signed yet: if Windows warns you, click More info and then Run anyway.",
-    "Versión 0.4.0-alpha.8 · Windows x64 y macOS universal experimental · SHA-256 en la release. Los archivos aún no tienen firma digital: si Windows te avisa, haz clic en Más información y luego en Ejecutar de todas formas."
+    "Versão 0.4.0-alpha.9 · Windows x64 e macOS universal experimental · SHA-256 na release. Os arquivos ainda não têm assinatura digital: se o Windows avisar, clique em Mais informações e depois em Executar assim mesmo.",
+    "Version 0.4.0-alpha.9 · Windows x64 and experimental universal macOS · SHA-256 on the release. The files are not digitally signed yet: if Windows warns you, click More info and then Run anyway.",
+    "Versión 0.4.0-alpha.9 · Windows x64 y macOS universal experimental · SHA-256 en la release. Los archivos aún no tienen firma digital: si Windows te avisa, haz clic en Más información y luego en Ejecutar de todas formas."
   ],
   [
     "Baixar DMG experimental · Intel e Apple Silicon",
@@ -408,11 +333,6 @@
     "Open source · Alpha pública · Seu fluxo continua local",
     "Open source · Public alpha · Your workflow stays local",
     "Código abierto · Alpha pública · Tu flujo sigue siendo local"
-  ],
-  [
-    "04 / CONTINUE",
-    "04 / KEEP GOING",
-    "04 / CONTINÚA"
   ],
   [
     "Seu fluxo merece um copiloto.",
@@ -540,16 +460,6 @@
     "Aceptar análisis"
   ],
   [
-    "Seus projetos",
-    "Your projects",
-    "Tus proyectos"
-  ],
-  [
-    "AMBIENTE LOCAL · DEMO INTERATIVA",
-    "LOCAL ENVIRONMENT · INTERACTIVE DEMO",
-    "ENTORNO LOCAL · DEMO INTERACTIVA"
-  ],
-  [
     "Como organizar projetos locais sem perder contexto",
     "How to organize local projects without losing context",
     "Cómo organizar proyectos locales sin perder contexto"
@@ -585,13 +495,143 @@
     "No siempre. Cuando falta el lenguaje, la tarjeta del proyecto muestra Preparar entorno, que lo instala con winget después de tu confirmación. La instalación se validó con Clojure, Haskell y Zig; para los demás lenguajes aún está en validación."
   ],
   [
-    "Leia sobre a Alpha 8",
-    "Read about Alpha 8",
-    "Lee sobre la Alpha 8"
+    "Demonstração interativa",
+    "Interactive demo",
+    "Demostración interactiva"
   ],
   [
-    "Conheça o que mudou na versão 0.4.0-alpha.8, do início automático ao instalador para Windows.",
-    "See what changed in version 0.4.0-alpha.8, from automatic startup to the Windows installer.",
-    "Conoce los cambios de la versión 0.4.0-alpha.8, desde el inicio automático hasta el instalador para Windows."
+    "Novidade · Alpha 9",
+    "New · Alpha 9",
+    "Novedad · Alpha 9"
+  ],
+  [
+    "Mais seguro para abrir projetos de terceiros e para atualizar.",
+    "Safer to open third-party projects and to update.",
+    "Más seguro para abrir proyectos de terceros y para actualizar."
+  ],
+  [
+    "Confirmação antes de executar um projeto pela primeira vez, senhas e tokens em formatos conhecidos ocultos nos logs salvos e atualização com etapas na tela.",
+    "Confirmation before a project runs for the first time, passwords and tokens in known formats hidden in saved logs, and updates with on-screen steps.",
+    "Confirmación antes de ejecutar un proyecto por primera vez, contraseñas y tokens en formatos conocidos ocultos en los registros guardados y actualización con pasos en pantalla."
+  ],
+  [
+    "Ler as notas da versão",
+    "Read the release notes",
+    "Leer las notas de la versión"
+  ],
+  [
+    "Demonstração interativa do LocalCodePilot",
+    "Interactive LocalCodePilot demo",
+    "Demostración interactiva de LocalCodePilot"
+  ],
+  [
+    "Trabalho",
+    "Work",
+    "Trabajo"
+  ],
+  [
+    "Visão geral",
+    "Overview",
+    "Resumen"
+  ],
+  [
+    "Projetos",
+    "Projects",
+    "Proyectos"
+  ],
+  [
+    "Processos",
+    "Processes",
+    "Procesos"
+  ],
+  [
+    "Containers",
+    "Containers",
+    "Contenedores"
+  ],
+  [
+    "Aplicativo",
+    "App",
+    "Aplicación"
+  ],
+  [
+    "Ajuda",
+    "Help",
+    "Ayuda"
+  ],
+  [
+    "Configurações",
+    "Settings",
+    "Configuración"
+  ],
+  [
+    "Buscar projeto...",
+    "Search projects...",
+    "Buscar proyecto..."
+  ],
+  [
+    "O que está rodando, o que precisa de atenção e o que está parado.",
+    "What is running, what needs attention and what is stopped.",
+    "Qué está en ejecución, qué necesita atención y qué está detenido."
+  ],
+  [
+    "Rodando",
+    "Running",
+    "En ejecución"
+  ],
+  [
+    "Com problema",
+    "Needs attention",
+    "Con problema"
+  ],
+  [
+    "Parados",
+    "Stopped",
+    "Detenidos"
+  ],
+  [
+    "Parado",
+    "Stopped",
+    "Detenido"
+  ],
+  [
+    "Site respondendo",
+    "Site responding",
+    "Sitio respondiendo"
+  ],
+  [
+    "Abrir site",
+    "Open site",
+    "Abrir sitio"
+  ],
+  [
+    "Ver logs",
+    "View logs",
+    "Ver logs"
+  ],
+  [
+    "Parar",
+    "Stop",
+    "Detener"
+  ],
+  [
+    "Instale as dependências de: Node.js",
+    "Install the dependencies for: Node.js",
+    "Instala las dependencias de: Node.js"
+  ],
+  [
+    "Instalar dependências",
+    "Install dependencies",
+    "Instalar dependencias"
+  ],
+  [
+    "Iniciar",
+    "Start",
+    "Iniciar"
+  ],
+  [
+    "Simulação no navegador: nenhum comando real é executado.",
+    "Simulated in your browser: no real command is run.",
+    "Simulación en el navegador: no se ejecuta ningún comando real."
   ]
 ]

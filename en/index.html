@@ -38,7 +38,7 @@
       <a class="brand" href="#inicio" aria-label="LocalCodePilot, home"><img src="../logo.svg" alt="LocalCodePilot"></a>
       <nav aria-label="Main navigation"><a href="#como-funciona">Product</a><a href="#recursos">Features</a><a href="#comecar">Download</a></nav>
       <div class="header-actions">
-        <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Switch to dark theme" aria-pressed="false"><span class="theme-icon" aria-hidden="true">◐</span><span class="theme-text">Theme</span></button>
+        <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Switch to dark theme" aria-pressed="false"><span class="theme-icon" aria-hidden="true"></span><span class="theme-text">Theme</span></button>
         <div class="language-switch" role="group" aria-label="Language">
           <a href="../" lang="pt-BR" hreflang="pt-BR" aria-label="Português">PT</a>
           <a href="./" lang="en" hreflang="en" aria-label="English" aria-current="page">EN</a>
@@ -58,7 +58,48 @@
         <p class="hero-note"><span aria-hidden="true">●</span> Open source · Public alpha · Your workflow stays local</p>
       </div>
       <div class="product-stage">
-        <div class="stage-label" aria-hidden="true"><span>REAL CAPTURE / 001</span><span>SAMPLE DATA</span></div>
+        <p class="stage-caption"><span class="pulse" aria-hidden="true"></span>Interactive demo</p>
+        <div class="app-window" id="app-demo" role="group" aria-label="Interactive LocalCodePilot demo">
+          <div class="app-titlebar" aria-hidden="true"><span class="app-title"><img src="../icon.svg" alt="" width="14" height="14">LocalCodePilot</span><span class="app-winctl"><i>&#8211;</i><i>&#9633;</i><i>&#215;</i></span></div>
+          <div class="app-body">
+            <div class="app-sidebar" aria-hidden="true">
+              <div class="app-brand"><img src="../icon.svg" alt="" width="24" height="24"><span>LocalCodePilot</span></div>
+              <p class="app-group">Work</p>
+              <span class="app-nav is-active"><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M4 5h16v14H4zM4 10h16M10 10v9"/></svg><span>Overview</span></span>
+              <span class="app-nav"><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M3 7h6l2 2h10v10H3z"/></svg><span>Projects</span><b>3</b></span>
+              <span class="app-nav"><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="m5 8 4 4-4 4M12 16h7"/></svg><span>Processes</span></span>
+              <span class="app-nav"><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="m12 3 8 4.5v9L12 21l-8-4.5v-9zM4 7.5l8 4.5 8-4.5M12 12v9"/></svg><span>Containers</span></span>
+              <p class="app-group">App</p>
+              <span class="app-nav"><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M4 5h6a2 2 0 0 1 2 2v12a2 2 0 0 0-2-2H4zM20 5h-6a2 2 0 0 0-2 2v12a2 2 0 0 1 2-2h6z"/></svg><span>Help</span></span>
+              <span class="app-nav"><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M12 3v3M12 18v3M3 12h3M18 12h3M5.6 5.6l2.1 2.1M16.3 16.3l2.1 2.1M5.6 18.4l2.1-2.1M16.3 7.7l2.1-2.1"/></svg><span>Settings</span></span>
+            </div>
+            <div class="app-main">
+              <div class="app-topbar"><span>Overview</span><span class="app-search" aria-hidden="true">Search projects...</span></div>
+              <div class="app-content">
+                <p class="app-h1">Overview</p>
+                <p class="app-sub">What is running, what needs attention and what is stopped.</p>
+                <div class="app-stats"><span class="app-stat"><b class="is-ok" data-stat="running">1</b><span>Running</span></span><span class="app-stat"><b class="is-warn" data-stat="problem">1</b><span>Needs attention</span></span><span class="app-stat"><b data-stat="stopped">1</b><span>Stopped</span></span></div>
+                <div class="app-list" id="app-list">
+                  <p class="app-section">Running <span>(1)</span></p>
+                  <article class="app-card"><div class="app-card-head"><strong>backend-api</strong><span class="app-tag tag-red">Laravel</span><span class="app-state is-ok"><i></i><span>Running</span></span><span class="app-note is-ok">Site responding</span><code>localhost:8000</code></div><div class="app-actions"><button class="app-btn is-primary" type="button" data-id="backend" data-action="open">Open site</button><button class="app-btn" type="button" data-id="backend" data-action="logs">View logs</button><button class="app-btn is-danger" type="button" data-id="backend" data-action="stop">Stop</button></div></article>
+                  <p class="app-section">Needs attention <span>(1)</span></p>
+                  <article class="app-card"><div class="app-card-head"><strong>dashboard</strong><span class="app-tag tag-blue">React</span><span class="app-state is-warn"><i></i><span>Needs attention</span></span><span class="app-note">Install the dependencies for: Node.js</span></div><div class="app-actions"><button class="app-btn is-primary" type="button" data-id="dashboard" data-action="install">Install dependencies</button></div></article>
+                  <p class="app-section">Stopped <span>(1)</span></p>
+                  <article class="app-card"><div class="app-card-head"><strong>frontend-app</strong><span class="app-tag tag-yellow">Node.js</span><span class="app-state"><i></i><span>Stopped</span></span></div><div class="app-actions"><button class="app-btn is-primary" type="button" data-id="frontend" data-action="start">Start</button></div></article>
+                </div>
+              </div>
+              <div class="app-logs" id="app-logs" hidden></div>
+              <p class="app-toast" id="app-toast" role="status" hidden></p>
+            </div>
+          </div>
+          <div class="app-dialog-layer" id="app-dialog" hidden></div>
+        </div>
+        <p class="stage-note">Simulated in your browser: no real command is run.</p>
+      </div>
+    </section>
+    <section class="real-captures wrap" id="capturas" aria-labelledby="captures-title">
+      <div class="real-captures-intro"><p class="section-kicker">REAL SCREENSHOTS</p><h2 id="captures-title">See the real app</h2><p>The demo above is a simulation. Here are real Alpha 9 screens with sample projects: from a stopped project to a responding site.</p></div>
+      <div class="real-captures-stage">
         <div class="product-window real-demo" id="demo-real" role="region" aria-label="Real LocalCodePilot screenshots">
           <div class="window-top"><span class="window-mark"><span>◈</span> localcodepilot <small>/ alpha 9</small></span><span class="window-caption">REAL SCREENSHOTS · SAMPLE DATA</span><span class="window-controls" aria-hidden="true">● ● ●</span></div>
           <figure class="real-demo-figure">
@@ -86,23 +127,20 @@
           </ol>
           <div class="terminal-footer"><span>Real Alpha 9 interface</span><span>SAMPLE PROJECTS</span></div>
         </div>
-        <div class="stage-corner" aria-hidden="true">LCP<span>///</span>001</div>
       </div>
-      <div class="hero-index" aria-hidden="true">[ 01 / LOCAL FIRST ]</div>
     </section>
-    <section class="signal-band" aria-label="Key capabilities"><div class="wrap signal-inner"><span>01 / DISCOVER</span><b>+</b><span>02 / UNDERSTAND</span><b>+</b><span>03 / RUN</span><b>+</b><span>04 / KEEP GOING</span></div></section>
     <section class="diagnostic-band wrap" aria-labelledby="diagnostic-title"><div><p class="section-kicker">LOCAL / DEV / CONTROL</p><h2 id="diagnostic-title">Your workflow deserves a copilot.</h2><p>Open the project. See what is running. Find the next step without losing context.</p></div><div class="diagnostic-chips" aria-hidden="true"><span><i></i> PROJECTS</span><span><i></i> PROCESSES</span><span><i></i> PORTS</span><span><i></i> LOGS</span></div></section>
     <section class="section wrap" id="como-funciona"><div class="section-intro"><p class="section-kicker">01 / THE PRODUCT</p><h2>From a forgotten folder<br><span>to your next great build.</span></h2><p>LocalCodePilot gives each work session a clear starting point. Your projects stay in view, with the context to move forward.</p></div>
       <div class="steps"><article><span class="step-no">01</span><div class="step-icon">⌕</div><h3>Discover</h3><p>Discover projects in the directories you choose, without adding each folder manually.</p></article><article><span class="step-no">02</span><div class="step-icon">◇</div><h3>Understand</h3><p>Identify each project's technologies and structure, even when multiple projects share a repository.</p></article><article><span class="step-no">03</span><div class="step-icon">⌘</div><h3>Explore</h3><p>Browse your projects on your desktop or in your terminal and find the information you need to keep working.</p></article></div>
     </section>
     <section class="feature-section" id="recursos"><div class="wrap feature-grid"><div><p class="section-kicker">02 / FEATURES</p><h2>One place to see<br><span>what is happening.</span></h2><p class="feature-lead">Projects, processes, ports and logs tell the same story. With everything within reach, choosing the next command is easier.</p><a class="text-link" href="https://github.com/cjulio1993/LocalCodePilot#linguagens-e-projetos" target="_blank" rel="noopener noreferrer">Explore features on GitHub <span>↗</span></a></div><div class="feature-list"><div><span>01</span><div><h3>Projects in sight</h3><p>Find projects in the directories you choose and pick up where you left off.</p></div></div><div><span>02</span><div><h3>Run with context</h3><p>Prepare your environment, start and stop services, and follow logs in the app.</p></div></div><div><span>03</span><div><h3>Ports without guesswork</h3><p>See service status, use alternative ports and understand what needs attention.</p></div></div><div><span>04</span><div><h3>Updates under control</h3><p>Check for new versions and update from the app, with SHA-256 verification.</p></div></div><div><span>05</span><div><h3>Help at the right moment</h3><p>Consult diagnostics and guidance without losing your project's context.</p></div></div></div></div></section>
     <section class="roadmap wrap"><p class="section-kicker">03 / PRODUCT ROADMAP</p><div class="roadmap-head"><h2>Built with a clear direction.</h2><p>The public alpha is now available for Windows. See what it includes and where the product is heading.</p></div><div class="roadmap-grid"><div class="roadmap-card now"><span class="badge">AVAILABLE IN ALPHA</span><h3>Local execution</h3><p>Click Start on projects in more than 15 languages. The app installs the dependencies, warns you when the port is taken, and offers Try again.</p></div><div class="roadmap-card now"><span class="badge">AVAILABLE IN ALPHA</span><h3>Containers with controlled execution</h3><p>Validate, start, inspect logs, stop, and build environments with Docker or Podman. Every command is shown for confirmation.</p></div><div class="roadmap-card"><span class="badge muted">LOOKING AHEAD</span><h3>Connected context</h3><p>Explore integrations that help you pick up work across projects and tools.</p></div></div></section>
+    <section class="release-callout wrap" id="novidades" aria-labelledby="release-title"><div class="release-copy"><p class="release-tag"><span aria-hidden="true"></span>New · Alpha 9</p><h2 id="release-title">Safer to open third-party projects and to update.</h2><p>Confirmation before a project runs for the first time, passwords and tokens in known formats hidden in saved logs, and updates with on-screen steps.</p></div><a class="release-link" href="https://github.com/cjulio1993/LocalCodePilot/releases/tag/v0.4.0-alpha.9" target="_blank" rel="noopener noreferrer">Read the release notes <span aria-hidden="true">↗</span></a></section>
     <section class="section wrap seo-guides" id="guias" aria-labelledby="guides-title">
       <p class="section-kicker">PRACTICAL GUIDES</p><h2 id="guides-title">Solve local development problems</h2>
       <div class="guide-grid">
         <article><h3><a href="docs/getting-started/">Getting started on Windows</a></h3><p>Download the alpha, verify its SHA-256 and prepare your first local project.</p></article>
         <article><h3><a href="blog/port-already-in-use-windows/">Port 3000 already in use on Windows?</a></h3><p>Identify the process and choose whether to free the port or use another one.</p></article>
-        <article><h3><a href="https://jcesar.dev.br/blog/localcodepilot-alpha-8/" target="_blank" rel="noopener noreferrer">Read about Alpha 8</a></h3><p>See what changed in version 0.4.0-alpha.8, from automatic startup to the Windows installer.</p></article>
         <article><h3><a href="blog/organize-local-projects/">How to organize local projects without losing context</a></h3><p>Build a simple workflow to find projects, check processes and return to work with clarity.</p></article>
       </div>
     </section>

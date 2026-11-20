@@ -50,26 +50,6 @@
     "Mira cómo funciona"
   ],
   [
-    "Características principais",
-    "Key capabilities",
-    "Características principales"
-  ],
-  [
-    "01 / ENCONTRE",
-    "01 / DISCOVER",
-    "01 / DESCUBRE"
-  ],
-  [
-    "02 / ENTENDA",
-    "02 / UNDERSTAND",
-    "02 / COMPRENDE"
-  ],
-  [
-    "03 / EXECUTE",
-    "03 / RUN",
-    "03 / EJECUTA"
-  ],
-  [
     "01 / O PRODUTO",
     "01 / THE PRODUCT",
     "01 / EL PRODUCTO"
@@ -265,11 +245,6 @@
     "¿La aplicación ejecuta containers Docker o Podman?"
   ],
   [
-    "Sim. A Alpha 9 executa operações de Compose com Docker ou Podman depois de mostrar o comando e pedir confirmação, e protege um projeto de mexer nos containers de outro. O motor precisa estar instalado e em execução.",
-    "Yes. Alpha 9 runs Compose operations with Docker or Podman after showing the command and asking for confirmation, and keeps one project from touching another project's containers. The engine must be installed and running.",
-    "Sí. La Alpha 9 ejecuta operaciones de Compose con Docker o Podman después de mostrar el comando y pedir confirmación, y evita que un proyecto toque los contenedores de otro. El motor debe estar instalado y en ejecución."
-  ],
-  [
     "Posso acompanhar logs e processos locais?",
     "Can I follow local logs and processes?",
     "¿Puedo consultar registros y procesos locales?"
@@ -353,11 +328,6 @@
     "Open source · Alpha pública · Seu fluxo continua local",
     "Open source · Public alpha · Your workflow stays local",
     "Código abierto · Alpha pública · Tu flujo sigue siendo local"
-  ],
-  [
-    "04 / CONTINUE",
-    "04 / KEEP GOING",
-    "04 / CONTINÚA"
   ],
   [
     "Seu fluxo merece um copiloto.",
@@ -520,14 +490,149 @@
     "No siempre. Cuando falta el lenguaje, la tarjeta del proyecto muestra Preparar entorno, que lo instala con winget después de tu confirmación. La instalación se validó con Clojure, Haskell y Zig; para los demás lenguajes aún está en validación."
   ],
   [
-    "Leia sobre a Alpha 8",
-    "Read about Alpha 8",
-    "Lee sobre la Alpha 8"
+    "Demonstração interativa",
+    "Interactive demo",
+    "Demostración interactiva"
   ],
   [
-    "Conheça o que mudou na versão 0.4.0-alpha.8, do início automático ao instalador para Windows.",
-    "See what changed in version 0.4.0-alpha.8, from automatic startup to the Windows installer.",
-    "Conoce los cambios de la versión 0.4.0-alpha.8, desde el inicio automático hasta el instalador para Windows."
+    "Novidade · Alpha 9",
+    "New · Alpha 9",
+    "Novedad · Alpha 9"
+  ],
+  [
+    "Mais seguro para abrir projetos de terceiros e para atualizar.",
+    "Safer to open third-party projects and to update.",
+    "Más seguro para abrir proyectos de terceros y para actualizar."
+  ],
+  [
+    "Confirmação antes de executar um projeto pela primeira vez, senhas e tokens em formatos conhecidos ocultos nos logs salvos e atualização com etapas na tela.",
+    "Confirmation before a project runs for the first time, passwords and tokens in known formats hidden in saved logs, and updates with on-screen steps.",
+    "Confirmación antes de ejecutar un proyecto por primera vez, contraseñas y tokens en formatos conocidos ocultos en los registros guardados y actualización con pasos en pantalla."
+  ],
+  [
+    "Ler as notas da versão",
+    "Read the release notes",
+    "Leer las notas de la versión"
+  ],
+  [
+    "Demonstração interativa do LocalCodePilot",
+    "Interactive LocalCodePilot demo",
+    "Demostración interactiva de LocalCodePilot"
+  ],
+  [
+    "Trabalho",
+    "Work",
+    "Trabajo"
+  ],
+  [
+    "Visão geral",
+    "Overview",
+    "Resumen"
+  ],
+  [
+    "Projetos",
+    "Projects",
+    "Proyectos"
+  ],
+  [
+    "Processos",
+    "Processes",
+    "Procesos"
+  ],
+  [
+    "Containers",
+    "Containers",
+    "Contenedores"
+  ],
+  [
+    "Aplicativo",
+    "App",
+    "Aplicación"
+  ],
+  [
+    "Ajuda",
+    "Help",
+    "Ayuda"
+  ],
+  [
+    "Configurações",
+    "Settings",
+    "Configuración"
+  ],
+  [
+    "Buscar projeto...",
+    "Search projects...",
+    "Buscar proyecto..."
+  ],
+  [
+    "O que está rodando, o que precisa de atenção e o que está parado.",
+    "What is running, what needs attention and what is stopped.",
+    "Qué está en ejecución, qué necesita atención y qué está detenido."
+  ],
+  [
+    "Rodando",
+    "Running",
+    "En ejecución"
+  ],
+  [
+    "Com problema",
+    "Needs attention",
+    "Con problema"
+  ],
+  [
+    "Parados",
+    "Stopped",
+    "Detenidos"
+  ],
+  [
+    "Parado",
+    "Stopped",
+    "Detenido"
+  ],
+  [
+    "Site respondendo",
+    "Site responding",
+    "Sitio respondiendo"
+  ],
+  [
+    "Abrir site",
+    "Open site",
+    "Abrir sitio"
+  ],
+  [
+    "Ver logs",
+    "View logs",
+    "Ver logs"
+  ],
+  [
+    "Parar",
+    "Stop",
+    "Detener"
+  ],
+  [
+    "Instale as dependências de: Node.js",
+    "Install the dependencies for: Node.js",
+    "Instala las dependencias de: Node.js"
+  ],
+  [
+    "Instalar dependências",
+    "Install dependencies",
+    "Instalar dependencias"
+  ],
+  [
+    "Iniciar",
+    "Start",
+    "Iniciar"
+  ],
+  [
+    "Simulação no navegador: nenhum comando real é executado.",
+    "Simulated in your browser: no real command is run.",
+    "Simulación en el navegador: no se ejecuta ningún comando real."
+  ],
+  [
+    "Sim. A Alpha 9 executa operações de Compose com Docker ou Podman depois de mostrar o comando e pedir confirmação, e protege um projeto de mexer nos containers de outro. O motor precisa estar instalado e em execução.",
+    "Yes. Alpha 9 runs Compose operations with Docker or Podman after showing the command and asking for confirmation, and keeps one project from touching another project's containers. The engine must be installed and running.",
+    "Sí. La Alpha 9 ejecuta operaciones de Compose con Docker o Podman después de mostrar el comando y pedir confirmación, y evita que un proyecto toque los contenedores de otro. El motor debe estar instalado y en ejecución."
   ],
   [
     "Capturas reais do LocalCodePilot",
@@ -600,11 +705,6 @@
     "Revisa el comando antes de la primera ejecución."
   ],
   [
-    "Site respondendo",
-    "Site responding",
-    "Sitio respondiendo"
-  ],
-  [
     "O projeto está rodando e o site está respondendo.",
     "The project is running and the site is responding.",
     "El proyecto está en ejecución y el sitio está respondiendo."
@@ -628,5 +728,20 @@
     "PROJETOS DE EXEMPLO",
     "SAMPLE PROJECTS",
     "PROYECTOS DE EJEMPLO"
+  ],
+  [
+    "CAPTURAS REAIS",
+    "REAL SCREENSHOTS",
+    "CAPTURAS REALES"
+  ],
+  [
+    "Veja o app de verdade",
+    "See the real app",
+    "Mira la app de verdad"
+  ],
+  [
+    "A demonstração acima é uma simulação. Aqui estão telas reais da Alpha 9, com projetos de exemplo: do projeto parado ao site respondendo.",
+    "The demo above is a simulation. Here are real Alpha 9 screens with sample projects: from a stopped project to a responding site.",
+    "La demostración de arriba es una simulación. Aquí están pantallas reales de la Alpha 9, con proyectos de ejemplo: del proyecto detenido al sitio respondiendo."
   ]
 ]

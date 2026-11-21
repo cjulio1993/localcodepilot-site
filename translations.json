@@ -290,9 +290,14 @@
     "PRÓXIMAMENTE"
   ],
   [
-    "Versão 0.4.0-alpha.9 · Windows x64 e macOS universal experimental · SHA-256 na release. Os arquivos ainda não têm assinatura digital: se o Windows avisar, clique em Mais informações e depois em Executar assim mesmo.",
-    "Version 0.4.0-alpha.9 · Windows x64 and experimental universal macOS · SHA-256 on the release. The files are not digitally signed yet: if Windows warns you, click More info and then Run anyway.",
-    "Versión 0.4.0-alpha.9 · Windows x64 y macOS universal experimental · SHA-256 en la release. Los archivos aún no tienen firma digital: si Windows te avisa, haz clic en Más información y luego en Ejecutar de todas formas."
+    "Versão 0.4.0-alpha.10 · Windows x64 e macOS universal experimental, ainda não testado num Mac real nesta versão. Os arquivos não têm assinatura digital: antes de abrir, compare o SHA-256 do arquivo baixado com o publicado em SHA256SUMS.txt. Só se forem iguais, abra o arquivo; se o Windows avisar, clique em Mais informações e depois em Executar assim mesmo.",
+    "Version 0.4.0-alpha.10 · Windows x64 and experimental universal macOS, not yet tested on a real Mac in this version. The files are not digitally signed: before opening, compare the SHA-256 of the downloaded file with the one published in SHA256SUMS.txt. Only if they match, open the file; if Windows warns you, click More info and then Run anyway.",
+    "Versión 0.4.0-alpha.10 · Windows x64 y macOS universal experimental, aún no probado en un Mac real en esta versión. Los archivos no tienen firma digital: antes de abrirlos, compara el SHA-256 del archivo descargado con el publicado en SHA256SUMS.txt. Solo si coinciden, abre el archivo; si Windows te avisa, haz clic en Más información y luego en Ejecutar de todas formas."
+  ],
+  [
+    "Já usa a Alpha 8 ou a Alpha 9? Use Atualizar agora no app. Se a Alpha 9 foi instalada pelo instalador, a atualização troca só o executável e a lista de programas do Windows continua mostrando a Alpha 9: rode o instalador da Alpha 10 uma vez para corrigir a lista.",
+    "Already using Alpha 8 or Alpha 9? Use Update now in the app. If Alpha 9 was installed with the installer, the update replaces only the executable and the Windows program list keeps showing Alpha 9: run the Alpha 10 installer once to fix the list.",
+    "¿Ya usas la Alpha 8 o la Alpha 9? Usa Actualizar ahora en la app. Si la Alpha 9 se instaló con el instalador, la actualización reemplaza solo el ejecutable y la lista de programas de Windows sigue mostrando la Alpha 9: ejecuta el instalador de la Alpha 10 una vez para corregir la lista."
   ],
   [
     "Baixar DMG experimental · Intel e Apple Silicon",
@@ -495,19 +500,24 @@
     "Demostración interactiva"
   ],
   [
-    "Novidade · Alpha 9",
-    "New · Alpha 9",
-    "Novedad · Alpha 9"
+    "Novidade · Alpha 10",
+    "New · Alpha 10",
+    "Novedad · Alpha 10"
   ],
   [
-    "Mais seguro para abrir projetos de terceiros e para atualizar.",
-    "Safer to open third-party projects and to update.",
-    "Más seguro para abrir proyectos de terceros y para actualizar."
+    "No Windows, Iniciar pode preparar o banco de dados do projeto.",
+    "On Windows, Start can prepare the project's database.",
+    "En Windows, Iniciar puede preparar la base de datos del proyecto."
   ],
   [
-    "Confirmação antes de executar um projeto pela primeira vez, senhas e tokens em formatos conhecidos ocultos nos logs salvos e atualização com etapas na tela.",
-    "Confirmation before a project runs for the first time, passwords and tokens in known formats hidden in saved logs, and updates with on-screen steps.",
-    "Confirmación antes de ejecutar un proyecto por primera vez, contraseñas y tokens en formatos conocidos ocultos en los registros guardados y actualización con pasos en pantalla."
+    "A Alpha 10 é a última versão alpha planejada do LocalCodePilot.",
+    "Alpha 10 is the last planned alpha version of LocalCodePilot.",
+    "La Alpha 10 es la última versión alpha planificada de LocalCodePilot."
+  ],
+  [
+    "O app testa o login com o banco, o usuário e a senha do próprio projeto. No Windows, Iniciar prepara PostgreSQL, MySQL e MariaDB depois da sua confirmação, com pacotes fixados e conferidos por SHA-256; o servidor escuta só neste computador e a senha de administração fica no Gerenciador de Credenciais do Windows. Quando o banco impede o início, o cartão oferece Usar outra porta, Corrigir conexão ou Criar banco novo, sempre com confirmação. No macOS e no Linux, o app testa a conexão com o banco, mas não prepara o servidor.",
+    "The app tests the login with the project's own database, user and password. On Windows, Start prepares PostgreSQL, MySQL and MariaDB after you confirm, using pinned packages checked with SHA-256; the server listens only on this computer and the admin password is kept in Windows Credential Manager. When the database blocks the start, the card offers Use another port, Fix connection or Create new database, always with confirmation. On macOS and Linux, the app tests the database connection but does not prepare the server.",
+    "La app prueba el inicio de sesión con la base de datos, el usuario y la contraseña del propio proyecto. En Windows, Iniciar prepara PostgreSQL, MySQL y MariaDB después de tu confirmación, con paquetes fijados y verificados por SHA-256; el servidor escucha solo en este equipo y la contraseña de administración queda en el Administrador de credenciales de Windows. Cuando la base de datos impide el inicio, la tarjeta ofrece Usar otro puerto, Corregir conexión o Crear base de datos nueva, siempre con confirmación. En macOS y Linux, la app prueba la conexión con la base de datos, pero no prepara el servidor."
   ],
   [
     "Ler as notas da versão",
@@ -630,9 +640,29 @@
     "Simulación en el navegador: no se ejecuta ningún comando real."
   ],
   [
-    "Sim. A Alpha 9 executa operações de Compose com Docker ou Podman depois de mostrar o comando e pedir confirmação, e protege um projeto de mexer nos containers de outro. O motor precisa estar instalado e em execução.",
-    "Yes. Alpha 9 runs Compose operations with Docker or Podman after showing the command and asking for confirmation, and keeps one project from touching another project's containers. The engine must be installed and running.",
-    "Sí. La Alpha 9 ejecuta operaciones de Compose con Docker o Podman después de mostrar el comando y pedir confirmación, y evita que un proyecto toque los contenedores de otro. El motor debe estar instalado y en ejecución."
+    "Sim. A Alpha 10 executa operações de Compose com Docker ou Podman depois de mostrar o comando e pedir confirmação, e protege um projeto de mexer nos containers de outro. O motor precisa estar instalado e em execução.",
+    "Yes. Alpha 10 runs Compose operations with Docker or Podman after showing the command and asking for confirmation, and keeps one project from touching another project's containers. The engine must be installed and running.",
+    "Sí. La Alpha 10 ejecuta operaciones de Compose con Docker o Podman después de mostrar el comando y pedir confirmación, y evita que un proyecto toque los contenedores de otro. El motor debe estar instalado y en ejecución."
+  ],
+  [
+    "O LocalCodePilot prepara o banco de dados do projeto?",
+    "Does LocalCodePilot prepare the project's database?",
+    "¿LocalCodePilot prepara la base de datos del proyecto?"
+  ],
+  [
+    "No Windows, sim: ao clicar em Iniciar, o app pode preparar PostgreSQL, MySQL ou MariaDB depois da sua confirmação, e o projeto só inicia depois que o banco aceita os dados de acesso dele. Um banco que já responde na porta do projeto só tem o login testado: nada é criado, alterado ou parado. No macOS e no Linux, o app testa a conexão, mas não prepara o servidor. O app não cria tabelas: as migrations continuam com você.",
+    "On Windows, yes: when you click Start, the app can prepare PostgreSQL, MySQL or MariaDB after you confirm, and the project only starts once the database accepts its credentials. A database that already answers on the project's port only has its login tested: nothing is created, changed or stopped. On macOS and Linux, the app tests the connection but does not prepare the server. The app does not create tables: migrations are still up to you.",
+    "En Windows, sí: al hacer clic en Iniciar, la app puede preparar PostgreSQL, MySQL o MariaDB después de tu confirmación, y el proyecto solo inicia cuando la base de datos acepta sus datos de acceso. Una base de datos que ya responde en el puerto del proyecto solo tiene su inicio de sesión probado: no se crea, cambia ni detiene nada. En macOS y Linux, la app prueba la conexión, pero no prepara el servidor. La app no crea tablas: las migraciones siguen a tu cargo."
+  ],
+  [
+    "E o SQL Server?",
+    "What about SQL Server?",
+    "¿Y SQL Server?"
+  ],
+  [
+    "O login do projeto é testado. No Windows, com o Docker ou o Podman prontos, Iniciar pode criar um container do SQL Server 2022 Developer depois que você marcar que leu e aceita os termos de licença da Microsoft; o app nunca aceita por você. Esse preparo foi testado em Linux com Docker e ainda não foi testado de ponta a ponta no Windows.",
+    "The project's login is tested. On Windows, with Docker or Podman ready, Start can create a SQL Server 2022 Developer container after you check that you have read and accept Microsoft's license terms; the app never accepts them for you. This setup was tested on Linux with Docker and has not yet been tested end to end on Windows.",
+    "Se prueba el inicio de sesión del proyecto. En Windows, con Docker o Podman listos, Iniciar puede crear un contenedor de SQL Server 2022 Developer después de que marques que leíste y aceptas los términos de licencia de Microsoft; la app nunca los acepta por ti. Esta preparación se probó en Linux con Docker y aún no se probó de extremo a extremo en Windows."
   ],
   [
     "Capturas reais do LocalCodePilot",

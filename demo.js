@@ -347,7 +347,7 @@
       return [
         h('p.app-h1', t.nav.settings),
         h('p.app-section', t.updates),
-        h('article.app-card', h('div.app-proc-head', h('strong', 'LocalCodePilot 0.4.0-alpha.9'),
+        h('article.app-card', h('div.app-proc-head', h('strong', 'LocalCodePilot 0.4.0-alpha.10'),
           checking ? h('button.app-btn.is-busy', { type: 'button', disabled: true }, t.checking) : btn(t.check, 'check-update', '')),
           ui.update === 'done' ? h('p.app-mini.is-ok', `✓ ${t.upToDate}`) : null,
           h('p.app-mini', ui.update === 'done' ? t.lastCheck : t.autoCheck)),

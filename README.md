@@ -38,16 +38,23 @@ editing the website does not publish messages or create external backlinks.
 
 ## Current release
 
-The download links point to `0.4.0-alpha.9`. The main Windows button downloads the
-installer (`LocalCodePilotSetup-0.4.0-alpha.9-windows-x64.exe`; up to alpha 8 it was
-named `LocalCodePilot-<version>-windows-x64-setup.exe`); the portable ZIP is linked
-under the download cards. The files are not digitally signed in this release, so the
-download section explains Windows' "More info > Run anyway" step.
+The download links point to `0.4.0-alpha.10`. The main Windows button downloads the
+installer (`LocalCodePilotSetup-0.4.0-alpha.10-windows-x64.exe`; up to alpha 8 it was
+named `LocalCodePilot-<version>-windows-x64-setup.exe`); the portable ZIP and
+`SHA256SUMS.txt` are linked under the download cards. The files are not digitally
+signed in this release, so the download section asks visitors to compare the SHA-256
+with `SHA256SUMS.txt` before opening, then explains Windows' "More info > Run anyway"
+step. It also tells Alpha 8 and Alpha 9 users to use "Atualizar agora", and that an
+Alpha 9 installed with the installer needs the Alpha 10 installer run once to fix the
+Windows program list.
 
-This release's message is "safer to open third-party projects and to update": the app
-confirms a project's command before its first run, masks secrets in saved logs, and
-only accepts signed updates. The "Read about Alpha 8" card still links to the Alpha 8
-blog post until an Alpha 9 post exists.
+This release's message is "On Windows, Iniciar can prepare the project's database":
+the app tests the login with the project's credentials, prepares PostgreSQL, MySQL and
+MariaDB on Windows, and offers guided fixes with confirmation. On macOS and Linux it
+only tests the connection. SQL Server by container is described as tested on Linux
+with Docker, not end to end on Windows. The news section states that Alpha 10 is the
+last planned alpha. The real screenshots section still shows Alpha 9 captures and is
+labelled as such.
 
 Container commands are shown before confirmation. Docker or Podman must already be
 installed and running; the app does not install or start a container engine.
@@ -78,7 +85,7 @@ Security: see `SECURITY.md` for protections and hosting limitations.
 
 ## Platform downloads
 
-Windows cards link to the official 0.4.0-alpha.7 portable ZIP. The standalone
+Windows cards link to the official 0.4.0-alpha.10 installer; the portable ZIP is a secondary link. The standalone
 EXE is an update asset, not advertised as an installer. The macOS card links to
 the experimental universal DMG for Intel and Apple Silicon. Linux remains
 informational. Platform icons are local SVG assets shared across all languages.

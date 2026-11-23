@@ -290,9 +290,9 @@
     "PRÓXIMAMENTE"
   ],
   [
-    "Versão 0.4.0-alpha.10 · Windows x64 e macOS universal experimental, ainda não testado num Mac real nesta versão. Os arquivos não têm assinatura digital: antes de abrir, compare o SHA-256 do arquivo baixado com o publicado em SHA256SUMS.txt. Só se forem iguais, abra o arquivo; se o Windows avisar, clique em Mais informações e depois em Executar assim mesmo.",
-    "Version 0.4.0-alpha.10 · Windows x64 and experimental universal macOS, not yet tested on a real Mac in this version. The files are not digitally signed: before opening, compare the SHA-256 of the downloaded file with the one published in SHA256SUMS.txt. Only if they match, open the file; if Windows warns you, click More info and then Run anyway.",
-    "Versión 0.4.0-alpha.10 · Windows x64 y macOS universal experimental, aún no probado en un Mac real en esta versión. Los archivos no tienen firma digital: antes de abrirlos, compara el SHA-256 del archivo descargado con el publicado en SHA256SUMS.txt. Solo si coinciden, abre el archivo; si Windows te avisa, haz clic en Más información y luego en Ejecutar de todas formas."
+    "Versão 0.4.0-alpha.10 · Windows x64 e macOS universal experimental. Os arquivos não têm assinatura digital: antes de abrir, compare o SHA-256 do arquivo baixado com o publicado em SHA256SUMS.txt. Só se forem iguais, abra o arquivo; se o Windows avisar, clique em Mais informações e depois em Executar assim mesmo.",
+    "Version 0.4.0-alpha.10 · Windows x64 and experimental universal macOS. The files are not digitally signed: before opening, compare the SHA-256 of the downloaded file with the one published in SHA256SUMS.txt. Only if they match, open the file; if Windows warns you, click More info and then Run anyway.",
+    "Versión 0.4.0-alpha.10 · Windows x64 y macOS universal experimental. Los archivos no tienen firma digital: antes de abrirlos, compara el SHA-256 del archivo descargado con el publicado en SHA256SUMS.txt. Solo si coinciden, abre el archivo; si Windows te avisa, haz clic en Más información y luego en Ejecutar de todas formas."
   ],
   [
     "Já usa a Alpha 8 ou a Alpha 9? Use Atualizar agora no app. Se a Alpha 9 foi instalada pelo instalador, a atualização troca só o executável e a lista de programas do Windows continua mostrando a Alpha 9: rode o instalador da Alpha 10 uma vez para corrigir a lista.",
